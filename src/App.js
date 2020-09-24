@@ -6,23 +6,18 @@ import {
   Route,
   Link
 } from "react-router-dom"
-import Muro from './components/Muro'
+import Muro from './Components/Muro'
 import './App.css';
 
 function App() {
-  return ( <
-    Router >
-    <
-    Switch >
-    <
-    Route path = "/"
-    exact >
-    <
-    Muro / >
-    <
-    /Route>  <
-    /Switch > <
-    /Router>
+  return ( 
+    <Router>
+    <Switch>
+    <Route path = "/" exact>
+    <Muro/>
+    </Route>  
+    </Switch> 
+    </Router>
   );
 }
 
