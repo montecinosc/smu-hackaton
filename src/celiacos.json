@@ -1,0 +1,39 @@
+{
+    "celiacos": [{
+
+            "titulo": "pastelitoooooo",
+            "imagen": "https://www.unimarc.cl/wp-content/files_mf/1599771510600X600MOTECONHUESILLO.jpg",
+            "precio": "3.990",
+            "descripcion": "Bien Helado",
+            "stock": "4"
+        },
+        {
+            "titulo": "Terremoto",
+            "imagen": "https://www.unimarc.cl/wp-content/files_mf/1600289338600X600TERREMOTO.jpg",
+            "precio": "3.999",
+            "descripcion": "Con Harto Helado",
+            "stock": "2"
+        },
+        {
+            "titulo": "Manzana Confitada",
+            "imagen": "https://www.unimarc.cl/wp-content/files_mf/1600288732600X600MANZANASCONFITADAS.jpg",
+            "precio": "$ 2.980",
+            "descripcion": "No esta envenenada",
+            "stock": "5"
+        },
+        {
+            "titulo": "Pan Amasado",
+            "imagen": "https://www.unimarc.cl/wp-content/files_mf/1600288498600X600PANAMASADO.jpg",
+            "precio": " 3.890",
+            "descripcion": "Justo para la Dieta",
+            "stock": "2"
+        },
+        {
+            "titulo": "Chancho En Piedra",
+            "imagen": "https://www.unimarc.cl/wp-content/files_mf/1599668144600X600CHANCHOENPIEDRACHAPALELE.jpg",
+            "precio": " 3.000",
+            "descripcion": "Bien Cuchareado",
+            "stock": ""
+        }
+    ]
+}
