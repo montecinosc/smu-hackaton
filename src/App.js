@@ -21,9 +21,9 @@ function App() {
     <Muro/>
     <Rating
   placeholderRating={4}
-  emptySymbol={<img src={ePloma} className="icon" />}
-  placeholderSymbol={<img src={eRoja} className="icon" />}
-  fullSymbol={<img src={eAmarilla} className="icon" />}
+  emptySymbol={<img src={ePloma} className="icon" alt='estrella ploma' />}
+  placeholderSymbol={<img src={eRoja} className="icon" alt='estrella roja' />}
+  fullSymbol={<img src={eAmarilla} className="icon" alt='estrella amarilla' />}
 />
 
     </Route>  
