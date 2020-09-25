@@ -6,14 +6,17 @@ import {
   Link
 } from "react-router-dom"
 import Muro from './components/Muro'
-import './App.css'; 
-import Rating from 'react-rating';
-import ePloma from './Assets/img/star-grey.png'
-import eRoja from './Assets/img/star-red.png'
-import eAmarilla from './Assets/img/star-yellow.png'
+import './App.css';
+import Celiaco from './components/Celiaco'
+import Vegetariano from './components/Vegetariano';
+import Vegano from './components/Vegano'
+import Chilenas from './components/Chilenas';
+import Mundo from './components/Mundo';
+import Niños from './components/Niños';
+
+
 
 function App() {
-<<<<<<< HEAD
   return ( <
     Router >
     <
@@ -24,26 +27,20 @@ function App() {
     <
     Muro / >
     <
-    /Route>  < /
-    Switch > <
-    /Router>
-=======
-  return ( 
-    <Router>
-    <Switch>
-    <Route path = "/" exact>
-    <Muro/>
-    <Rating
-  placeholderRating={4}
-  emptySymbol={<img src={ePloma} className="icon" alt='estrella ploma' />}
-  placeholderSymbol={<img src={eRoja} className="icon" alt='estrella roja' />}
-  fullSymbol={<img src={eAmarilla} className="icon" alt='estrella amarilla' />}
-/>
-
-    </Route>  
-    </Switch> 
-    </Router>
->>>>>>> 75690c609c67977aa0184306bb0c8db5262b5f7e
+    /Route>   <
+    Route path = "/celiaco" >
+    <
+    Celiaco / >
+    <
+    /Route >  <
+    Route path = "/vegetariano" > < Vegetariano / > < /Route> <
+    Route path = "/vegano" > < Vegano / > < /Route>  <
+    Route path = "/chilena" > < Chilenas / > < /Route> <
+    Route path = "/niños" > < Niños / > < /Route> <
+    Route path = "/mundo" > < Mundo / > < /Route> < /
+    Switch >
+    <
+    /Router >
   );
 }
 
