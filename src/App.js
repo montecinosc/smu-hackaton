@@ -6,8 +6,12 @@ import {
   Route,
   Link
 } from "react-router-dom"
-import Muro from './Components/Muro'
-import './App.css';
+import Muro from './components/Muro'
+import './App.css'; 
+import Rating from 'react-rating';
+import ePloma from './Assets/img/star-grey.png'
+import eRoja from './Assets/img/star-red.png'
+import eAmarilla from './Assets/img/star-yellow.png'
 
 function App() {
   return ( 
@@ -15,6 +19,13 @@ function App() {
     <Switch>
     <Route path = "/" exact>
     <Muro/>
+    <Rating
+  placeholderRating={4}
+  emptySymbol={<img src={ePloma} className="icon" alt='estrella ploma' />}
+  placeholderSymbol={<img src={eRoja} className="icon" alt='estrella roja' />}
+  fullSymbol={<img src={eAmarilla} className="icon" alt='estrella amarilla' />}
+/>
+
     </Route>  
     </Switch> 
     </Router>
