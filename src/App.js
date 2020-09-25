@@ -6,7 +6,7 @@ import {
   Route,
   Link
 } from "react-router-dom"
-import Muro from './Components/Muro'
+import Muro from './components/Muro'
 import './App.css';
 
 function App() {
