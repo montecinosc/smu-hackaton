@@ -1,0 +1,48 @@
+{
+    "muro": [{
+
+            "titulo": "Recetas aptas para celiacos",
+            "imagen": "https://i.ibb.co/hyTgMB5/Cel-aco.png",
+            "tipo": "./celiaco",
+            "descripcion": "Variedad de preparaciones con informacion nutricional relevante",
+            "stock": "4"
+        },
+        {
+            "titulo": "Recetas Vegetarianas",
+            "imagen": "https://i.ibb.co/8gvPVJK/Vegetarian.png",
+            "tipo": "./vegetariano",
+            "descripcion": "Disfruta de las esquisitas preparaciones que tenemos disponibles para ti",
+            "stock": "2"
+        },
+        {
+            "titulo": "Recetas Veganas",
+            "imagen": "https://i.ibb.co/XYjLCGx/Vegan.png",
+            "tipo": "./vegano",
+            "descripcion": "Encuentra los platos mas deliciosos y faciles de realizar",
+            "stock": "5"
+        },
+        {
+            "titulo": "Recetas Chilenas",
+            "imagen": "https://i.ibb.co/5GZG8Sx/Chile.png",
+            "tipo": "./chilena",
+            "descripcion": "Disfruta de los mejores platos nacionales al alcance de tu bolsillo",
+            "stock": "2"
+        },
+        {
+            "titulo": "Recetas para niños",
+            "imagen": "https://i.ibb.co/gmZFQhR/Kids.png",
+            "tipo": "./niños",
+            "descripcion": "platos entretenidos para preparar con los más pequeños del hogas",
+            "stock": ""
+        },
+        {
+            "titulo": "Recetas del mundo ",
+            "imagen": " https://i.ibb.co/sV0PKZz/DelMundo.png",
+            "tipo": "./mundo",
+            "descripcion": "Disfruta de las mejores preparaciones del mundo que traemos a tu mesa",
+            "stock": ""
+        }
+
+
+    ]
+}
