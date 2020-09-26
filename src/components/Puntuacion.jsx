@@ -7,36 +7,21 @@ import eAmarilla from '../Assets/img/star-yellow.png'
 const Puntuacion = () => {
     return (
         <div>
-            <Rating placeholderRating={
-                4
-            }
+            <Rating placeholderRating={4}
                 emptySymbol={
-                    <
-                        img src={
-                            ePloma
-                        }
+                    <img src={ePloma}
                         className="icon"
-                        alt='estrella ploma' />
-                }
+                        alt='estrella ploma'/>}
                 placeholderSymbol={
-                    <
-                        img src={
-                            eRoja
-                        }
+                    <img src={eRoja}
                         className="icon"
-                        alt='estrella roja' />
-                }
+                        alt='estrella roja'/>}
                 fullSymbol={
-                    <
-                        img src={
-                            eAmarilla
-                        }
+                    <img src={eAmarilla}
                         className="icon"
-                        alt='estrella amarilla' />
-                }
+                        alt='estrella amarilla'/>}
             />
         </div>
     )
 }
-
 export default Puntuacion
