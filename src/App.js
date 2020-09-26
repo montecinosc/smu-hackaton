@@ -5,14 +5,14 @@ import {
   Route,
   Link
 } from "react-router-dom"
-import Muro from './components/Muro'
+import Muro from './Components/Muro'
 import './App.css';
-import Celiaco from './components/Celiaco'
-import Vegetariano from './components/Vegetariano';
-import Vegano from './components/Vegano'
-import Chilenas from './components/Chilenas';
-import Mundo from './components/Mundo';
-import Niños from './components/Niños';
+import Celiaco from './Components/Celiaco'
+import Vegetariano from './Components/Vegetariano';
+import Vegano from './Components/Vegano'
+import Chilenas from './Components/Chilenas';
+import Mundo from './Components/Mundo';
+import Niños from './Components/Niños';
 
 
 
