@@ -17,30 +17,21 @@ import Niños from './Components/Niños';
 
 
 function App() {
-  return ( <
-    Router >
-    <
-    Switch >
-    <
-    Route path = "/"
-    exact >
-    <
-    Muro / >
-    <
-    /Route>   <
-    Route path = "/celiaco" >
-    <
-    Celiaco / >
-    <
-    /Route >  <
-    Route path = "/vegetariano" > < Vegetariano / > < /Route> <
-    Route path = "/vegano" > < Vegano / > < /Route>  <
-    Route path = "/chilena" > < Chilenas / > < /Route> <
-    Route path = "/niños" > < Niños / > < /Route> <
-    Route path = "/mundo" > < Mundo / > < /Route> < /
-    Switch >
-    <
-    /Router >
+  return ( 
+  <Router>
+    <Switch>
+    <Route path = "/" exact>
+    <Muro/>
+    </Route>   
+    <Route path = "/Celiaco">
+    <Celiaco/>
+    </Route>  
+    <Route path = "/vegetariano"> <Vegetariano/> </Route> 
+    <Route path = "/vegano" > <Vegano/> </Route>  
+    <Route path = "/chilena" > < Chilenas/> </Route> 
+    <Route path = "/niños" > < Niños/> </Route> 
+    <Route path = "/mundo"> <Mundo/> </Route> </Switch>
+  </Router >
   );
 }
 
