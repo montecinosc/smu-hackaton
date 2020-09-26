@@ -1,15 +1,15 @@
 import React from 'react'
-import booklogo from "../img/booklogo.jpg";
-import Fruits from "../img/Fruits.png";
-import './Footer.css'
+import booklogo from "../Assets/img/booklogo.jpg"
+import Fruits from "../Assets/img/Fruits.png"
+import '../Style/Footer.css'
 
 const Footer = () => {
-    return (
-      <footer>
+  return (
+    <footer>
       <div className="container">
         <div className="row align-items-start">
           <div className="col-5">
-            <img className="logo" src={booklogo}/>
+            <img className="logo" src={booklogo} />
           </div>
           <div className="col">
             Menú Principal
@@ -31,9 +31,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-        <img className="footer-img" src={Fruits}/>
-     </footer>
-    )
+      <img className="footer-img" src={Fruits} />
+    </footer>
+  )
 }
 
 export default Footer
