@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import "./muro.css";
+import Carrusel from './Carrusel'
+import MenuPrincipal from './Menu'
+import Footer from './Footer'
 
 const Muro = () => {
     return (
-        <div>
-            <h1> holi soy el muro principal</h1>
-        </div>
+    
+        <Fragment>
+            <MenuPrincipal/>
+            <Carrusel/>
+            <Footer/>
+        </Fragment>
+        
     )
 }
 
