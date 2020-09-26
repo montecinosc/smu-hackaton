@@ -30,8 +30,9 @@ const Footer = () => {
             <li><i className="icofont-mail"></i>contacto.unimarc@unimarc.cl</li>
           </div>
         </div>
+        <img className="footer-img" src={Fruits} />
       </div>
-      <img className="footer-img" src={Fruits} />
+
     </footer>
   )
 }
