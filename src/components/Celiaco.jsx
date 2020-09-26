@@ -1,9 +1,12 @@
 import React, { Fragment } from 'react'
-import { celiacos } from '../celiacos.json'
-import { Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Row, Button } from 'reactstrap'
+import CeliacoÑoquis from '../components/CeliacoÑoquis'
+
 const Celiaco = () => {
     return (
-        <div> holi celiacoooss</div>
+        <>
+        <CeliacoÑoquis />
+     
+        </>
     )
 }
 
