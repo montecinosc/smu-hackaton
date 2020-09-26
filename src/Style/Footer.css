@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Clarendon-Regular';
+  src: local('Clarendon'),
+       local('Clarendon Regular'),
+       local('Clarendon-Regular'),
+       url(../fonts/clarendon-regular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Apex Sans Book';
+  src: local('Apex-Sans-Book'),
+       local('Apex Sans Book'),
+       local('ApexSansBook'),
+       url(../fonts/ApexSansBook.ttf) format('ttf');
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.row{
+  padding: 15px;
+}
+
+li{
+  list-style:none;
+  font-family: Apex Sans Book;
+}
+
+.col{
+  font-family: Clarendon-Regular;
+}
+
+.logo{
+height: 50px;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+  cursor: pointer;
+}
+
+a:hover{
+  color:#d3291f;
+  text-decoration: none;
+  cursor:pointer;
+}

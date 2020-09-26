@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Clarendon-Regular';
+  src: local('Clarendon'),
+    local('Clarendon Regular'),
+    local('Clarendon-Regular'),
+    url(../fonts/clarendon-regular.ttf) format('ttf');
+}
+
+.row {
+  padding: 15px;
+}
+
+.col-1 {
+  font-family: Clarendon-Regular;
+}
+
+a,
+a:hover {
+  color: #000;
+  font-family: Clarendon-Regular;
+}
