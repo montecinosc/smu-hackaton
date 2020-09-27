@@ -1,14 +1,14 @@
 import React from 'react'
-import booklogo from "../img/booklogo.jpg";
-import "./Menu.css";
+import booklogo from "../../Assets/img/booklogo.jpg"
+import '../../Style/Menu.css';
 
-const MenuPrincipal= () => {
-    return (
+const MenuPrincipal = () => {
+  return (
 
-      <div class="container">
+    <div class="container">
       <div class="row">
         <div class="col-7">
-        <img src={booklogo} className="logo" alt="logo"/>
+          <img src={booklogo} className="logo" alt="logo" />
         </div>
         <div class="col-1 m-2">
           <a href="https://www.unimarc.cl/">HOME</a>
@@ -24,8 +24,8 @@ const MenuPrincipal= () => {
         </div>
       </div>
     </div>
-        
-    )
+
+  )
 }
 
 export default MenuPrincipal
