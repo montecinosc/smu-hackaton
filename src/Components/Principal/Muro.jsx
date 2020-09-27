@@ -14,6 +14,7 @@ import Puntuacion from '../Puntuacion';
 import Carrusel from './Carrusel';
 import MenuPrincipal from './Menu';
 import Footer from './Footer';
+import BarraBusqueda from "../Veganos/BarraBusqueda";
 
 
 const Muro = () => {
@@ -21,6 +22,7 @@ const Muro = () => {
         <Fragment>
             <MenuPrincipal />
             <Carrusel />
+            <BarraBusqueda />
             <Row sm='3'>
                 {muro.map((element, i) => {
                     return (

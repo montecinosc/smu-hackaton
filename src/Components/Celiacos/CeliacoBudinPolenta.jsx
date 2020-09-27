@@ -1,20 +1,36 @@
-import React from "react";
-import { Container, Table, Row } from "reactstrap";
-import ñoquis from "../../Assets/img/ñoquisdecoliflor.jpg";
+import React, { useState } from "react";
+import {
+  Container,
+  Table,
+  Row,
+  Button,
+  Popover,
+  PopoverHeader,
+  PopoverBody,
+} from "reactstrap";
+import polenta from "../../Assets/img//menupolenta.jpg";
 import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import libreGluten from "../../Assets/img/GlutenFree.png";
 import info from "../../Assets/img/Info.png";
+import Menu from "../Principal/Menu";
+import Carrusel from "../Principal/Carrusel";
+import Footer from "../Principal/Footer";
 
-const CeliacoBudinPolenta = () => {
+const CeliacoBudinPolenta = (props) => {
+  const [popoverOpen, setPopoverOpen] = useState(false);
+
+  const toggle = () => setPopoverOpen(!popoverOpen);
   return (
     <>
+      <Menu />
+      <Carrusel />
       <Container>
         <h3 className="text-center">Budín de Polenta</h3>
         <div class="card mb-3">
           <div className="row no-gutters">
             <div className="col-md-4">
-              <img src={ñoquis} className="card-img" alt="..." />
+              <img src={polenta} className="card-img" alt="..." />
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -53,8 +69,45 @@ const CeliacoBudinPolenta = () => {
                       <span> Libre de gluten </span>
                     </div>
                     <div>
-                      <img src={info} alt="info" />
-                      <span> Informacion Nutricional</span>
+                      <Button id="Popover1" type="button" color="white">
+                        <img src={info} alt="información nutricional" />
+                      </Button>
+                      <span>información Nutricional</span>
+
+                      <Popover
+                        placement="bottom"
+                        isOpen={popoverOpen}
+                        target="Popover1"
+                        toggle={toggle}
+                      >
+                        <PopoverHeader>Popover Title</PopoverHeader>
+                        <PopoverBody>
+                          <Table borderless>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Calorias</td>
+                                <td>545</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>CarboHidratos</td>
+                                <td>106 grs</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Proteinas</td>
+                                <td>21 grs</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Lipidos</td>
+                                <td>4.5grs</td>
+                              </tr>
+                            </tbody>
+                          </Table>
+                        </PopoverBody>
+                      </Popover>
                     </div>
                   </Row>
                 </div>
@@ -109,9 +162,9 @@ const CeliacoBudinPolenta = () => {
           ></iframe>
         </section>
       </Container>
+      <Footer />
     </>
   );
 };
 
 export default CeliacoBudinPolenta;
-
