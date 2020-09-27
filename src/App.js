@@ -10,10 +10,10 @@ import "./App.css";
 import Celiaco from "./Components/Celiacos/Celiaco";
 import Vegetariano from "../src/Components/Vegetariano";
 import Vegano from "../src/Components/Veganos/Vegano";
-import Chilenas from "../src/Components/Principal/Chilenas"
-import Mundo from "../src/Components/Principal/Mundo"
+import Chilenas from "../src/Components/Principal/Chilenas";
+import Mundo from "../src/Components/Principal/Mundo";
 import Niños from "../src/Components/Principal/Niños";
-import CeliacoBudinPolenta from "../src/Components/Celiacos/CeliacoBudinPolenta"
+import CeliacoBudinPolenta from "../src/Components/Celiacos/CeliacoBudinPolenta";
 
 function App() {
   return ( <

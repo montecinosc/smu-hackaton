@@ -1,42 +1,17 @@
 {
     "celiacos": [{
 
-            "titulo": "pastelitoooooo",
-            "imagen": "https://i.ibb.co/JK007RP/Group-1.png",
-            "tipo": "polenta",
-            "descripcion": "Bien Helado",
-            "stock": "4"
-        },
-        {
-            "titulo": "Terremoto",
-            "imagen": "https://i.ibb.co/QvVCWSW/Coliflor.png",
-            "precio": "3.999",
-            "descripcion": "Con Harto Helado",
-            "stock": "2"
-        },
-        {
+            "titulo": "Polenta",
+            "imagen": "https://i.ibb.co/3Yst9D3/Polenta.png",
+            "tipo": "polenta"
 
-            "titulo": "pastelitoooooo",
-            "imagen": "https://i.ibb.co/JK007RP/Group-1.png",
-            "precio": "3.990",
-            "descripcion": "Bien Helado",
-            "stock": "4"
         },
         {
+            "titulo": "Ñoquis",
+            "imagen": "https://i.ibb.co/s2501md/Coliflor-1.png",
+            "tipo": "polenta"
 
-            "titulo": "pastelitoooooo",
-            "imagen": "https://i.ibb.co/JK007RP/Group-1.png",
-            "precio": "3.990",
-            "descripcion": "Bien Helado",
-            "stock": "4"
-        },
-        {
-
-            "titulo": "pastelitoooooo",
-            "imagen": "https://i.ibb.co/JK007RP/Group-1.png",
-            "precio": "3.990",
-            "descripcion": "Bien Helado",
-            "stock": "4"
         }
+
     ]
 }
