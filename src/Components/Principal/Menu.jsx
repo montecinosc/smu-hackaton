@@ -5,25 +5,29 @@ import '../../Style/Menu.css';
 const MenuPrincipal = () => {
   return (
 
-    <div class="container">
-      <div class="row">
-        <div class="col-7">
-          <img src={booklogo} className="logo" alt="logo" />
-        </div>
-        <div class="col-1 m-2">
-          <a href="https://www.unimarc.cl/">HOME</a>
-        </div>
-        <div class="col-1 m-2">
-          <a href="https://www.clubahorro.cl/">CLUB AHORRO</a>
-        </div>
-        <div class="col-1 m-2">
-          <a href="https://www.unimarc.cl/locales_unimarc/">LOCALES</a>
-        </div>
-        <div class="col-1 m-2">
-          RECETAS
-        </div>
-      </div>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a className="navbar-brand" href="#"></a>
+      <img className="logo"src={booklogo} alt="logo"/>
+      <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li className="nav-item active">
+          <a className="nav-link" href="#">HOME <span className="sr-only">(current)</span></a>
+        </li>
+        <li className="nav-item active">
+          <a className="nav-link" href="#">CLUB AHORRO</a>
+        </li>
+        <li className="nav-item active ">
+          <a className="nav-link" href="#">LOCALES</a>
+        </li>
+        <li className="nav-item active">
+          <a className="nav-link" href="#">RECETAS</a>
+        </li>
+      </ul>
     </div>
+  </nav>
 
   )
 }

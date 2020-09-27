@@ -32,7 +32,13 @@ li{
 }
 
 .logo{
-height: 50px;
+height: 1em;
+}
+
+.footer-img{
+  vertical-align: middle;
+  border-style: none;
+  height: 10em;
 }
 
 .container{
@@ -53,4 +59,24 @@ height: 50px;
   text-decoration: none;
   cursor:pointer;
   font-family: Apex Sans Book;
+}
+
+/*media*/
+@media screen and (max-width:768px ) {
+  .logo{
+    height: 1em;
+    }
+
+  .footer-img{
+    vertical-align: middle;
+    border-style: none;
+    height: 5em;
+    position: sticky;
+    }  
+}
+@media screen and (max-width: 425px) {
+  .logo{
+    height: 1em;
+    }
+
 }
