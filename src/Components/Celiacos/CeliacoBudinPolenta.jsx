@@ -8,11 +8,14 @@ import {
   PopoverHeader,
   PopoverBody,
 } from "reactstrap";
-import ñoquis from "../../Assets/img/ñoquisdecoliflor.jpg";
+import polenta from "../../Assets/img//menupolenta.jpg";
 import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import libreGluten from "../../Assets/img/GlutenFree.png";
 import info from "../../Assets/img/Info.png";
+import Menu from "../Principal/Menu";
+import Carrusel from "../Principal/Carrusel";
+import Footer from "../Principal/Footer";
 
 const CeliacoBudinPolenta = (props) => {
   const [popoverOpen, setPopoverOpen] = useState(false);
@@ -20,12 +23,14 @@ const CeliacoBudinPolenta = (props) => {
   const toggle = () => setPopoverOpen(!popoverOpen);
   return (
     <>
+      <Menu />
+      <Carrusel />
       <Container>
         <h3 className="text-center">Budín de Polenta</h3>
         <div class="card mb-3">
           <div className="row no-gutters">
             <div className="col-md-4">
-              <img src={ñoquis} className="card-img" alt="..." />
+              <img src={polenta} className="card-img" alt="..." />
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -157,6 +162,7 @@ const CeliacoBudinPolenta = (props) => {
           ></iframe>
         </section>
       </Container>
+      <Footer />
     </>
   );
 };

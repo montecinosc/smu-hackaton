@@ -14,7 +14,7 @@ import Footer from '../Principal/Footer.jsx';
 const Celiaco = () => {
     return (
         <Fragment>
-            {/*<Carrusel />
+            <Carrusel />
             <Row sm='3'>
                 {celiacos.map((element, i) => {
                     return (
