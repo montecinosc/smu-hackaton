@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { celiacos } from '../celiacos.json'
+import { celiacos } from '../../celiacos.json'
 import { Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Row, Button } from 'reactstrap'
 import {
     BrowserRouter as Router,
@@ -8,8 +8,8 @@ import {
     Link,
     NavLink
 } from "react-router-dom";
-import Carrusel from './Carrusel';
-import Footer from './Footer';
+import Carrusel from '../../components/Principal/Carrusel';
+import Footer from '../../components/Principal/Footer';
 const Celiaco = () => {
     return (
         <Fragment>

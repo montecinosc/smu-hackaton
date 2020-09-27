@@ -1,6 +1,6 @@
 import React from 'react'
-import booklogo from "../Assets/img/booklogo.jpg"
-import '../Style/Menu.css';
+import booklogo from "../../Assets/img/booklogo.jpg"
+import '../../Style/Menu.css';
 
 const MenuPrincipal = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
-import booklogo from "../Assets/img/booklogo.jpg"
-import Fruits from "../Assets/img/Fruits.png"
-import '../Style/Footer.css'
+import booklogo from "../../Assets/img/booklogo.jpg"
+import Fruits from "../../Assets/img/Fruits.png"
+import '../../Style/Footer.css'
 
 const Footer = () => {
   return (
