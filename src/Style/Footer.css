@@ -1,55 +1,55 @@
 @font-face {
   font-family: 'Clarendon-Regular';
   src: local('Clarendon'),
-       local('Clarendon Regular'),
-       local('Clarendon-Regular'),
-       url(../fonts/clarendon-regular.ttf) format('ttf');
+    local('Clarendon Regular'),
+    local('Clarendon-Regular'),
+    url(../fonts/clarendon-regular.ttf) format('ttf');
 }
 
 @font-face {
   font-family: 'Apex Sans Book';
   src: local('Apex-Sans-Book'),
-       local('Apex Sans Book'),
-       local('ApexSansBook'),
-       url(../fonts/ApexSansBook.ttf) format('ttf');
+    local('Apex Sans Book'),
+    local('ApexSansBook'),
+    url(../fonts/ApexSansBook.ttf) format('ttf');
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
-.row{
+.row {
   padding: 15px;
 }
 
-li{
-  list-style:none;
+li {
+  list-style: none;
   font-family: Apex Sans Book;
 }
 
-.col{
+.col {
   font-family: Clarendon-Regular;
 }
 
-.logo{
-height: 1em;
+.logo {
+  height: 1em;
 }
 
-.footer-img{
+.footer-img {
   vertical-align: middle;
   border-style: none;
   height: 10em;
 }
 
-.container{
+.container {
   position: relative;
   bottom: 0;
   width: 100vw;
 }
 
-.redes{
+.redes {
   text-decoration: none;
-  color:black;
+  color: black;
   cursor: pointer;
   font-family: Apex Sans Book;
 }
@@ -57,18 +57,17 @@ height: 1em;
 .redes:hover{
   color:#e05041;
   text-decoration: none;
-  cursor:pointer;
+  cursor: pointer;
   font-family: Apex Sans Book;
 }
 
 /*media*/
-@media screen and (max-width:768px ) {
-  img.logo{
-    height: 2em;
-    margin-left: 1%;
+@media screen and (max-width:768px) {
+  .logo {
+    height: 1em;
   }
 
-  .footer-img{
+  .footer-img {
     vertical-align: middle;
     border-style: none;
     height: 5vh;
@@ -80,6 +79,7 @@ height: 1em;
     margin-left: 0;
     } 
 }
+
 @media screen and (max-width: 425px) {
   img.logo{
     height: 2em;
