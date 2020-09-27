@@ -23,21 +23,21 @@
         },
         {
             "titulo": "Recetas Chilenas",
-            "imagen": "https://i.ibb.co/5GZG8Sx/Chile.png",
+            "imagen": "https://i.ibb.co/TPp9tmd/2Chile.png",
             "tipo": "./chilena",
             "descripcion": "Disfruta de los mejores platos nacionales al alcance de tu bolsillo",
             "stock": "2"
         },
         {
             "titulo": "Recetas para niños",
-            "imagen": "https://i.ibb.co/gmZFQhR/Kids.png",
+            "imagen": "https://i.ibb.co/KzLcxP9/Ni-os.png",
             "tipo": "./niños",
             "descripcion": "platos entretenidos para preparar con los más pequeños del hogas",
             "stock": ""
         },
         {
             "titulo": "Recetas del mundo ",
-            "imagen": " https://i.ibb.co/sV0PKZz/DelMundo.png",
+            "imagen": " https://i.ibb.co/vdm9y9J/World.png",
             "tipo": "./mundo",
             "descripcion": "Disfruta de las mejores preparaciones del mundo que traemos a tu mesa",
             "stock": ""

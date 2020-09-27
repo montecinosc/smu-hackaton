@@ -8,9 +8,9 @@ import {
     Link,
     NavLink
 } from "react-router-dom";
-import Carrusel from '../../components/Principal/Carrusel';
-import Footer from '../../components/Principal/Footer';
-import CeliacoBudinPolenta from './CeliacoBudinPolenta';
+import Carrusel from '../Principal/Carrusel';
+import Footer from '../Principal/Footer.jsx';
+
 const Celiaco = () => {
     return (
         <Fragment>
@@ -27,10 +27,10 @@ const Celiaco = () => {
                     );
                 })
                 }
-              
-            </Row>*/}
-              <CeliacoBudinPolenta /> 
+            </Row>
+            <Footer/>
         </Fragment>
+        
     )
 }
 
