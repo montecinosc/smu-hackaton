@@ -34,7 +34,7 @@ margin-left: 40%;
 }
 
 .nav-link:hover{
-  color:#d3291f;
+  color:#e05041;
 }
 
 /*media*/
@@ -45,11 +45,23 @@ margin-left: 40%;
       justify-content: center;
   } 
 
+  .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    margin-left: -3em;
+}
+
 }
 @media screen and (max-width: 425px) {
   .logo {
       height: 2em;
       margin-left: 6em;
   }
+
+  .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    margin-left: -3em;
+}
 
 }

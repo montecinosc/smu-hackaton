@@ -78,29 +78,29 @@ const CeliacoÑoquis = (props) => {
                         target="Popover1"
                         toggle={toggle}
                       >
-                        <PopoverHeader>Popover Title</PopoverHeader>
+                        <PopoverHeader>Calorías y Macronutrientes</PopoverHeader>
                         <PopoverBody>
                           <Table borderless>
                             <tbody>
                               <tr>
-                                <th scope="row">1</th>
-                                <td>Calorias</td>
-                                <td>545</td>
+                                <th scope="row"><i class="icofont-fire-burn"></i></th>
+                                <td>Calorías</td>
+                                <td>562</td>
                               </tr>
                               <tr>
-                                <th scope="row">2</th>
-                                <td>CarboHidratos</td>
-                                <td>106 grs</td>
+                                <th scope="row"><i class="icofont-bread"></i></th>
+                                <td>Carbohidratos</td>
+                                <td>104 grs</td>
                               </tr>
                               <tr>
-                                <th scope="row">3</th>
-                                <td>Proteinas</td>
-                                <td>21 grs</td>
+                                <th scope="row"><i class="icofont-chicken-fry"></i></th>
+                                <td>Proteínas</td>
+                                <td>21.7 grs</td>
                               </tr>
                               <tr>
-                                <th scope="row">3</th>
-                                <td>Lipidos</td>
-                                <td>4.5grs</td>
+                                <th scope="row"><i class="icofont-water-drop"></i></th>
+                                <td>Lípidos</td>
+                                <td>7 grs</td>
                               </tr>
                             </tbody>
                           </Table>

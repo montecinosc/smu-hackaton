@@ -54,8 +54,8 @@ li {
   font-family: Apex Sans Book;
 }
 
-.redes:hover {
-  color: #d3291f;
+.redes:hover{
+  color:#e05041;
   text-decoration: none;
   cursor: pointer;
   font-family: Apex Sans Book;
@@ -70,18 +70,32 @@ li {
   .footer-img {
     vertical-align: middle;
     border-style: none;
-    height: 5em;
-    position: sticky;
-    width: 100vw;
-  }
+    height: 5vh;
+    width: 104vw;
+    margin-bottom: 1em;
+    }  
+
+  .col{
+    margin-left: 0;
+    } 
 }
 
 @media screen and (max-width: 425px) {
-  .logo {
-    height: 1em;
+  img.logo{
+    height: 2em;
+    margin-left: 1%;
   }
 
-  .footer-img {
-    width: 100vw;
-  }
+ .footer-img{
+    vertical-align: middle;
+    border-style: none;
+    height: 5vh;
+    width: 104vw;
+    margin-bottom: 1em;
+  } 
+
+  .col{
+    margin-top: 3em;
+    left:0;
+     } 
 }

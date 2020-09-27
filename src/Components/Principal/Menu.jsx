@@ -14,13 +14,13 @@ const MenuPrincipal = () => {
       <img className="logo"src={booklogo} alt="logo"/>
       <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
         <li className="nav-item active">
-          <a className="nav-link" href="#">HOME <span className="sr-only">(current)</span></a>
+          <a className="nav-link" href="https://www.unimarc.cl/">HOME <span className="sr-only">(current)</span></a>
         </li>
         <li className="nav-item active">
-          <a className="nav-link" href="#">CLUB AHORRO</a>
+          <a className="nav-link" href="https://www.clubahorro.cl/">CLUB AHORRO</a>
         </li>
         <li className="nav-item active ">
-          <a className="nav-link" href="#">LOCALES</a>
+          <a className="nav-link" href="https://www.unimarc.cl/locales_unimarc/">LOCALES</a>
         </li>
         <li className="nav-item active">
           <a className="nav-link" href="#">RECETAS</a>
