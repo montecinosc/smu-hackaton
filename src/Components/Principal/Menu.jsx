@@ -14,10 +14,10 @@ const MenuPrincipal = () => {
           <a href="https://www.unimarc.cl/">HOME</a>
         </div>
         <div class="col-1 m-2">
-          CLUB AHORRO
+          <a href="https://www.clubahorro.cl/">CLUB AHORRO</a>
         </div>
         <div class="col-1 m-2">
-          LOCALES
+          <a href="https://www.unimarc.cl/locales_unimarc/">LOCALES</a>
         </div>
         <div class="col-1 m-2">
           RECETAS
