@@ -10,10 +10,11 @@ import {
 } from "react-router-dom";
 import Carrusel from '../../components/Principal/Carrusel';
 import Footer from '../../components/Principal/Footer';
+import CeliacoBudinPolenta from './CeliacoBudinPolenta';
 const Celiaco = () => {
     return (
         <Fragment>
-            <Carrusel />
+            {/*<Carrusel />
             <Row sm='3'>
                 {celiacos.map((element, i) => {
                     return (
@@ -26,7 +27,9 @@ const Celiaco = () => {
                     );
                 })
                 }
-            </Row>
+              
+            </Row>*/}
+              <CeliacoBudinPolenta /> 
         </Fragment>
     )
 }

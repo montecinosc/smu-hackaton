@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Table, Row } from "reactstrap";
 import ñoquis from "../../Assets/img/ñoquisdecoliflor.jpg";
 import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import libreGluten from "../../Assets/img/GlutenFree.png";
 import info from "../../Assets/img/Info.png";
+import { Button, Popover, PopoverHeader, PopoverBody } from "reactstrap";
 
-const CeliacoBudinPolenta = () => {
+const CeliacoBudinPolenta = (props) => {
+  const [popoverOpen, setPopoverOpen] = useState(false);
+
+  const toggle = () => setPopoverOpen(!popoverOpen);
   return (
     <>
       <Container>
@@ -53,8 +57,22 @@ const CeliacoBudinPolenta = () => {
                       <span> Libre de gluten </span>
                     </div>
                     <div>
-                      <img src={info} alt="info" />
-                      <span> Informacion Nutricional</span>
+                      <Button id="Popover1" type="button">
+                        Launch Popover
+                      </Button>
+                      <Popover
+                        placement="bottom"
+                        isOpen={popoverOpen}
+                        target="Popover1"
+                        toggle={toggle}
+                      >
+                        <PopoverHeader>Popover Title</PopoverHeader>
+                        <PopoverBody>
+                          Sed posuere consectetur est at lobortis. Aenean eu leo
+                          quam. Pellentesque ornare sem lacinia quam venenatis
+                          vestibulum.
+                        </PopoverBody>
+                      </Popover>
                     </div>
                   </Row>
                 </div>
@@ -114,4 +132,3 @@ const CeliacoBudinPolenta = () => {
 };
 
 export default CeliacoBudinPolenta;
-
