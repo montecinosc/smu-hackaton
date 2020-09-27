@@ -16,6 +16,7 @@ import info from "../../Assets/img/Info.png";
 import Menu from "../Principal/Menu";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
+import "../../Style/Celiaco.css"
 
 const CeliacoBudinPolenta = (props) => {
   const [popoverOpen, setPopoverOpen] = useState(false);
@@ -150,15 +151,17 @@ const CeliacoBudinPolenta = (props) => {
           <br />
           <p>A continuación puedes ver el video con la preparación </p>
         </section>
-        <section>
+        <section className="videos">
           <iframe
-            width="1090"
-            height="600"
+            /*  width="1090"
+  height="600" 
+*/
             src="https://www.youtube.com/embed/hQ5O8B0Znms"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
             title="video ñoquis"
+            text-align="center"
           ></iframe>
         </section>
       </Container>
