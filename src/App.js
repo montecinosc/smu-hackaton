@@ -16,59 +16,39 @@ import Niños from "../src/Components/Principal/Niños";
 import CeliacoBudinPolenta from "../src/Components/Celiacos/CeliacoBudinPolenta";
 
 function App() {
-  return ( <
-    Router >
-    <
-    Switch >
-    <
-    Route path = "/"
-    exact >
-    <
-    Muro / >
-    <
-    /Route> <
-    Route path = "/celiaco" >
-    <
-    Celiaco / >
-    <
-    /Route> <
-    Route path = "/vegetariano" >
+  return ( <Router>
+    <Switch>
+    <Route path = "/"exact>
+      <Muro/>
+    </Route> 
+    <Route path = "/celiaco">
+    <Celiaco/>
+    </Route> 
+    <Route path = "/vegetariano">
 
-    <
-    Vegetariano / >
-    <
-    /Route> <
-    Route path = "/vegano" >
+    <Vegetariano/>
+    </Route> 
+    <Route path = "/vegano" >
 
-    <
-    Vegano / >
-    <
-    /Route> <
-    Route path = "/chilena" >
+    <Vegano/>
+    </Route> 
+    <Route path = "/chilena">
 
-    <
-    Chilenas / >
-    <
-    /Route> <
-    Route path = "/niños" >
+    <Chilenas/>
+    </Route> 
+    <Route path = "/niños" >
 
-    <
-    Niños / >
-    <
-    /Route>  <
-    Route path = "/polenta" >
-    <
-    CeliacoBudinPolenta / >
-    <
-    /Route> <
-    Route path = "/mundo" >
+    <Niños/>
+    </Route>  
+    <Route path = "/polenta" >
+    <CeliacoBudinPolenta/>
+    </Route> 
+    <Route path = "/mundo" >
 
-    <
-    Mundo / >
-    <
-    /Route> < /
-    Switch > <
-    /Router>
+    <Mundo/>
+    </Route> 
+    </Switch > 
+    </Router>
   );
 }
 
