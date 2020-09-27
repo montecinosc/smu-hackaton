@@ -7,7 +7,7 @@ const Carrusel = () => {
   return (
 
     <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
+      <ol className="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -23,7 +23,7 @@ const Carrusel = () => {
           <img src={banner1} className="d-block w-100" alt="banner1" />
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
         <span className="sr-only">Anterior</span>
       </a>

@@ -14,10 +14,10 @@ const Footer = () => {
           </div>
           <div className="col">
             Menú Principal
-            <li>UNIMARC</li>
-            <li>Club Ahorro</li>
-            <li>Locales</li>
-            <li>Recetas</li>
+            <li><a className="redes" href="https://www.unimarc.cl/">UNIMARC</a></li>
+            <li><a className="redes" href="https://www.clubahorro.cl/">Club Ahorro</a></li>
+            <li><a className="redes" href="https://www.unimarc.cl/locales_unimarc/">Locales</a></li>
+            <li><a className="redes" href="https://www.unimarc.cl/">Recetas</a></li>
           </div>
           <div className="col">
             Redes Sociales

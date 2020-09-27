@@ -55,7 +55,7 @@ height: 1em;
 }
 
 .redes:hover{
-  color:#d3291f;
+  color:#e05041;
   text-decoration: none;
   cursor:pointer;
   font-family: Apex Sans Book;
@@ -63,20 +63,39 @@ height: 1em;
 
 /*media*/
 @media screen and (max-width:768px ) {
-  .logo{
-    height: 1em;
-    }
+  img.logo{
+    height: 2em;
+    margin-left: 1%;
+  }
 
   .footer-img{
     vertical-align: middle;
     border-style: none;
-    height: 5em;
-    position: sticky;
+    height: 5vh;
+    width: 104vw;
+    margin-bottom: 1em;
     }  
+
+  .col{
+    margin-left: 0;
+    } 
 }
 @media screen and (max-width: 425px) {
-  .logo{
-    height: 1em;
-    }
+  img.logo{
+    height: 2em;
+    margin-left: 1%;
+  }
 
+ .footer-img{
+    vertical-align: middle;
+    border-style: none;
+    height: 5vh;
+    width: 104vw;
+    margin-bottom: 1em;
+  } 
+
+  .col{
+    margin-top: 3em;
+    left:0;
+     } 
 }

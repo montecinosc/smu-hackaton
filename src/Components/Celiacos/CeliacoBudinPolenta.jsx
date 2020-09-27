@@ -80,29 +80,29 @@ const CeliacoBudinPolenta = (props) => {
                         target="Popover1"
                         toggle={toggle}
                       >
-                        <PopoverHeader>Popover Title</PopoverHeader>
+                        <PopoverHeader>Calorías y Macronutrientes</PopoverHeader>
                         <PopoverBody>
                           <Table borderless>
                             <tbody>
                               <tr>
-                                <th scope="row">1</th>
-                                <td>Calorias</td>
-                                <td>545</td>
+                                <th scope="row"><i class="icofont-fire-burn"></i></th>
+                                <td>Calorías</td>
+                                <td>667</td>
                               </tr>
                               <tr>
-                                <th scope="row">2</th>
-                                <td>CarboHidratos</td>
-                                <td>106 grs</td>
+                                <th scope="row"><i class="icofont-bread"></i></th>
+                                <td>Carbohidratos</td>
+                                <td>92.4 grs</td>
                               </tr>
                               <tr>
-                                <th scope="row">3</th>
-                                <td>Proteinas</td>
-                                <td>21 grs</td>
+                                <th scope="row"><i class="icofont-chicken-fry"></i></th>
+                                <td>Proteínas</td>
+                                <td>10.4 grs</td>
                               </tr>
                               <tr>
-                                <th scope="row">3</th>
-                                <td>Lipidos</td>
-                                <td>4.5grs</td>
+                                <th scope="row"><i class="icofont-water-drop"></i></th>
+                                <td>Lípidos</td>
+                                <td>30.7grs</td>
                               </tr>
                             </tbody>
                           </Table>
