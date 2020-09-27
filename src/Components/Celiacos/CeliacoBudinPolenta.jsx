@@ -1,11 +1,18 @@
 import React, { useState } from "react";
-import { Container, Table, Row } from "reactstrap";
+import {
+  Container,
+  Table,
+  Row,
+  Button,
+  Popover,
+  PopoverHeader,
+  PopoverBody,
+} from "reactstrap";
 import ñoquis from "../../Assets/img/ñoquisdecoliflor.jpg";
 import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import libreGluten from "../../Assets/img/GlutenFree.png";
 import info from "../../Assets/img/Info.png";
-import { Button, Popover, PopoverHeader, PopoverBody } from "reactstrap";
 
 const CeliacoBudinPolenta = (props) => {
   const [popoverOpen, setPopoverOpen] = useState(false);
@@ -57,9 +64,11 @@ const CeliacoBudinPolenta = (props) => {
                       <span> Libre de gluten </span>
                     </div>
                     <div>
-                      <Button id="Popover1" type="button">
-                        Launch Popover
+                      <Button id="Popover1" type="button" color="white">
+                        <img src={info} alt="información nutricional" />
                       </Button>
+                      <span>información Nutricional</span>
+
                       <Popover
                         placement="bottom"
                         isOpen={popoverOpen}
@@ -68,9 +77,30 @@ const CeliacoBudinPolenta = (props) => {
                       >
                         <PopoverHeader>Popover Title</PopoverHeader>
                         <PopoverBody>
-                          Sed posuere consectetur est at lobortis. Aenean eu leo
-                          quam. Pellentesque ornare sem lacinia quam venenatis
-                          vestibulum.
+                          <Table borderless>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Calorias</td>
+                                <td>545</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>CarboHidratos</td>
+                                <td>106 grs</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Proteinas</td>
+                                <td>21 grs</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Lipidos</td>
+                                <td>4.5grs</td>
+                              </tr>
+                            </tbody>
+                          </Table>
                         </PopoverBody>
                       </Popover>
                     </div>
