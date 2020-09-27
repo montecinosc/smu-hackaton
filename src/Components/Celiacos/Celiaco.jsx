@@ -8,8 +8,9 @@ import {
     Link,
     NavLink
 } from "react-router-dom";
-import Carrusel from '../../Components/Principal/Carrusel.jsx';
-import Footer from '../../Components/Principal/Footer.jsx';
+import Carrusel from '../Principal/Carrusel';
+import Footer from '../Principal/Footer';
+
 const Celiaco = () => {
     return (
         <Fragment>
