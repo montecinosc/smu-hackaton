@@ -9,7 +9,7 @@ import {
     NavLink
 } from "react-router-dom";
 import Carrusel from '../Principal/Carrusel';
-import Footer from '../Principal/Footer';
+import Footer from '../Principal/Footer.jsx';
 
 const Celiaco = () => {
     return (
@@ -28,7 +28,9 @@ const Celiaco = () => {
                 })
                 }
             </Row>
+            <Footer/>
         </Fragment>
+        
     )
 }
 
