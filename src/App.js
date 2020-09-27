@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Muro from "./components/Principal/Muro";
+import Muro from "./Components/Principal/Muro.jsx";
 import "./App.css";
-import Celiaco from "./components/Celiacos/Celiaco";
-import Vegetariano from "./components/Vegetariano";
-import Vegano from "./components/Veganos/Vegano";
-import Chilenas from "./components/Principal/Chilenas";
-import Mundo from "./components/Principal/Mundo";
-import Niños from "./components/Principal/Niños";
+import Celiaco from "./Components/Celiacos/Celiaco.jsx";
+import Vegetariano from "./Components/Vegetariano.jsx";
+import Vegano from "./Components/Veganos/Vegano.jsx";
+import Chilenas from "./Components/Principal/Chilenas.jsx";
+import Mundo from "./Components/Principal/Mundo.jsx";
+import Niños from "./Components/Principal/Niños.jsx";
 
 function App() {
   return (

@@ -35,20 +35,22 @@ li{
 height: 50px;
 }
 
-footer{
-  position: absolute;
+.container{
+  position: relative;
   bottom: 0;
   width: 100vw;
 }
 
-a{
+.redes{
   text-decoration: none;
   color:black;
   cursor: pointer;
+  font-family: Apex Sans Book;
 }
 
-a:hover{
+.redes:hover{
   color:#d3291f;
   text-decoration: none;
   cursor:pointer;
+  font-family: Apex Sans Book;
 }
