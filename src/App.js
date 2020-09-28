@@ -5,18 +5,18 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Muro from "./Components/Principal/Muro";
+import Muro from "./components/Principal/Muro";
 import "./App.css";
-import Celiaco from "./Components/Celiacos/Celiaco";
-import Vegetariano from "./Components/Vegetariano";
-import Vegano from "./Components/Veganos/Vegano";
-import Chilenas from "./Components/Principal/Chilenas";
-import Mundo from "./Components/Principal/Mundo";
-import Niños from "./Components/Principal/Niños";
-import CeliacoBudinPolenta from "./Components/Celiacos/CeliacoBudinPolenta";
-import Garbanzos from "./Components/Veganos/Garbanzos"
-import CeliacoÑoquis from "./Components/Celiacos/CeliacoÑoquis"
-import Ratatouille from "./Components/Veganos/Ratatouille"
+import Celiaco from "../src/components/Celiacos/Celiaco"
+import Vegetariano from "./components/Vegetariano";
+import Vegano from "./components/Veganos/Vegano";
+import Chilenas from "../src/components/Principal/Chilenas";
+import Mundo from "./components/Principal/Mundo";
+import Niños from "./components/Principal/Niños";
+import CeliacoBudinPolenta from "./components/Celiacos/CeliacoBudinPolenta";
+import Garbanzos from "../src/components/Veganos/Garbanzos"
+import CeliacoÑoquis from "./components/Celiacos/CeliacoÑoquis"
+import Ratatouille from "./components/Veganos/Ratatouille"
 
 function App() {
   return (<Router>

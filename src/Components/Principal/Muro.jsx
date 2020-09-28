@@ -10,7 +10,7 @@ import Celiaco from '../Celiacos/Celiaco';
 import Vegetariano from '../Vegetariano';
 import { Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Row, Button } from 'reactstrap'
 import { muro } from '../../muroLista.json';
-import Puntuacion from '../Puntuacion';
+//import Puntuacion from "../Principal/"
 import Carrusel from './Carrusel';
 import MenuPrincipal from './Menu';
 import Footer from './Footer';
@@ -32,7 +32,7 @@ const Muro = () => {
                                 <CardSubtitle>{element.titulo}</CardSubtitle>
 
                                 <CardText> {element.descripcion}</CardText>
-                                <Puntuacion />
+                                {/*<Puntuacion />*/}
                                 <Link to={element.tipo}> Ver más</Link>
                             </CardBody>
                         </Card>
