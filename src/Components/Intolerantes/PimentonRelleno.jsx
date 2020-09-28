@@ -3,7 +3,6 @@ import {
   Container,
   Table,
   Row,
-  Button,
   Popover,
   PopoverHeader,
   PopoverBody,
@@ -11,7 +10,7 @@ import {
 import pimentonRelleno from "../../Assets/img/pimentonRelleno.png";
 import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
-import libreGluten from "../../Assets/img/GlutenFree.png";
+import sinLactosa from "../../Assets/img/Intolerante.png";
 import info from "../../Assets/img/Info.png";
 import Menu from "../Principal/Menu";
 import Carrusel from "../Principal/Carrusel";
@@ -40,19 +39,19 @@ const PimentonRelleno = (props) => {
                   <tbody>
                     <tr>
                       <td>Cousccous Talliani</td>
-                      <td>250 gr</td>
+                      <td>250 gr.</td>
                     </tr>
                     <tr>
                       <td>Sofrito Frutos del Maipo</td>
-                      <td>150 gr</td>
+                      <td>150 gr.</td>
                     </tr>
                     <tr>
-                      <td>Salsa natural  Unimarc</td>
-                      <td>200 gr</td>
+                      <td>Salsa natural Unimarc</td>
+                      <td>200 gr.</td>
                     </tr>
                     <tr>
                       <td>Caja huevo grande blanco Unimarc</td>
-                      <td>4 unidad</td>
+                      <td>4 un.</td>
                     </tr>
                     <tr>
                       <td>Pimentón verde</td>
@@ -66,31 +65,34 @@ const PimentonRelleno = (props) => {
                       <td>Orégano</td>
                       <td>A Gusto</td>
                     </tr>
-                     <tr>
+                    <tr>
                       <td>Pimienta</td>
                       <td>A Gusto</td>
-                    </tr> 
-                  
+                    </tr>
                   </tbody>
                 </Table>
                 <div>
                   <Row>
                     <div>
-                      <img src={reloj} alt="reloj" /> <span>50 min</span>
+                      <img src={reloj} alt="reloj" /> <span>40 min</span>
                     </div>
                     <div>
                       <img src={tenedor} alt="tenedor" />{" "}
                       <span> 4 porciones </span>
                     </div>
                     <div>
-                      <img src={libreGluten} alt="libreGluten" />
-                      <span> Libre de gluten </span>
+                      <img src={sinLactosa} alt="sin lactosa" />
+                      <span>Sin Lactosa </span>
                     </div>
                     <div>
-                      <Button id="Popover1" type="button" color="white">
-                        <img src={info} alt="información nutricional" />
-                      </Button>
-                      <span>información Nutricional</span>
+                      <img
+                        style={{ cursor: "pointer" }}
+                        id="Popover1"
+                        src={info}
+                        alt="información nutricional"
+                      />
+
+                      <span>Información Nutricional</span>
 
                       <Popover
                         placement="bottom"
@@ -109,21 +111,21 @@ const PimentonRelleno = (props) => {
                                   <i class="icofont-fire-burn"></i>
                                 </th>
                                 <td>Calorías</td>
-                                <td>562</td>
+                                <td>353</td>
                               </tr>
                               <tr>
                                 <th scope="row">
                                   <i class="icofont-bread"></i>
                                 </th>
                                 <td>Carbohidratos</td>
-                                <td>104 grs</td>
+                                <td>55.6 grs</td>
                               </tr>
                               <tr>
                                 <th scope="row">
                                   <i class="icofont-chicken-fry"></i>
                                 </th>
                                 <td>Proteínas</td>
-                                <td>21.7 grs</td>
+                                <td>15.7 grs</td>
                               </tr>
                               <tr>
                                 <th scope="row">
@@ -144,32 +146,44 @@ const PimentonRelleno = (props) => {
           </div>
         </div>
         <section>
-          <h4> Preparacion</h4>
+          <h4> Preparación</h4>
           <p className="text-sm-left ">
-            {" "}
+            <br />
+            Comenzamos lavando nuestros 2 pimentones y los partimos por la
+            mitad, le sacamos las semillas y los raspamos con una cuchara por el
+            centro. Llevamos al horno por 10 minutos a 180°.
             <br />
             <br />
-            Comenzamos lavando nuestros 2 pimentones y los partimos por la mitad, le sacamos las semillas y los raspamos con una cuchara por el centro. Llevamos al horno por 10 minutos a 180°.
+            En un sartén incorporamos un poco de aceite de oliva y agregamos los
+            150 grs. de sofrito, 100 grs. de la salsa de tomate y revolvemos
+            para formar una salsa. Salpimentamos e incorporamos ½ taza de agua.
+            Si quieres puedes agregar una cucharada de azúcar para bajarle la
+            acidez a la salsa de tomate.
             <br />
             <br />
-            En un sartén incorporamos un poco de aceite de oliva y agregamos los 150 grs. de sofrito, 100 grs. de la salsa de tomate y revolvemos para formar una salsa. Salpimentamos e incorporamos ½ taza de agua. Si quieres puedes agregar una cucharada de azúcar para bajarle la acidez a la salsa de tomate.
+            En un bowl, agregamos 4 cucharadas de la salsa a los 250 grs. de
+            cuscús y 1 taza y ½ de agua hervida. Tapamos el bowl con papel de
+            plástico por 5 minutos. Con un tenedor vamos soltando el cuscús para
+            que quede bien graneado. Dejamos una taza reservada y al resto le
+            agregamos dos cucharadas más de la salsa de tomate para darle color.
+            Luego rellenamos nuestros pimentones con esta mezcla.
             <br />
             <br />
-            En un bowl, agregamos 4 cucharadas de la salsa a los 250 grs. de cuscús y 1 taza y ½ de agua hervida. Tapamos el bowl con papel de plástico por 5 minutos. Con un tenedor vamos soltando el cuscús para que quede bien graneado. Dejamos una taza reservada y al resto le agregamos dos cucharadas más de la salsa de tomate para darle color. Luego rellenamos nuestros pimentones con esta mezcla.
+            Cortamos el tomate en cuadritos y luego le agregamos un poco de
+            ralladura de limón y lo mezclamos con la taza de cuscús que habíamos
+            reservado para formar una pequeña ensalada.
             <br />
             <br />
-            Cortamos el tomate en cuadritos y luego le agregamos un poco de ralladura de limón y lo mezclamos con la taza de cuscús que habíamos reservado para formar una pequeña ensalada.
-            <br />
-            <br />
-            Para emplatar, añadimos un poco de la salsa de tomate en el centro de los platos, y encima agregamos una capa de la ensalada de cuscús con tomate. A un lado colocamos los pimentones rellenos y sobre cada uno de ellos montamos 1 huevo frito en agua.
+            Para emplatar, añadimos un poco de la salsa de tomate en el centro
+            de los platos, y encima agregamos una capa de la ensalada de cuscús
+            con tomate. A un lado colocamos los pimentones rellenos y sobre cada
+            uno de ellos montamos 1 huevo frito en agua.
           </p>
           <br />
           <p>A continuación puedes ver el video con la preparación </p>
         </section>
         <section>
           <iframe
-            width="1090"
-            height="600"
             src="https://www.youtube.com/embed/AfXHhbwuNsM"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

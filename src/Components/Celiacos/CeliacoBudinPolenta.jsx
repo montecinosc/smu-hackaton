@@ -3,7 +3,6 @@ import {
   Container,
   Table,
   Row,
-  Button,
   Popover,
   PopoverHeader,
   PopoverBody,
@@ -16,7 +15,7 @@ import info from "../../Assets/img/Info.png";
 import Menu from "../Principal/Menu";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
-import "../../Style/Celiaco.css"
+import "../../Style/Celiaco.css";
 
 const CeliacoBudinPolenta = (props) => {
   const [popoverOpen, setPopoverOpen] = useState(false);
@@ -36,11 +35,15 @@ const CeliacoBudinPolenta = (props) => {
             <div className="col-md-8">
               <div className="card-body">
                 <h5 className="card-title">Ingredientes</h5>
-                <Table hover>
+                <Table borderless>
                   <tbody>
                     <tr>
                       <td>Azúcar grado 2 Unimarc 1 kg</td>
                       <td>1 taza</td>
+                    </tr>
+                    <tr>
+                      <td>Huevo grande blanco Unimarc</td>
+                      <td>3 un.</td>
                     </tr>
                     <tr>
                       <td>Levadura en polvo</td>
@@ -48,11 +51,19 @@ const CeliacoBudinPolenta = (props) => {
                     </tr>
                     <tr>
                       <td>Limón Granel</td>
-                      <td>1 un</td>
+                      <td>1 un.</td>
                     </tr>
                     <tr>
                       <td>Polenta Carozzi</td>
-                      <td>200 gr</td>
+                      <td>200 gr.</td>
+                    </tr>
+                    <tr>
+                      <td>Aceite</td>
+                      <td>A Gusto</td>
+                    </tr>
+                    <tr>
+                      <td>Leche</td>
+                      <td>1 Vaso </td>
                     </tr>
                   </tbody>
                 </Table>
@@ -70,10 +81,14 @@ const CeliacoBudinPolenta = (props) => {
                       <span> Libre de gluten </span>
                     </div>
                     <div>
-                      <Button id="Popover1" type="button" color="white">
-                        <img src={info} alt="información nutricional" />
-                      </Button>
-                      <span>información Nutricional</span>
+                      <img
+                        style={{ cursor: "pointer" }}
+                        id="Popover1"
+                        src={info}
+                        alt="información nutricional"
+                      />
+
+                      <span>Información Nutricional</span>
 
                       <Popover
                         placement="bottom"
@@ -81,27 +96,37 @@ const CeliacoBudinPolenta = (props) => {
                         target="Popover1"
                         toggle={toggle}
                       >
-                        <PopoverHeader>Calorías y Macronutrientes</PopoverHeader>
+                        <PopoverHeader>
+                          Calorías y Macronutrientes
+                        </PopoverHeader>
                         <PopoverBody>
                           <Table borderless>
                             <tbody>
                               <tr>
-                                <th scope="row"><i class="icofont-fire-burn"></i></th>
+                                <th scope="row">
+                                  <i class="icofont-fire-burn"></i>
+                                </th>
                                 <td>Calorías</td>
                                 <td>667</td>
                               </tr>
                               <tr>
-                                <th scope="row"><i class="icofont-bread"></i></th>
+                                <th scope="row">
+                                  <i class="icofont-bread"></i>
+                                </th>
                                 <td>Carbohidratos</td>
                                 <td>92.4 grs</td>
                               </tr>
                               <tr>
-                                <th scope="row"><i class="icofont-chicken-fry"></i></th>
+                                <th scope="row">
+                                  <i class="icofont-chicken-fry"></i>
+                                </th>
                                 <td>Proteínas</td>
                                 <td>10.4 grs</td>
                               </tr>
                               <tr>
-                                <th scope="row"><i class="icofont-water-drop"></i></th>
+                                <th scope="row">
+                                  <i class="icofont-water-drop"></i>
+                                </th>
                                 <td>Lípidos</td>
                                 <td>30.7grs</td>
                               </tr>
@@ -117,10 +142,8 @@ const CeliacoBudinPolenta = (props) => {
           </div>
         </div>
         <section>
-          <h4> Preparacion</h4>
+          <h4> Preparación</h4>
           <p className="text-sm-left ">
-            {" "}
-            <br />
             <br />
             Empezamos precalentando el horno a 160º.
             <br />
@@ -153,9 +176,6 @@ const CeliacoBudinPolenta = (props) => {
         </section>
         <section className="videos">
           <iframe
-            /*  width="1090"
-  height="600" 
-*/
             src="https://www.youtube.com/embed/hQ5O8B0Znms"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

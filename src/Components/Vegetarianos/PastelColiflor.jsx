@@ -3,7 +3,6 @@ import {
   Container,
   Table,
   Row,
-  Button,
   Popover,
   PopoverHeader,
   PopoverBody,
@@ -11,7 +10,7 @@ import {
 import pastelColiflor from "../../Assets/img/pasteldecoliflor.png";
 import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
-import libreGluten from "../../Assets/img/GlutenFree.png";
+import vegetariano from "../../Assets/img/vegetariano.png";
 import info from "../../Assets/img/Info.png";
 import Menu from "../Principal/Menu";
 import Carrusel from "../Principal/Carrusel";
@@ -36,48 +35,55 @@ const PastelColiflor = (props) => {
             <div className="col-md-8">
               <div className="card-body">
                 <h5 className="card-title">Ingredientes</h5>
-                <Table hover>
+                <Table borderless>
                   <tbody>
                     <tr>
                       <td>Coliflor Bandeja</td>
-                      <td>1 un</td>
+                      <td>1 un.</td>
                     </tr>
                     <tr>
                       <td>Leche Natural Colún</td>
-                      <td>200 ml</td>
+                      <td>200 ml.</td>
                     </tr>
                     <tr>
                       <td>Huevo grande blanco Unimarc</td>
-                      <td>4 un</td>
+                      <td>4 un.</td>
                     </tr>
                     <tr>
                       <td>Champiñón bandeja</td>
-                      <td>200 gr</td>
+                      <td>200 gr.</td>
                     </tr>
                     <tr>
                       <td>Cebolla</td>
-                      <td>1 un</td>
+                      <td>1 un.</td>
+                    </tr>
+                    <tr>
+                      <td>Pimienta y Sal</td>
+                      <td>A Gusto</td>
                     </tr>
                   </tbody>
                 </Table>
                 <div>
                   <Row>
                     <div>
-                      <img src={reloj} alt="reloj" /> <span>50 min</span>
+                      <img src={reloj} alt="reloj" /> <span>30 min</span>
                     </div>
                     <div>
                       <img src={tenedor} alt="tenedor" />{" "}
                       <span> 4 porciones </span>
                     </div>
                     <div>
-                      <img src={libreGluten} alt="libreGluten" />
-                      <span> Libre de gluten </span>
+                      <img src={vegetariano} alt="vegetariano" />
+                      <span> Vegetariano </span>
                     </div>
                     <div>
-                      <Button id="Popover1" type="button" color="white">
-                        <img src={info} alt="información nutricional" />
-                      </Button>
-                      <span>información Nutricional</span>
+                      <img
+                        style={{ cursor: "pointer" }}
+                        id="Popover1"
+                        src={info}
+                        alt="información nutricional"
+                      />
+                      <span>Información Nutricional</span>
 
                       <Popover
                         placement="bottom"
@@ -96,21 +102,21 @@ const PastelColiflor = (props) => {
                                   <i class="icofont-fire-burn"></i>
                                 </th>
                                 <td>Calorías</td>
-                                <td>562</td>
+                                <td>163</td>
                               </tr>
                               <tr>
                                 <th scope="row">
                                   <i class="icofont-bread"></i>
                                 </th>
                                 <td>Carbohidratos</td>
-                                <td>104 grs</td>
+                                <td>14 grs</td>
                               </tr>
                               <tr>
                                 <th scope="row">
                                   <i class="icofont-chicken-fry"></i>
                                 </th>
                                 <td>Proteínas</td>
-                                <td>21.7 grs</td>
+                                <td>12 grs</td>
                               </tr>
                               <tr>
                                 <th scope="row">
@@ -131,10 +137,8 @@ const PastelColiflor = (props) => {
           </div>
         </div>
         <section>
-          <h4> Preparacion</h4>
+          <h4> Preparación</h4>
           <p className="text-sm-left ">
-            {" "}
-            <br />
             <br />
             Comenzamos cortando la coliflor en trozos muy pequeños y la
             agregamos a una olla con aceite, añadimos leche, sal, pimienta y
@@ -153,12 +157,9 @@ const PastelColiflor = (props) => {
             cubrir el pastel. Agregamos dos huevos a la mezcla y revolvemos.
             <br />
             <br />
-            Cortar el tallo de la acelga en pequeños trozos y luego añadirlos a
-            la olla de nuestro sofrito junto con las papas y la cebolla. Picar
-            una hoja de acelga en tiras delgadas y resEn pocillos de greda
-            agregamos nuestro sofrito de champiñón, añadimos nuestra mezcla de
-            coliflor y finalmente el queso parmesano restante. Llevamos al horno
-            por unos 10 minutos para que dore.
+            En pocillos de greda agregamos nuestro sofrito de champiñón,
+            añadimos nuestra mezcla de coliflor y finalmente el queso parmesano
+            restante. Llevamos al horno por unos 10 minutos para que dore.
             <br />
             <br />
             Para emplatar, una vez pasado el tiempo retiramos los pasteles del
@@ -169,8 +170,6 @@ const PastelColiflor = (props) => {
         </section>
         <section>
           <iframe
-            width="1090"
-            height="600"
             src="https://www.youtube.com/embed/BDz1yV3gXAU"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
