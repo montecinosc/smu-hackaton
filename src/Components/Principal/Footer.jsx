@@ -7,11 +7,9 @@ import '../../Assets/icofont/icofont.css'
 const Footer = () => {
   return (
     <footer>
+      <img className="logo" src={booklogo} />
       <div className="container">
         <div className="row align-items-start">
-          <div className="col-5">
-            <img className="logo" src={booklogo} />
-          </div>
           <div className="col">
             Menú Principal
             <li><a className="redes" href="https://www.unimarc.cl/">UNIMARC</a></li>
