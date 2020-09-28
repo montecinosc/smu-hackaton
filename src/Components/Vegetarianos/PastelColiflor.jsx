@@ -27,7 +27,7 @@ const PastelColiflor = (props) => {
       <Menu />
       <Carrusel />
       <Container>
-        <h3 className="text-center">Charquican Vegetariano</h3>
+        <h3 className="text-center">Paste de Coliflor y Champiñón</h3>
         <div class="card mb-3">
           <div className="row no-gutters">
             <div className="col-md-4">
