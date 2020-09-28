@@ -9,9 +9,23 @@
         },
         {
             "titulo": "Recetas Vegetarianas",
-            "imagen": "https://i.ibb.co/8gvPVJK/Vegetarian.png",
+            "imagen": "https://i.ibb.co/Ksj4SgL/Vegetarian-1.png",
             "tipo": "./vegetariano",
             "descripcion": "Disfruta de las esquisitas preparaciones que tenemos disponibles para ti",
+            "stock": "2"
+        },
+        {
+            "titulo": "Recetas sin Lactosa",
+            "imagen": "https://i.ibb.co/qdbSYDg/Img-Icon-Intolerante.png",
+            "tipo": "./vegetariano",
+            "descripcion": "Disfruta de las esquisitas preparaciones que tenemos disponibles para ti",
+            "stock": "2"
+        },
+        {
+            "titulo": "Recetas Chilenas",
+            "imagen": "https://i.ibb.co/TPp9tmd/2Chile.png",
+            "tipo": "./chilena",
+            "descripcion": "Disfruta de los mejores platos nacionales al alcance de tu bolsillo",
             "stock": "2"
         },
         {
@@ -20,13 +34,6 @@
             "tipo": "./vegano",
             "descripcion": "Encuentra los platos más deliciosos y faciles de realizar",
             "stock": "5"
-        },
-        {
-            "titulo": "Recetas Chilenas",
-            "imagen": "https://i.ibb.co/TPp9tmd/2Chile.png",
-            "tipo": "./chilena",
-            "descripcion": "Disfruta de los mejores platos nacionales al alcance de tu bolsillo",
-            "stock": "2"
         },
         {
             "titulo": "Recetas para niños",
