@@ -4,7 +4,7 @@ import { Container, Table, Row,
   Popover,
   PopoverHeader,
   PopoverBody, } from "reactstrap";
-import ratatouille from "../../Assets/img/garbanzos.jpg";
+import ratatouille from "../../Assets/img/ratatouille.png";
 import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import libreGluten from "../../Assets/img/GlutenFree.png";

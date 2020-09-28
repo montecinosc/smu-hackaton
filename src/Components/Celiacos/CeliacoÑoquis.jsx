@@ -4,7 +4,7 @@ import { Container, Table, Row,
   Popover,
   PopoverHeader,
   PopoverBody, } from "reactstrap";
-import ñoquis from "../../Assets/img/ñoquisdecoliflor.jpg";
+import ñoquis from "../../Assets/img/ñoquisdecoliflor.png";
 import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import libreGluten from "../../Assets/img/GlutenFree.png";

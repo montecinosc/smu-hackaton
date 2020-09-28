@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import React, { Fragment } from 'react'
 import Celiaco from '../Celiacos/Celiaco';
-import Vegetariano from '../Vegetariano';
+import Vegetariano from '../Vegetarianos/Vegetariano';
 import { Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Row, Button } from 'reactstrap'
 import { muro } from '../../muroLista.json';
 import Puntuacion from "../Puntuacion"
