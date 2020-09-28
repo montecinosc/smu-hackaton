@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { celiacos } from '../../celiacos.json'
+import { celiacos } from '../../Json/celiacos.json'
 import { Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Row, Button } from 'reactstrap'
 import {
     BrowserRouter as Router,
@@ -28,9 +28,9 @@ const Celiaco = () => {
                 })
                 }
             </Row>
-            <Footer/>
+            <Footer />
         </Fragment>
-        
+
     )
 }
 
