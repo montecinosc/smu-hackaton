@@ -19,6 +19,7 @@ import CeliacoÑoquis from "./Components/Celiacos/CeliacoÑoquis"
 import Ratatouille from "./Components/Veganos/Ratatouille"
 import Charquican from "./Components/Vegetarianos/Charquican"
 import PastelColiflor from "./Components/Vegetarianos/PastelColiflor"
+import IntoleranteLactosa from "./Components/Intolerantes/IntoleranteLactosa";
 
 function App() {
   return (<Router>
@@ -40,6 +41,10 @@ function App() {
       <Route path="/chilena">
 
         <Chilenas />
+      </Route>
+      <Route path="/intolerante">
+
+        <IntoleranteLactosa />
       </Route>
       <Route path="/niños" >
 

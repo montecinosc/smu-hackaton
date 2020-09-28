@@ -1,0 +1,17 @@
+{
+    "lactosa": [{
+
+            "titulo": "Pimenton relleno de Cuscus",
+            "imagen": "https://i.ibb.co/HYf8bDV/Sin-Lactosa-Cuscus.png",
+            "tipo": "./"
+
+        },
+        {
+            "titulo": "sopaipillas",
+            "imagen": "https://i.ibb.co/cg6tKjb/Sin-Lactosa-Sopaipillas.png",
+            "tipo": "./"
+
+        }
+
+    ]
+}
