@@ -9,8 +9,8 @@ import React, { Fragment } from 'react'
 import Celiaco from '../Celiacos/Celiaco';
 import Vegetariano from '../Vegetarianos/Vegetariano';
 import { Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Row, Button } from 'reactstrap'
-import { muro } from '../../muroLista.json';
-import Puntuacion from "../Puntuacion"
+import { muro } from '../../Json/muroLista.json';
+import Puntuacion from '../Puntuacion';
 import Carrusel from './Carrusel';
 import MenuPrincipal from './Menu';
 import Footer from './Footer';
@@ -40,7 +40,7 @@ const Muro = () => {
                 })
                 }
             </Row>
-            <Footer/>
+            <Footer />
         </Fragment>
 
     )

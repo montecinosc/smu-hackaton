@@ -1,0 +1,17 @@
+{
+    "veganos": [{
+
+            "titulo": "Garbanzos con Curry de Espinaca",
+            "imagen": "https://i.ibb.co/QFTPCdw/Vegan-Garbanzos.png",
+            "tipo": "garbanzo"
+
+        },
+        {
+            "titulo": "ratatouille",
+            "imagen": "https://i.ibb.co/vJwrktm/Vegan-Ratatouille.png",
+            "tipo": "ratatouille"
+
+        }
+
+    ]
+}
