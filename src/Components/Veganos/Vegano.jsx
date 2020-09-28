@@ -1,5 +1,5 @@
 import React from 'react'
-import {veganos} from '../../veganos.json'
+import { veganos } from '../../Json/veganos.json'
 import { Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Row, Button } from 'reactstrap'
 import {
     BrowserRouter as Router,
@@ -13,8 +13,8 @@ import Footer from '../Principal/Footer.jsx';
 
 const Vegano = () => {
     return (
-        
-          <>
+
+        <>
             <Carrusel />
             <Row sm='3'>
                 {veganos.map((element, i) => {
@@ -29,9 +29,9 @@ const Vegano = () => {
                 })
                 }
             </Row>
-            <Footer/>
+            <Footer />
         </>
-       
+
     )
 }
 
