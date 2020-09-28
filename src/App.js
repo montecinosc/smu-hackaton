@@ -17,6 +17,7 @@ import CeliacoBudinPolenta from "./Components/Celiacos/CeliacoBudinPolenta";
 import Garbanzos from "./Components/Veganos/Garbanzos"
 import CeliacoÑoquis from "./Components/Celiacos/CeliacoÑoquis"
 import Ratatouille from "./Components/Veganos/Ratatouille"
+import Charquican from "./Components/Vegetarianos/Charquican"
 
 function App() {
   return (<Router>
@@ -55,7 +56,9 @@ function App() {
       <Route path="/ratatouille"  >
         <Ratatouille />
       </Route>
-
+      <Route path="/charquican"  >
+        <Charquican />
+      </Route>
       <Route path="/mundo" >
 
         <Mundo />
