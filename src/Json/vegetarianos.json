@@ -1,0 +1,30 @@
+{
+    "vegetarianos": [{
+            "titulo": "Charquicán Vegetariano",
+            "imagen": "https://i.ibb.co/JtzqdSN/Vegetariano-Charquican.png",
+            "tipo": "./charquican"
+
+        },
+        {
+            "titulo": "Pastel de Coliflor y Champiñon",
+            "imagen": "https://i.ibb.co/JzHdTYZ/Vegetariano-Pastel-Coliflor.png",
+            "tipo": "./pastelColiflor"
+
+        },
+        {
+            "titulo": "",
+            "imagen": "",
+            "tipo": "./"
+
+        },
+        {
+            "titulo": "",
+            "imagen": "",
+            "tipo": "./"
+
+        }
+
+
+
+    ]
+}

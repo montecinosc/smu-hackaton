@@ -7,8 +7,8 @@ import {
 } from "react-router-dom";
 import Muro from "./Components/Principal/Muro";
 import "./App.css";
-import Celiaco from "./Components/Celiacos/Celiaco";
-import Vegetariano from "./Components/Vegetariano";
+import Celiaco from "./Components/Celiacos/Celiaco"
+import Vegetariano from "./Components/Vegetarianos/Vegetariano";
 import Vegano from "./Components/Veganos/Vegano";
 import Chilenas from "./Components/Principal/Chilenas";
 import Mundo from "./Components/Principal/Mundo";
@@ -17,6 +17,7 @@ import CeliacoBudinPolenta from "./Components/Celiacos/CeliacoBudinPolenta";
 import Garbanzos from "./Components/Veganos/Garbanzos"
 import CeliacoÑoquis from "./Components/Celiacos/CeliacoÑoquis"
 import Ratatouille from "./Components/Veganos/Ratatouille"
+import Charquican from "./Components/Vegetarianos/Charquican"
 
 function App() {
   return (<Router>
@@ -55,7 +56,9 @@ function App() {
       <Route path="/ratatouille"  >
         <Ratatouille />
       </Route>
-
+      <Route path="/charquican"  >
+        <Charquican />
+      </Route>
       <Route path="/mundo" >
 
         <Mundo />

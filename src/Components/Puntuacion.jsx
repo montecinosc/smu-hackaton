@@ -4,6 +4,7 @@ import ePloma from '../Assets/img/star-grey.png'
 import eRoja from '../Assets/img/star-red.png'
 import eAmarilla from '../Assets/img/star-yellow.png'
 
+
 const Puntuacion = () => {
     return (
         <div>
