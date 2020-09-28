@@ -40,7 +40,7 @@ const Muro = () => {
                 })
                 }
             </Row>
-            <Footer/>
+            <Footer />
         </Fragment>
 
     )
