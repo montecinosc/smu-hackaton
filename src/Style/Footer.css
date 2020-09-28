@@ -31,8 +31,9 @@ li {
   font-family: Clarendon-Regular;
 }
 
-.logo {
-  height: 1em;
+img.logo {
+  height: 3em;
+  margin-left: 6em;
 }
 
 .footer-img {
@@ -67,8 +68,9 @@ li {
     overflow-x: hidden;
   }
 
-  .logo {
+  img.logo {
     height: 2em;
+    margin-left: 3.2em;
   }
 
   .footer-img {
@@ -76,6 +78,53 @@ li {
     border-style: none;
     height: 10vh;
     width: 104vw;
+
+    }  
+
+  .col{
+    margin-left: 0;
+    } 
+}
+
+
+@media screen and (max-width:1024px) {
+  body{
+    overflow-x: hidden;
+  }
+
+  img.logo {
+    height: 2em;
+    margin-left: 3.5em;
+  }
+
+  .footer-img {
+    vertical-align: middle;
+    border-style: none;
+    height: 10vh;
+    width: 104vw;
+
+    }  
+
+  .col{
+    margin-left: 0;
+    } 
+}
+
+@media(max-width:1024px) and (orientation: landscape){
+  body{
+    overflow-x: hidden;
+  }
+
+  img.logo {
+    height: 2em;
+    margin-left: 3.5em;
+  }
+
+  .footer-img {
+    vertical-align: middle;
+    border-style: none;
+    height: 18vh;
+    width: 102vw;
 
     }  
 
@@ -135,7 +184,7 @@ li {
 
   img.logo{
     height: 2em;
-    margin-left: 1%;
+    margin-left: 2em;
   }
 
  .footer-img{
@@ -152,7 +201,6 @@ li {
      } 
 }
 
-
 @media screen and (max-width: 412px) {
   body{
     overflow-x: hidden;
@@ -160,7 +208,7 @@ li {
 
   img.logo{
     height: 2em;
-    margin-left: 1%;
+    margin-left: 2em;
   }
 
  .footer-img{
@@ -184,19 +232,20 @@ li {
 
   img.logo{
     height: 2em;
-    margin-left: 1%;
+    margin-left: 1.7em;
   }
 
  .footer-img{
     vertical-align: middle;
     border-style: none;
-    height: 6vh;
+    height: 7vh;
     width: 104vw;
   } 
 
   .col{
     margin-top: 3em;
-    left:0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
      } 
 }
 
@@ -206,9 +255,9 @@ li {
     overflow-x: hidden;
   }
 
-  img.logo{
+  .logo{
     height: 2em;
-    margin-left: 1%;
+    margin-left: 1em;
   }
 
  .footer-img{
