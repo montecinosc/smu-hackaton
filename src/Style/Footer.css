@@ -63,16 +63,20 @@ li {
 
 /*media*/
 @media screen and (max-width:768px) {
+  body{
+    overflow-x: hidden;
+  }
+
   .logo {
-    height: 1em;
+    height: 2em;
   }
 
   .footer-img {
     vertical-align: middle;
     border-style: none;
-    height: 5vh;
+    height: 10vh;
     width: 104vw;
-    margin-bottom: 1em;
+
     }  
 
   .col{
@@ -81,6 +85,10 @@ li {
 }
 
 @media screen and (max-width: 425px) {
+  body{
+    overflow-x: hidden;
+  }
+
   img.logo{
     height: 2em;
     margin-left: 1%;
@@ -91,7 +99,55 @@ li {
     border-style: none;
     height: 5vh;
     width: 104vw;
-    margin-bottom: 1em;
+
+  } 
+
+  .col{
+    margin-top: 3em;
+    left:0;
+     } 
+}
+
+
+@media screen and (max-width: 412px) {
+  body{
+    overflow-x: hidden;
+  }
+
+  img.logo{
+    height: 2em;
+    margin-left: 1%;
+  }
+
+ .footer-img{
+    vertical-align: middle;
+    border-style: none;
+    height: 5vh;
+    width: 104vw;
+  } 
+
+  .col{
+    margin-top: 3em;
+    left:0;
+     } 
+}
+
+@media screen and (max-width: 684px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  img.logo{
+    height: 2em;
+    margin-left: 1%;
+  }
+
+ .footer-img{
+    vertical-align: middle;
+    border-style: none;
+    height: 6vh;
+    width: 104vw;
   } 
 
   .col{
