@@ -4,9 +4,9 @@ import {
     Link,
 } from "react-router-dom";
 import { Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Button, Row } from 'reactstrap'
-import { vegetarianos } from '../Json/vegetarianos.json'
-import Carrusel from './Principal/Carrusel';
-import Footer from './Principal/Footer';
+import { vegetarianos } from '../../Json/vegetarianos.json'
+import Carrusel from '../Principal/Carrusel';
+import Footer from '../Principal/Footer';
 
 
 const Vegetariano = () => {

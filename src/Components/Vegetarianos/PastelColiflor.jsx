@@ -8,7 +8,7 @@ import {
   PopoverHeader,
   PopoverBody,
 } from "reactstrap";
-import polenta from "../../Assets/img//menupolenta.png";
+import pastelColiflor from "../../Assets/img/pasteldecoliflor.png";
 import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import libreGluten from "../../Assets/img/GlutenFree.png";
@@ -16,22 +16,22 @@ import info from "../../Assets/img/Info.png";
 import Menu from "../Principal/Menu";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
-import "../../Style/Celiaco.css"
 
-const CeliacoBudinPolenta = (props) => {
+const PastelColiflor = (props) => {
   const [popoverOpen, setPopoverOpen] = useState(false);
 
   const toggle = () => setPopoverOpen(!popoverOpen);
+
   return (
     <>
       <Menu />
       <Carrusel />
       <Container>
-        <h3 className="text-center">Budín de Polenta</h3>
+        <h3 className="text-center">Charquican Vegetariano</h3>
         <div class="card mb-3">
           <div className="row no-gutters">
             <div className="col-md-4">
-              <img src={polenta} className="card-img" alt="..." />
+              <img src={pastelColiflor} className="card-img" alt="..." />
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -39,20 +39,24 @@ const CeliacoBudinPolenta = (props) => {
                 <Table hover>
                   <tbody>
                     <tr>
-                      <td>Azúcar grado 2 Unimarc 1 kg</td>
-                      <td>1 taza</td>
-                    </tr>
-                    <tr>
-                      <td>Levadura en polvo</td>
-                      <td>1 cucharada</td>
-                    </tr>
-                    <tr>
-                      <td>Limón Granel</td>
+                      <td>Coliflor Bandeja</td>
                       <td>1 un</td>
                     </tr>
                     <tr>
-                      <td>Polenta Carozzi</td>
+                      <td>Leche Natural Colún</td>
+                      <td>200 ml</td>
+                    </tr>
+                    <tr>
+                      <td>Huevo grande blanco Unimarc</td>
+                      <td>4 un</td>
+                    </tr>
+                    <tr>
+                      <td>Champiñón bandeja</td>
                       <td>200 gr</td>
+                    </tr>
+                    <tr>
+                      <td>Cebolla</td>
+                      <td>1 un</td>
                     </tr>
                   </tbody>
                 </Table>
@@ -81,29 +85,39 @@ const CeliacoBudinPolenta = (props) => {
                         target="Popover1"
                         toggle={toggle}
                       >
-                        <PopoverHeader>Calorías y Macronutrientes</PopoverHeader>
+                        <PopoverHeader>
+                          Calorías y Macronutrientes
+                        </PopoverHeader>
                         <PopoverBody>
                           <Table borderless>
                             <tbody>
                               <tr>
-                                <th scope="row"><i class="icofont-fire-burn"></i></th>
+                                <th scope="row">
+                                  <i class="icofont-fire-burn"></i>
+                                </th>
                                 <td>Calorías</td>
-                                <td>667</td>
+                                <td>562</td>
                               </tr>
                               <tr>
-                                <th scope="row"><i class="icofont-bread"></i></th>
+                                <th scope="row">
+                                  <i class="icofont-bread"></i>
+                                </th>
                                 <td>Carbohidratos</td>
-                                <td>92.4 grs</td>
+                                <td>104 grs</td>
                               </tr>
                               <tr>
-                                <th scope="row"><i class="icofont-chicken-fry"></i></th>
+                                <th scope="row">
+                                  <i class="icofont-chicken-fry"></i>
+                                </th>
                                 <td>Proteínas</td>
-                                <td>10.4 grs</td>
+                                <td>21.7 grs</td>
                               </tr>
                               <tr>
-                                <th scope="row"><i class="icofont-water-drop"></i></th>
+                                <th scope="row">
+                                  <i class="icofont-water-drop"></i>
+                                </th>
                                 <td>Lípidos</td>
-                                <td>30.7grs</td>
+                                <td>7 grs</td>
                               </tr>
                             </tbody>
                           </Table>
@@ -122,46 +136,46 @@ const CeliacoBudinPolenta = (props) => {
             {" "}
             <br />
             <br />
-            Empezamos precalentando el horno a 160º.
+            Comenzamos cortando la coliflor en trozos muy pequeños y la
+            agregamos a una olla con aceite, añadimos leche, sal, pimienta y
+            revolvemos. Dejamos cocinar por 20 a 25 minutos.
             <br />
             <br />
-            Aromatizamos la leche con pedacitos de cáscara de limón. Ponemos la
-            leche con las cáscaras a fuego medio por unos 10 minutos. Luego
-            colamos y dejamos enfriar.
+            Luego cortamos la cebolla en brunoise y la ponemos en un sartén con
+            un poco de aceite, sal y pimienta. Cortamos los champiñones y los
+            incorporamos junto a la cebolla para formar el sofrito. Revolvemos y
+            dejamos cocinar por 5 minutos.
             <br />
             <br />
-            En un bowl, ponemos los 3 huevos y los batimos a espumoso.
+            Una vez lista la coliflor con la leche, la procesamos para formar
+            una especie de puré y dejamos enfriar en un bowl. Cuando se enfrié
+            agregamos el queso parmesano dejando reservado un poco para luego
+            cubrir el pastel. Agregamos dos huevos a la mezcla y revolvemos.
             <br />
             <br />
-            Luego, incorporamos el azúcar, media taza de aceite, la leche y
-            seguir revolviendo
+            Cortar el tallo de la acelga en pequeños trozos y luego añadirlos a
+            la olla de nuestro sofrito junto con las papas y la cebolla. Picar
+            una hoja de acelga en tiras delgadas y resEn pocillos de greda
+            agregamos nuestro sofrito de champiñón, añadimos nuestra mezcla de
+            coliflor y finalmente el queso parmesano restante. Llevamos al horno
+            por unos 10 minutos para que dore.
             <br />
             <br />
-            Agregamos la polenta de a poco sin dejar de batir y al final le
-            añadimos la cucharadita de levadura.
-            <br />
-            <br />
-            Después, aceitamos una fuente con papel absorbente e incorporar la
-            mezcla. Luego, ponemos la mezcla al horno por 40 minutos a 150ºC.
-            <br />
-            <br />
-            Luego, sacamos del horno, cortamos y emplatamos. ¡Ahora a disfrutar
-            este rico plato especialmente para celíacos!
+            Para emplatar, una vez pasado el tiempo retiramos los pasteles del
+            horno y montamos cada pocillo de greda sobre un plato.
           </p>
           <br />
           <p>A continuación puedes ver el video con la preparación </p>
         </section>
-        <section className="videos">
+        <section>
           <iframe
-            /*  width="1090"
-  height="600" 
-*/
-            src="https://www.youtube.com/embed/hQ5O8B0Znms"
+            width="1090"
+            height="600"
+            src="https://www.youtube.com/embed/BDz1yV3gXAU"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-            title="video ñoquis"
-            text-align="center"
+            title="pastel coliflor"
           ></iframe>
         </section>
       </Container>
@@ -170,4 +184,4 @@ const CeliacoBudinPolenta = (props) => {
   );
 };
 
-export default CeliacoBudinPolenta;
+export default PastelColiflor;

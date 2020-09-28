@@ -8,7 +8,7 @@ import {
   PopoverHeader,
   PopoverBody,
 } from "reactstrap";
-import polenta from "../../Assets/img//menupolenta.png";
+import charquican from "../../Assets/img/charquican.png";
 import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import libreGluten from "../../Assets/img/GlutenFree.png";
@@ -16,22 +16,22 @@ import info from "../../Assets/img/Info.png";
 import Menu from "../Principal/Menu";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
-import "../../Style/Celiaco.css"
 
-const CeliacoBudinPolenta = (props) => {
+const Charquican = (props) => {
   const [popoverOpen, setPopoverOpen] = useState(false);
 
   const toggle = () => setPopoverOpen(!popoverOpen);
+
   return (
     <>
       <Menu />
       <Carrusel />
       <Container>
-        <h3 className="text-center">Budín de Polenta</h3>
+        <h3 className="text-center">Charquican Vegetariano</h3>
         <div class="card mb-3">
           <div className="row no-gutters">
             <div className="col-md-4">
-              <img src={polenta} className="card-img" alt="..." />
+              <img src={charquican} className="card-img" alt="..." />
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -39,20 +39,20 @@ const CeliacoBudinPolenta = (props) => {
                 <Table hover>
                   <tbody>
                     <tr>
-                      <td>Azúcar grado 2 Unimarc 1 kg</td>
-                      <td>1 taza</td>
+                      <td>Ensalada primavera Frutos del Maipo</td>
+                      <td>500 gr</td>
                     </tr>
                     <tr>
-                      <td>Levadura en polvo</td>
-                      <td>1 cucharada</td>
+                      <td>Acelga Bolsa</td>
+                      <td>500 grs</td>
                     </tr>
                     <tr>
-                      <td>Limón Granel</td>
-                      <td>1 un</td>
+                      <td>Huevo Blanco granel Unimarc</td>
+                      <td>4 un</td>
                     </tr>
                     <tr>
-                      <td>Polenta Carozzi</td>
-                      <td>200 gr</td>
+                      <td>Papa granel kg</td>
+                      <td>2 un</td>
                     </tr>
                   </tbody>
                 </Table>
@@ -81,29 +81,39 @@ const CeliacoBudinPolenta = (props) => {
                         target="Popover1"
                         toggle={toggle}
                       >
-                        <PopoverHeader>Calorías y Macronutrientes</PopoverHeader>
+                        <PopoverHeader>
+                          Calorías y Macronutrientes
+                        </PopoverHeader>
                         <PopoverBody>
                           <Table borderless>
                             <tbody>
                               <tr>
-                                <th scope="row"><i class="icofont-fire-burn"></i></th>
+                                <th scope="row">
+                                  <i class="icofont-fire-burn"></i>
+                                </th>
                                 <td>Calorías</td>
-                                <td>667</td>
+                                <td>562</td>
                               </tr>
                               <tr>
-                                <th scope="row"><i class="icofont-bread"></i></th>
+                                <th scope="row">
+                                  <i class="icofont-bread"></i>
+                                </th>
                                 <td>Carbohidratos</td>
-                                <td>92.4 grs</td>
+                                <td>104 grs</td>
                               </tr>
                               <tr>
-                                <th scope="row"><i class="icofont-chicken-fry"></i></th>
+                                <th scope="row">
+                                  <i class="icofont-chicken-fry"></i>
+                                </th>
                                 <td>Proteínas</td>
-                                <td>10.4 grs</td>
+                                <td>21.7 grs</td>
                               </tr>
                               <tr>
-                                <th scope="row"><i class="icofont-water-drop"></i></th>
+                                <th scope="row">
+                                  <i class="icofont-water-drop"></i>
+                                </th>
                                 <td>Lípidos</td>
-                                <td>30.7grs</td>
+                                <td>7 grs</td>
                               </tr>
                             </tbody>
                           </Table>
@@ -122,46 +132,52 @@ const CeliacoBudinPolenta = (props) => {
             {" "}
             <br />
             <br />
-            Empezamos precalentando el horno a 160º.
+            Pelar y posteriormente cortar 2 papas en cubitos pequeños e
+            incorporarlas en un pocillo con agua y un poco de sal.
             <br />
             <br />
-            Aromatizamos la leche con pedacitos de cáscara de limón. Ponemos la
-            leche con las cáscaras a fuego medio por unos 10 minutos. Luego
-            colamos y dejamos enfriar.
+            Para darle más sabor al charquicán, se recomienda preparar un caldo
+            de verduras con los ingredientes que tengas en casa. Puede ser con
+            una cebolla, acelga, y especias a gusto. Dejar cocinar las verduras
+            en una olla con agua hirviendo por 10 minutos a 15 minutos.
             <br />
             <br />
-            En un bowl, ponemos los 3 huevos y los batimos a espumoso.
+            En otra olla aparte, calentar un poco de aceite y cocinar ½ cebolla
+            picada en cubitos por 5 minutos a fuego medio. Incorporar las papas
+            y dejar cocer durante 25 minutos.
             <br />
             <br />
-            Luego, incorporamos el azúcar, media taza de aceite, la leche y
-            seguir revolviendo
+            Cortar el tallo de la acelga en pequeños trozos y luego añadirlos a
+            la olla de nuestro sofrito junto con las papas y la cebolla. Picar
+            una hoja de acelga en tiras delgadas y reservar
             <br />
             <br />
-            Agregamos la polenta de a poco sin dejar de batir y al final le
-            añadimos la cucharadita de levadura.
+            Una vez cocinadas las papas, incorporar la primavera de verduras y
+            el caldo a la olla. Agregar las hojas de acelga reservadas
+            anteriormente con un toque de ají de color y revolver la mezcla con
+            un cucharón.
             <br />
             <br />
-            Después, aceitamos una fuente con papel absorbente e incorporar la
-            mezcla. Luego, ponemos la mezcla al horno por 40 minutos a 150ºC.
+            En un sartén, verter un poco de agua hervida y luego incorporar
+            cuidadosamente los huevos para cocerlos al agua.
             <br />
             <br />
-            Luego, sacamos del horno, cortamos y emplatamos. ¡Ahora a disfrutar
-            este rico plato especialmente para celíacos!
+            Una vez listos los huevos, agregar una porción de charquicán sobre
+            los platos y en la superficie añadir el huevo.
           </p>
           <br />
           <p>A continuación puedes ver el video con la preparación </p>
         </section>
-        <section className="videos">
+        <section>
           <iframe
-            /*  width="1090"
-  height="600" 
-*/
-            src="https://www.youtube.com/embed/hQ5O8B0Znms"
+            width="1090"
+            height="600"
+            src="https://www.youtube.com/embed/dlIhyC3nt6o"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-            title="video ñoquis"
-            text-align="center"
+            title="charquican"
+            
           ></iframe>
         </section>
       </Container>
@@ -170,4 +186,4 @@ const CeliacoBudinPolenta = (props) => {
   );
 };
 
-export default CeliacoBudinPolenta;
+export default Charquican;
