@@ -17,7 +17,7 @@
         {
             "titulo": "Recetas sin Lactosa",
             "imagen": "https://i.ibb.co/qdbSYDg/Img-Icon-Intolerante.png",
-            "tipo": "./vegetariano",
+            "tipo": "./intolerante",
             "descripcion": "Disfruta de las esquisitas preparaciones que tenemos disponibles para ti",
             "stock": "2"
         },
