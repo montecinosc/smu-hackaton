@@ -110,6 +110,29 @@ img.logo {
     } 
 }
 
+@media(max-width:1024px) and (orientation: landscape){
+  body{
+    overflow-x: hidden;
+  }
+
+  img.logo {
+    height: 2em;
+    margin-left: 3.5em;
+  }
+
+  .footer-img {
+    vertical-align: middle;
+    border-style: none;
+    height: 18vh;
+    width: 102vw;
+
+    }  
+
+  .col{
+    margin-left: 0;
+    } 
+}
+
 @media screen and (max-width:734px) {
   body{
     overflow-x: hidden;
@@ -177,8 +200,6 @@ img.logo {
     left:0;
      } 
 }
-
-
 
 @media screen and (max-width: 412px) {
   body{
