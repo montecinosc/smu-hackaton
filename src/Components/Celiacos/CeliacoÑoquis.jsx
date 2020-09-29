@@ -15,6 +15,7 @@ import info from "../../Assets/img/Info.png";
 import Menu from "../Principal/Menu";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
+import Caja from "../Principal/Caja";
 
 const CeliacoÑoquis = (props) => {
   const [popoverOpen, setPopoverOpen] = useState(false);
@@ -190,6 +191,7 @@ const CeliacoÑoquis = (props) => {
           ></iframe>
         </section>
       </Container>
+      <Caja lista="ñoquis" />
       <Footer />
     </>
   );

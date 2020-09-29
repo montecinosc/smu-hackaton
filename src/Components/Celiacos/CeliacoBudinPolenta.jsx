@@ -16,6 +16,7 @@ import Menu from "../Principal/Menu";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
 import "../../Style/Celiaco.css";
+import Caja from "../Principal/Caja";
 
 const CeliacoBudinPolenta = (props) => {
   const [popoverOpen, setPopoverOpen] = useState(false);
@@ -185,6 +186,7 @@ const CeliacoBudinPolenta = (props) => {
           ></iframe>
         </section>
       </Container>
+      <Caja lista="polenta" />
       <Footer />
     </>
   );
