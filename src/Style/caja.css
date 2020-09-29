@@ -11,7 +11,7 @@
 .lista {
 
     display: flex;
-    border: 1px solid pink;
+
     flex-direction: column;
 }
 
@@ -22,4 +22,22 @@
 .unibox {
     display: flex;
     flex-direction: column;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    background-color: red !important;
+}
+
+.comprarIngredientes {
+    background-color: grey !important;
+}
+
+.imagenBox {
+    height: 183px;
+}
+
+.contenedorCarusel {}
+
+.textoInicial {
+    font-weight: 800;
 }
