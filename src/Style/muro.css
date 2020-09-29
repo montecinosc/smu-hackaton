@@ -1,7 +1,43 @@
 body{
   background-color: #ffffff;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
-.redfooter{
-  width: 50vw;
+.card {
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  margin-bottom: 1em;
+  margin-left: 5em;
+}
+
+/*media*/
+@media screen and (max-width:1024px) {
+  .card {
+    margin:0em 2em 1em 2em;
+  }
+}
+
+@media(max-width:1024px) and (orientation: landscape){
+  .card {
+    margin:0em 2em 1em 2em;
+  }
+}
+
+@media screen and (max-width: 684px){
+  body{
+    overflow-x: hidden;
+  }
+  .card {
+    margin:0em 0.5em 1em 0.5em;
+  }
+}
+
+@media (max-width: 812px) and (orientation: landscape){
+  .card {
+    margin:0em 1.5em 1em 1.5em;
+  }
+
 }

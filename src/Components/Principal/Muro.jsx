@@ -15,6 +15,7 @@ import Carrusel from './Carrusel';
 import MenuPrincipal from './Menu';
 import Footer from './Footer';
 import BarraBusqueda from "./BarraBusqueda";
+import '../../Style/muro.css'
 
 
 const Muro = () => {
@@ -23,7 +24,7 @@ const Muro = () => {
             <MenuPrincipal />
             <Carrusel />
             <BarraBusqueda />
-            <Row sm='3'>
+            <Row sm='4'>
                 {muro.map((element, i) => {
                     return (
                         <Card>
