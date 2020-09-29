@@ -1,6 +1,6 @@
 import React from 'react'
 import { veganos } from '../../Json/veganos.json'
-import { Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Row, Button } from 'reactstrap'
+import { Col, Card, CardImg, Row, Button } from 'reactstrap'
 import {
     BrowserRouter as Router,
     Link

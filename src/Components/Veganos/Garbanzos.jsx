@@ -15,6 +15,7 @@ import info from "../../Assets/img/Info.png";
 import Menu from "../Principal/Menu";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
+import Caja from "../Principal/Caja";
 
 const Garbanzos = () => {
   const [popoverOpen, setPopoverOpen] = useState(false);
