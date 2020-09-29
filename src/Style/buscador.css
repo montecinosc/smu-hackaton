@@ -1,0 +1,154 @@
+form{
+  background: rgb(218,41,29);
+  background: linear-gradient(270deg, rgba(218,41,29,1) 36%, rgba(226,128,75,1) 100%);
+}
+
+.btn{
+  color:#ffff;
+  padding: 10px 50px 10px 50px;
+  margin-right: 6em;
+  box-shadow: 3px 3px 5px -1px rgb(41, 41, 41);
+  border: hidden;
+}
+
+.btn:hover{
+  background-color: #da291d;
+}
+
+.btn:active {
+  background-color: #af1b10;
+  transform: translateY(4px);
+}
+
+.form-inline .form-control {
+  display: inline-block;
+  width: 60em;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
+.form-inline {
+  height: 4em;
+}
+
+input{
+  font-family: icofont, Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 50em;
+}
+
+.form-control {
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ffffff;
+}
+
+/*media*/
+@media screen and (max-width:768px) {
+
+}
+
+
+@media screen and (max-width:1024px) {
+  .btn{
+    color:#ffff;
+    padding: 5px 20px 5px 20px;
+    margin-right: 1em;
+    box-shadow: 3px 3px 5px -1px rgb(41, 41, 41);
+  }
+
+  .form-inline .form-control {
+    width: 40em;
+    height: 1.8em;
+    vertical-align: middle;
+  }
+
+  input{
+    margin-right: 0em;
+    margin-right: 0.5em;
+  }
+
+}
+
+@media(max-width:1024px) and (orientation: landscape){
+  .btn{
+    color:#ffff;
+    padding: 5px 20px 5px 20px;
+    margin-right: 3.5em;
+    box-shadow: 3px 3px 5px -1px rgb(41, 41, 41);
+  }
+
+  .form-inline .form-control {
+    width: 40.5em;
+    height: 1.8em;
+    vertical-align: middle;
+  }
+
+  input{
+    margin-right: 0em;
+    margin-right: 0.5em;
+  }
+}
+
+@media screen and (max-width:734px) {
+
+}
+
+@media (max-width:736px) and (orientation: landscape){
+
+}
+
+@media screen and (max-width: 425px) {
+
+}
+
+@media screen and (max-width: 412px) {
+
+}
+
+@media screen and (max-width: 684px){
+  .btn{
+    color:#ffff;
+    padding: 5px 20px 5px 20px;
+    margin-right: 0.5em;
+    box-shadow: 3px 3px 5px -1px rgb(41, 41, 41);
+  }
+
+  .form-inline .form-control {
+    width: 16em;
+    height: 1.8em;
+    vertical-align: middle;
+  }
+
+  input{
+    margin-right: 0em;
+    margin-right: 0.5em;
+  }
+}
+
+@media (max-width: 684px) and (orientation: landscape){
+
+
+}
+
+@media (max-width: 812px) and (orientation: landscape){
+  .btn{
+    color:#ffff;
+    padding: 5px 20px 5px 20px;
+    margin-right: 1.8em;
+    box-shadow: 3px 3px 5px -1px rgb(41, 41, 41);
+  }
+
+  .form-inline .form-control {
+    width:26.5em;
+    height: 1.8em;
+    vertical-align: middle;
+  }
+
+  input{
+    margin-right: 0em;
+    margin-right: 0.5em;
+  }
+
+}
