@@ -3,7 +3,7 @@
   src: local('Clarendon'),
     local('Clarendon Regular'),
     local('Clarendon-Regular'),
-    url(../fonts/clarendon-regular.ttf) ;
+    url(../fonts/clarendon-regular.ttf);
 }
 
 .row {
@@ -21,8 +21,15 @@ a:hover {
   background-color: #ffffff!important;
 }
 
-.logo {
-    height: 50px;
+.navbar-expand-lg .navbar-nav {
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-left: 29.4em;
+}
+
+img.logo {
+  height: 3em;
+  margin-left: 3.1em;
 }
 
 .nav-item{

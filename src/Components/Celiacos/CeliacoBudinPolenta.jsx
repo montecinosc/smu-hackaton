@@ -28,7 +28,7 @@ const CeliacoBudinPolenta = (props) => {
       <Carrusel />
       <Container>
         <h3 className="text-center">Budín de Polenta</h3>
-        <div class="card mb-3">
+        <div className="card mb-3">
           <div className="row no-gutters">
             <div className="col-md-4">
               <img src={polenta} className="card-img" alt="..." />
@@ -105,28 +105,28 @@ const CeliacoBudinPolenta = (props) => {
                             <tbody>
                               <tr>
                                 <th scope="row">
-                                  <i class="icofont-fire-burn"></i>
+                                  <i className="icofont-fire-burn"></i>
                                 </th>
                                 <td>Calorías</td>
                                 <td>667</td>
                               </tr>
                               <tr>
                                 <th scope="row">
-                                  <i class="icofont-bread"></i>
+                                  <i className="icofont-bread"></i>
                                 </th>
                                 <td>Carbohidratos</td>
                                 <td>92.4 grs</td>
                               </tr>
                               <tr>
                                 <th scope="row">
-                                  <i class="icofont-chicken-fry"></i>
+                                  <i className="icofont-chicken-fry"></i>
                                 </th>
                                 <td>Proteínas</td>
                                 <td>10.4 grs</td>
                               </tr>
                               <tr>
                                 <th scope="row">
-                                  <i class="icofont-water-drop"></i>
+                                  <i className="icofont-water-drop"></i>
                                 </th>
                                 <td>Lípidos</td>
                                 <td>30.7grs</td>
@@ -178,9 +178,9 @@ const CeliacoBudinPolenta = (props) => {
         <section className="videos">
           <iframe
             src="https://www.youtube.com/embed/hQ5O8B0Znms"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
             title="video ñoquis"
             text-align="center"
           ></iframe>
