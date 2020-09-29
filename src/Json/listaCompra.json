@@ -1,0 +1,32 @@
+{
+    "polenta": [{
+            "ingrediente": "Azúcar grado 2 Unimarc 1 kg"
+        },
+        {
+            "ingrediente": "Huevo grande blanco Unimarc"
+
+        },
+        {
+            "ingrediente": "Limón Granel unidad"
+        },
+        {
+            "ingrediente": "Polenta Carozzi"
+        }
+
+
+    ],
+    "ñoquis": [{
+            "ingrediente": "Harina de arroz Tucapel"
+        },
+        {
+            "ingrediente": "Coliflor envasada"
+
+        },
+        {
+            "ingrediente": "Espinaca Bolsa"
+        },
+        {
+            "ingrediente": "Aceite de Oliva"
+        }
+    ]
+}

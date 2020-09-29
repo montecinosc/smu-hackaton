@@ -1,0 +1,25 @@
+.contenedorCaja {
+
+    display: flex;
+
+}
+
+.d-block {
+    height: 264px !important;
+}
+
+.lista {
+
+    display: flex;
+    border: 1px solid pink;
+    flex-direction: column;
+}
+
+.nombreLista {
+    display: flex;
+}
+
+.unibox {
+    display: flex;
+    flex-direction: column;
+}
