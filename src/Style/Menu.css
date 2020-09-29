@@ -1,9 +1,9 @@
 @font-face {
-  font-family: 'Clarendon-Regular';
+  font-family: Clarendon-Regular;
   src: local('Clarendon'),
     local('Clarendon Regular'),
     local('Clarendon-Regular'),
-    url(../fonts/clarendon-regular.ttf) format('ttf');
+    url(../fonts/clarendon-regular.ttf) ;
 }
 
 .row {
