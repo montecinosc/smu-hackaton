@@ -63,7 +63,7 @@ const Charquican = (props) => {
                     </tr>
                     <tr>
                       <td>Sal</td>
-                      <td>a Gusto</td>
+                      <td>A Gusto</td>
                     </tr>
                   </tbody>
                 </Table>
