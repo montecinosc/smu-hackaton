@@ -38,10 +38,10 @@ const Caja = (props) => {
     const listaNombre = props.lista;
     return (
         <Fragment >
-            <h1> ¿Necesitas estos materiales para cocinar?</h1>
+            <h4> ¿Necesitas estos materiales para cocinar?</h4>
             <div className="contenedorCaja">
                 <div className="unibox">
-                    <img src="https://i.ibb.co/NFfPcwW/Uni-Box-Img.png" />
+                    <img class ="unibox-img"src="https://i.ibb.co/NFfPcwW/Uni-Box-Img.png" />
                     <Button onClick={unicaja}> Pedir Unicaja</Button>
                 </div>
                 <div className="lista">
@@ -113,6 +113,10 @@ const Caja = (props) => {
                     </MDBCarousel>
                 </MDBContainer>
             </div>
+           <br/>
+           <br/>
+           <br/>
+
 
         </Fragment >
     )

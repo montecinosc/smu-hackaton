@@ -145,7 +145,6 @@ const CeliacoBudinPolenta = (props) => {
         <section>
           <h4> Preparación</h4>
           <p className="text-sm-left ">
-            <br />
             Empezamos precalentando el horno a 160º.
             <br />
             <br />

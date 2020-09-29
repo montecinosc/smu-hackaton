@@ -1,57 +1,41 @@
+.d-block {
+  height: 264px !important;
+}
 @media screen and (max-width:768px) {
-  .carousel-item {
-    float: left;
-    width: 100%;
-    height:50%;
-    margin-right: -100%;
-  }
+  .d-block {
+    height: 150px;
+}
 }
 
-
 @media screen and (max-width:1024px) {
-  .carousel-item {
-    float: left;
-    width: 100%;
-    height:50%;
-    margin-right: -100%;
-  }
+  .d-block {
+    height: 150px;
+}
 }
 
 @media screen and (max-width: 684px){
-  .carousel-item {
-    float: left;
-    width: 100%;
-    height:50%;
-    margin-right: -100%;
-  }
+  .d-block {
+    height: 250px;
+}
 }
 
 
 @media screen and (max-width:734px) {
-  .carousel-item {
-    float: left;
-    width: 100%;
-    height:50%;
-    margin-right: -100%;
-  }
+  .d-block {
+    height: 150px;
+}
 }
 
 @media screen and (max-width: 425px) {
-  .carousel-item {
-    float: left;
-    width: 100%;
-    height:50%;
-    margin-right: -100%;
-  }
+  .d-block {
+    height: 150px;
+}
 }
 
 @media screen and (max-width: 412px) {
-  .carousel-item {
-    float: left;
-    width: 100%;
-    height:50%;
-    margin-right: -100%;
-  }
+  .d-block {
+    height: 150px;
+}
 }
 
 

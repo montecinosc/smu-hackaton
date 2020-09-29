@@ -1,6 +1,6 @@
 .contenedorCaja {
-
     display: flex;
+    margin-left: 8em;
 
 }
 
@@ -9,7 +9,6 @@
 }
 
 .lista {
-
     display: flex;
     border: 1px solid pink;
     flex-direction: column;
@@ -22,4 +21,9 @@
 .unibox {
     display: flex;
     flex-direction: column;
+}
+
+.unibox-img{
+    width:30em;
+    margin-bottom:2em;
 }
