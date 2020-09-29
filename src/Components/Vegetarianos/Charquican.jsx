@@ -3,7 +3,6 @@ import {
   Container,
   Table,
   Row,
-  Button,
   Popover,
   PopoverHeader,
   PopoverBody,
@@ -11,7 +10,7 @@ import {
 import charquican from "../../Assets/img/charquican.png";
 import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
-import libreGluten from "../../Assets/img/GlutenFree.png";
+import vegetariano from "../../Assets/img/vegetariano.png";
 import info from "../../Assets/img/Info.png";
 import Menu from "../Principal/Menu";
 import Carrusel from "../Principal/Carrusel";
@@ -36,44 +35,59 @@ const Charquican = (props) => {
             <div className="col-md-8">
               <div className="card-body">
                 <h5 className="card-title">Ingredientes</h5>
-                <Table hover>
+                <Table borderless>
                   <tbody>
                     <tr>
                       <td>Ensalada primavera Frutos del Maipo</td>
-                      <td>500 gr</td>
+                      <td>500 gr.</td>
                     </tr>
                     <tr>
                       <td>Acelga Bolsa</td>
-                      <td>500 grs</td>
+                      <td>500 gr.</td>
                     </tr>
                     <tr>
                       <td>Huevo Blanco granel Unimarc</td>
-                      <td>4 un</td>
+                      <td>4 un.</td>
                     </tr>
                     <tr>
                       <td>Papa granel kg</td>
-                      <td>2 un</td>
+                      <td>2 un.</td>
+                    </tr>
+                    <tr>
+                      <td>Ají de color</td>
+                      <td>A Gusto</td>
+                    </tr>
+                    <tr>
+                      <td>Cebolla</td>
+                      <td>1/2 un.</td>
+                    </tr>
+                    <tr>
+                      <td>Sal</td>
+                      <td>a Gusto</td>
                     </tr>
                   </tbody>
                 </Table>
                 <div>
                   <Row>
                     <div>
-                      <img src={reloj} alt="reloj" /> <span>50 min</span>
+                      <img src={reloj} alt="reloj" /> <span>35 min</span>
                     </div>
                     <div>
                       <img src={tenedor} alt="tenedor" />{" "}
                       <span> 4 porciones </span>
                     </div>
                     <div>
-                      <img src={libreGluten} alt="libreGluten" />
-                      <span> Libre de gluten </span>
+                      <img src={vegetariano} alt="vegetariano" />
+                      <span> Vegetariano </span>
                     </div>
                     <div>
-                      <Button id="Popover1" type="button" color="white">
-                        <img src={info} alt="información nutricional" />
-                      </Button>
-                      <span>información Nutricional</span>
+                      <img
+                        style={{ cursor: "pointer" }}
+                        id="Popover1"
+                        src={info}
+                        alt="información nutricional"
+                      />
+                      <span>Información Nutricional</span>
 
                       <Popover
                         placement="bottom"
@@ -92,28 +106,28 @@ const Charquican = (props) => {
                                   <i class="icofont-fire-burn"></i>
                                 </th>
                                 <td>Calorías</td>
-                                <td>562</td>
+                                <td>308</td>
                               </tr>
                               <tr>
                                 <th scope="row">
                                   <i class="icofont-bread"></i>
                                 </th>
                                 <td>Carbohidratos</td>
-                                <td>104 grs</td>
+                                <td>50.7 grs</td>
                               </tr>
                               <tr>
                                 <th scope="row">
                                   <i class="icofont-chicken-fry"></i>
                                 </th>
                                 <td>Proteínas</td>
-                                <td>21.7 grs</td>
+                                <td>14 grs</td>
                               </tr>
                               <tr>
                                 <th scope="row">
                                   <i class="icofont-water-drop"></i>
                                 </th>
                                 <td>Lípidos</td>
-                                <td>7 grs</td>
+                                <td>6 grs</td>
                               </tr>
                             </tbody>
                           </Table>
@@ -127,10 +141,8 @@ const Charquican = (props) => {
           </div>
         </div>
         <section>
-          <h4> Preparacion</h4>
+          <h4> Preparación</h4>
           <p className="text-sm-left ">
-            {" "}
-            <br />
             <br />
             Pelar y posteriormente cortar 2 papas en cubitos pequeños e
             incorporarlas en un pocillo con agua y un poco de sal.
@@ -149,7 +161,7 @@ const Charquican = (props) => {
             <br />
             Cortar el tallo de la acelga en pequeños trozos y luego añadirlos a
             la olla de nuestro sofrito junto con las papas y la cebolla. Picar
-            una hoja de acelga en tiras delgadas y reservar
+            una hoja de acelga en tiras delgadas y reservarla.
             <br />
             <br />
             Una vez cocinadas las papas, incorporar la primavera de verduras y
@@ -170,14 +182,11 @@ const Charquican = (props) => {
         </section>
         <section>
           <iframe
-            width="1090"
-            height="600"
             src="https://www.youtube.com/embed/dlIhyC3nt6o"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
             title="charquican"
-            
           ></iframe>
         </section>
       </Container>

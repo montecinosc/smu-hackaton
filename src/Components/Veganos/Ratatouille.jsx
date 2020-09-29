@@ -1,26 +1,30 @@
-import React,{ useState }from "react";
-import { Container, Table, Row,  
+import React, { useState } from "react";
+import {
+  Container,
+  Table,
+  Row,
   Button,
   Popover,
   PopoverHeader,
-  PopoverBody, } from "reactstrap";
+  PopoverBody,
+} from "reactstrap";
 import ratatouille from "../../Assets/img/ratatouille.png";
 import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
-import libreGluten from "../../Assets/img/GlutenFree.png";
+import vegano from "../../Assets/img/vegano.png";
 import info from "../../Assets/img/Info.png";
-import Menu from "../Principal/Menu"
+import Menu from "../Principal/Menu";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
 
 const Ratatouille = () => {
   const [popoverOpen, setPopoverOpen] = useState(false);
 
-  const toggle = () => setPopoverOpen(!popoverOpen)
+  const toggle = () => setPopoverOpen(!popoverOpen);
   return (
     <>
-    <Menu />
-    <Carrusel />
+      <Menu />
+      <Carrusel />
       <Container>
         <h3 className="text-center">Ratatouille Verduras Guisadas</h3>
         <div class="card mb-3">
@@ -31,27 +35,35 @@ const Ratatouille = () => {
             <div className="col-md-8">
               <div className="card-body">
                 <h5 className="card-title">Ingredientes</h5>
-                <Table hover>
+                <Table borderless>
                   <tbody>
                     <tr>
                       <td>Mix de pimentones Frutos del Maipo</td>
-                      <td>150 g</td>
+                      <td>150 gr</td>
                     </tr>
                     <tr>
                       <td>Salsa natural Unimarc B</td>
-                      <td>200 g.</td>
+                      <td>200 gr.</td>
                     </tr>
                     <tr>
                       <td>Zapallo Italiano</td>
-                      <td>1 un</td>
+                      <td>1 un.</td>
                     </tr>
                     <tr>
                       <td>Tomate Primera</td>
-                      <td>Granel kg.</td>
+                      <td>2 un.</td>
                     </tr>
                     <tr>
                       <td>Berenjena</td>
-                      <td>Granel unidad.</td>
+                      <td>1 un.</td>
+                    </tr>
+                    <tr>
+                      <td>Ajo</td>
+                      <td>1 diente</td>
+                    </tr>
+                    <tr>
+                      <td>Aceite,Orégano,sal</td>
+                      <td>A Gusto</td>
                     </tr>
                   </tbody>
                 </Table>
@@ -65,14 +77,17 @@ const Ratatouille = () => {
                       <span> 4 porciones </span>
                     </div>
                     <div>
-                      <img src={libreGluten} alt="libreGluten" />
-                      <span> Libre de gluten </span>
+                      <img src={vegano} alt="vegano" />
+                      <span>Vegano </span>
                     </div>
                     <div>
-                    <Button id="Popover1" type="button" color="white">
-                        <img src={info} alt="información nutricional" />
-                      </Button>
-                      <span>información Nutricional</span>
+                    <img
+                        style={{ cursor: "pointer" }}
+                        id="Popover1"
+                        src={info}
+                        alt="información nutricional"
+                      />
+                      <span>Información Nutricional</span>
 
                       <Popover
                         placement="bottom"
@@ -87,22 +102,22 @@ const Ratatouille = () => {
                               <tr>
                                 <th scope="row">1</th>
                                 <td>Calorias</td>
-                                <td>545</td>
+                                <td>106</td>
                               </tr>
                               <tr>
                                 <th scope="row">2</th>
                                 <td>CarboHidratos</td>
-                                <td>106 grs</td>
+                                <td>18 grs</td>
                               </tr>
                               <tr>
                                 <th scope="row">3</th>
                                 <td>Proteinas</td>
-                                <td>21 grs</td>
+                                <td>4 grs</td>
                               </tr>
                               <tr>
                                 <th scope="row">3</th>
                                 <td>Lipidos</td>
-                                <td>4.5grs</td>
+                                <td>3.6 grs</td>
                               </tr>
                             </tbody>
                           </Table>
@@ -116,10 +131,8 @@ const Ratatouille = () => {
           </div>
         </div>
         <section>
-          <h4> Preparacion</h4>
+          <h4> Preparación</h4>
           <p className="text-sm-left ">
-            {" "}
-            <br />
             <br />
             Partimos cortando en láminas delgadas 1 berenjena, 2 zapallos
             italianos y 2 tomates. Luego sobre una asadera ordenarlas
@@ -138,15 +151,13 @@ const Ratatouille = () => {
             <br />
             <br />
             Retirar las verduras guisadas del horno y servirlas en cada uno de
-            los platoso
+            los platos.
           </p>
           <br />
           <p>A continuación puedes ver el video con la preparación </p>
         </section>
         <section>
           <iframe
-            width="1090"
-            height="600"
             src="https://www.youtube.com/embed/6SNYzrbjICs"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

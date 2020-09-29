@@ -1,9 +1,12 @@
-import React,{ useState }from "react";
-import { Container, Table, Row,  
-  Button,
+import React, { useState } from "react";
+import {
+  Container,
+  Table,
+  Row,
   Popover,
   PopoverHeader,
-  PopoverBody, } from "reactstrap";
+  PopoverBody,
+} from "reactstrap";
 import ñoquis from "../../Assets/img/ñoquisdecoliflor.png";
 import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
@@ -14,14 +17,13 @@ import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
 
 const CeliacoÑoquis = (props) => {
-
   const [popoverOpen, setPopoverOpen] = useState(false);
 
   const toggle = () => setPopoverOpen(!popoverOpen);
 
   return (
     <>
-    <Menu />
+      <Menu />
       <Carrusel />
       <Container>
         <h3 className="text-center">Ñoquis de Coliflor</h3>
@@ -41,15 +43,23 @@ const CeliacoÑoquis = (props) => {
                     </tr>
                     <tr>
                       <td>Coliflor envasada</td>
-                      <td>unidad</td>
+                      <td>1 un.</td>
                     </tr>
                     <tr>
                       <td>Espinaca Bolsa</td>
-                      <td>500 gr</td>
+                      <td>500 gr.</td>
                     </tr>
                     <tr>
                       <td>Queso rallado parmesano Colun</td>
-                      <td>40 gr</td>
+                      <td>40 gr.</td>
+                    </tr>
+                    <tr>
+                      <td>Aceite de Oliva</td>
+                      <td>a Gusto</td>
+                    </tr>
+                    <tr>
+                      <td>Huevo</td>
+                      <td>1 un.</td>
                     </tr>
                   </tbody>
                 </Table>
@@ -67,10 +77,14 @@ const CeliacoÑoquis = (props) => {
                       <span> Libre de gluten </span>
                     </div>
                     <div>
-                    <Button id="Popover1" type="button" color="white">
-                        <img src={info} alt="información nutricional" />
-                      </Button>
-                      <span>información Nutricional</span>
+                      <img
+                        style={{ cursor: "pointer" }}
+                        id="Popover1"
+                        src={info}
+                        alt="información nutricional"
+                      />
+
+                      <span>Información Nutricional</span>
 
                       <Popover
                         placement="bottom"
@@ -78,27 +92,37 @@ const CeliacoÑoquis = (props) => {
                         target="Popover1"
                         toggle={toggle}
                       >
-                        <PopoverHeader>Calorías y Macronutrientes</PopoverHeader>
+                        <PopoverHeader>
+                          Calorías y Macronutrientes
+                        </PopoverHeader>
                         <PopoverBody>
                           <Table borderless>
                             <tbody>
                               <tr>
-                                <th scope="row"><i class="icofont-fire-burn"></i></th>
+                                <th scope="row">
+                                  <i class="icofont-fire-burn"></i>
+                                </th>
                                 <td>Calorías</td>
                                 <td>562</td>
                               </tr>
                               <tr>
-                                <th scope="row"><i class="icofont-bread"></i></th>
+                                <th scope="row">
+                                  <i class="icofont-bread"></i>
+                                </th>
                                 <td>Carbohidratos</td>
                                 <td>104 grs</td>
                               </tr>
                               <tr>
-                                <th scope="row"><i class="icofont-chicken-fry"></i></th>
+                                <th scope="row">
+                                  <i class="icofont-chicken-fry"></i>
+                                </th>
                                 <td>Proteínas</td>
                                 <td>21.7 grs</td>
                               </tr>
                               <tr>
-                                <th scope="row"><i class="icofont-water-drop"></i></th>
+                                <th scope="row">
+                                  <i class="icofont-water-drop"></i>
+                                </th>
                                 <td>Lípidos</td>
                                 <td>7 grs</td>
                               </tr>
@@ -114,10 +138,8 @@ const CeliacoÑoquis = (props) => {
           </div>
         </div>
         <section>
-          <h4> Preparacion</h4>
+          <h4> Preparación</h4>
           <p className="text-sm-left ">
-            {" "}
-            <br />
             <br />
             Comenzamos rallando la coliflor cruda y luego la cocinamos por 3
             minutos en agua hervida y añadimos una pizca de sal. Una vez cocida,
@@ -160,13 +182,11 @@ const CeliacoÑoquis = (props) => {
         </section>
         <section>
           <iframe
-            width="1090"
-            height="600"
             src="https://www.youtube.com/embed/8Fg1mDHN4w4"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-            title='video ñoquis'
+            title="video ñoquis"
           ></iframe>
         </section>
       </Container>

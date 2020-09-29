@@ -3,7 +3,6 @@ import {
   Container,
   Table,
   Row,
-  Button,
   Popover,
   PopoverHeader,
   PopoverBody,
@@ -11,7 +10,7 @@ import {
 import sopaipillasPasadas from "../../Assets/img/sopaipillasPasadas.png";
 import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
-import libreGluten from "../../Assets/img/GlutenFree.png";
+import sinLactosa from "../../Assets/img/Intolerante.png";
 import info from "../../Assets/img/Info.png";
 import Menu from "../Principal/Menu";
 import Carrusel from "../Principal/Carrusel";
@@ -36,23 +35,23 @@ const SopaipillasPasadas = (props) => {
             <div className="col-md-8">
               <div className="card-body">
                 <h5 className="card-title">Ingredientes</h5>
-                <Table hover>
+                <Table borderless>
                   <tbody>
                     <tr>
                       <td>Zapallo cubo congelado Frutos del Maipo</td>
-                      <td>400 gr</td>
+                      <td>400 gr.</td>
                     </tr>
                     <tr>
                       <td>Harina sin polvos de hornear</td>
-                      <td>400 gr</td>
+                      <td>400 gr.</td>
                     </tr>
                     <tr>
                       <td>Manteca</td>
-                      <td>20 gr</td>
+                      <td>20 gr.</td>
                     </tr>
                     <tr>
                       <td>Chancaca</td>
-                      <td>150 gr</td>
+                      <td>150 gr.</td>
                     </tr>
                     <tr>
                       <td>Polvos de Hornear</td>
@@ -86,14 +85,17 @@ const SopaipillasPasadas = (props) => {
                       <span> 4 porciones </span>
                     </div>
                     <div>
-                      <img src={libreGluten} alt="libreGluten" />
-                      <span> Libre de gluten </span>
+                      <img src={sinLactosa} alt="sin lactosa" />
+                      <span> Sin Lactosa </span>
                     </div>
                     <div>
-                      <Button id="Popover1" type="button" color="white">
-                        <img src={info} alt="información nutricional" />
-                      </Button>
-                      <span>información Nutricional</span>
+                      <img
+                        style={{ cursor: "pointer" }}
+                        id="Popover1"
+                        src={info}
+                        alt="información nutricional"
+                      />
+                      <span>Información Nutricional</span>
 
                       <Popover
                         placement="bottom"
@@ -112,28 +114,28 @@ const SopaipillasPasadas = (props) => {
                                   <i class="icofont-fire-burn"></i>
                                 </th>
                                 <td>Calorías</td>
-                                <td>562</td>
+                                <td>577</td>
                               </tr>
                               <tr>
                                 <th scope="row">
                                   <i class="icofont-bread"></i>
                                 </th>
                                 <td>Carbohidratos</td>
-                                <td>104 grs</td>
+                                <td>115 grs</td>
                               </tr>
                               <tr>
                                 <th scope="row">
                                   <i class="icofont-chicken-fry"></i>
                                 </th>
                                 <td>Proteínas</td>
-                                <td>21.7 grs</td>
+                                <td>11.88 grs</td>
                               </tr>
                               <tr>
                                 <th scope="row">
                                   <i class="icofont-water-drop"></i>
                                 </th>
                                 <td>Lípidos</td>
-                                <td>7 grs</td>
+                                <td>6.1 grs</td>
                               </tr>
                             </tbody>
                           </Table>
@@ -149,8 +151,6 @@ const SopaipillasPasadas = (props) => {
         <section>
           <h4> Preparacion</h4>
           <p className="text-sm-left ">
-            {" "}
-            <br />
             <br />
             Remover la corteza del zapallo y cortarlo en cubos pequeños. Dejar
             cocer por ocho minutos en una olla con agua hirviendo.
@@ -177,6 +177,10 @@ const SopaipillasPasadas = (props) => {
             tenedor, para que la masa respire.
             <br />
             <br />
+            Luego en un sartén agregar aceite y temperar para freír las
+            sopaipillas.
+            <br />
+            <br />
             Cuando las sopaipillas estén fritas y la chancaca esté viscosa,
             introducir las sopaipillas en la olla con chancaca para remojarlas.
             <br />
@@ -193,8 +197,6 @@ const SopaipillasPasadas = (props) => {
         </section>
         <section>
           <iframe
-            width="1090"
-            height="600"
             src="https://www.youtube.com/embed/MXBVni4nAqc"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
