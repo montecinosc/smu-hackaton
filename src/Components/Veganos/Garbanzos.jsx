@@ -1,9 +1,11 @@
-import React,{ useState }from "react";
-import { Container, Table, Row,  
+import React, { useState } from "react";
+import {
+  Container, Table, Row,
   Button,
   Popover,
   PopoverHeader,
-  PopoverBody, } from "reactstrap";
+  PopoverBody,
+} from "reactstrap";
 import garbanzos from "../../Assets/img/garbanzos.png";
 import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
@@ -12,6 +14,7 @@ import info from "../../Assets/img/Info.png";
 import Menu from "../Principal/Menu"
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
+import Caja from "../Principal/Caja";
 
 const Garbanzos = () => {
 
@@ -20,8 +23,8 @@ const Garbanzos = () => {
   const toggle = () => setPopoverOpen(!popoverOpen);
   return (
     <>
-    <Menu />
-    <Carrusel />
+      <Menu />
+      <Carrusel />
       <Container>
         <h3 className="text-center">Garbanzos con Curry de Espinacas</h3>
         <div class="card mb-3">
@@ -78,7 +81,7 @@ const Garbanzos = () => {
                       <span> Libre de gluten </span>
                     </div>
                     <div>
-                    <Button id="Popover1" type="button" color="white">
+                      <Button id="Popover1" type="button" color="white">
                         <img src={info} alt="información nutricional" />
                       </Button>
                       <span>información Nutricional</span>
