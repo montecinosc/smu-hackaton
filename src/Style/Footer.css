@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Clarendon-Regular';
+  font-family: Clarendon-Regular;
   src: local('Clarendon'),
     local('Clarendon Regular'),
     local('Clarendon-Regular'),
@@ -27,7 +27,7 @@ li {
   font-family: Apex Sans Book;
 }
 
-.col {
+.col-sm-4 {
   font-family: Clarendon-Regular;
 }
 
