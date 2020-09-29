@@ -3,7 +3,7 @@
   src: local('Clarendon'),
     local('Clarendon Regular'),
     local('Clarendon-Regular'),
-    url(../fonts/clarendon-regular.ttf) format('ttf');
+    url(../fonts/clarendon-regular.ttf);
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   src: local('Apex-Sans-Book'),
     local('Apex Sans Book'),
     local('ApexSansBook'),
-    url(../fonts/ApexSansBook.ttf) format('ttf');
+    url(../fonts/ApexSansBook.ttf);
 }
 
 body {
