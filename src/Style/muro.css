@@ -13,21 +13,11 @@ body{
   font-family: 'Apex Sans Book';
 }
 
-.row{
-  margin-left: 3.3em;
-
+.tipo-dieta{
+  font-weight: bold;
 }
 
-.card {
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0,0,0,.125);
-  border-radius: .25rem;
-  margin-right:5em;
-  margin-bottom: 4em;
-}
-
-/*media*/
+/* media
 @media screen and (max-width:1024px) {
   .card {
     margin:0em 2em 1em 2em;
@@ -54,4 +44,4 @@ body{
     margin:0em 1.5em 1em 1.5em;
   }
 
-}
+} */

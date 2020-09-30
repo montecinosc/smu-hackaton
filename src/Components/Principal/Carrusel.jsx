@@ -14,11 +14,11 @@ const Carrusel = () => {
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
       <div className="carousel-inner">
-        <div className="carousel-item active">
+        <div className="carousel-item active ">
           <img src={banner3} className="d-block w-100" alt="banner3" />
         </div>
-        <div className="carousel-item">
-          <img src={banner2} className="d-block w-100" alt="banner2" />
+        <div className="carousel-item ">
+          <img src={banner2} className="d-block w-100 " alt="banner2" />
         </div>
         <div className="carousel-item">
           <img src={banner1} className="d-block w-100" alt="banner1" />

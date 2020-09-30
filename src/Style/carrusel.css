@@ -2,40 +2,43 @@
   height: 264px !important;
 }
 @media screen and (max-width:768px) {
-  .d-block {
+  .carrusel-mov {
     height: 150px;
 }
 }
 
 @media screen and (max-width:1024px) {
-  .d-block {
+  .carrusel-mov {
     height: 150px;
 }
 }
 
 @media screen and (max-width: 684px){
-  .d-block {
+  .carrusel-mov{
     height: 250px;
 }
 }
 
 
 @media screen and (max-width:734px) {
-  .d-block {
+  .carrusel-mov{
     height: 150px;
 }
 }
 
 @media screen and (max-width: 425px) {
-  .d-block {
+  .carrusel-mov {
     height: 150px;
 }
 }
 
 @media screen and (max-width: 412px) {
-  .d-block {
-    height: 150px;
+  .carrusel-mov{
+    height: 130em;
+    width:24em;
 }
+
+
 }
 
 
