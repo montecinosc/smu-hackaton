@@ -11,7 +11,7 @@ const MenuPrincipal = () => {
     <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
       <a className="navbar-brand" href="#"></a>
       <img className="logo"src={booklogo} alt="logo"/>
-      <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+      <ul className="navbar-nav mr-auto mt-2 mt-lg-0 m-0">
         <li className="nav-item active">
           <a className="nav-link" href="https://www.unimarc.cl/">HOME <span className="sr-only">(current)</span></a>
         </li>
