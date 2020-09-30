@@ -8,6 +8,7 @@ import {
   PopoverBody,
 } from "reactstrap";
 import charquican from "../../Assets/img/charquican.png";
+import polenta from "../../Assets/img/ratatouille.png"
 import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import vegetariano from "../../Assets/img/vegetariano.png";
@@ -15,27 +16,87 @@ import info from "../../Assets/img/Info.png";
 import Menu from "../Principal/Menu";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
+import Puntuacion from "../Puntuacion";
+import compartir from "../../Assets/img/Share.png";
+import BarraBusqueda from "../Principal/BarraBusqueda";
+import {
+  FacebookShareButton,
+  WhatsappShareButton,
+  TwitterShareButton,
+  FacebookIcon,
+  TwitterIcon,
+  WhatsappIcon,
+} from "react-share";
 
 const Charquican = (props) => {
   const [popoverOpen, setPopoverOpen] = useState(false);
-
+  const [popoverOpen2, setPopoverOpen2] = useState(false);
   const toggle = () => setPopoverOpen(!popoverOpen);
+  const toggle2 = () => setPopoverOpen2(!popoverOpen2);
+
+  const shareUrl = "https://4luquitas.netlify.app/";
+  const title = "GitHub";
 
   return (
     <>
       <Menu />
       <Carrusel />
+      <BarraBusqueda />
       <Container>
-        <h3 className="text-center">Charquican Vegetariano</h3>
-        <div class="card mb-3">
+        <h3 className="mt-3 text-center">Charquican Vegetariano</h3>
+        <div class="mt-3 card mb-3">
           <div className="row no-gutters">
             <div className="col-md-4">
               <img src={charquican} className="card-img" alt="..." />
             </div>
             <div className="col-md-8">
+            <div className=" d-flex flex-row  justify-content-around">
+                <h5 className="card-title ">Ingredientes</h5>
+                
+                <Puntuacion />
+
+                <img
+                  style={{ cursor: "pointer" }}
+                  id="Popover2"
+                  src={compartir}
+                  alt=".."
+                />
+
+                <Popover
+                  placement="bottom"
+                  isOpen={popoverOpen2}
+                  target="Popover2"
+                  toggle={toggle2}
+                >
+                  <PopoverHeader> Comparte en :</PopoverHeader>
+                  <PopoverBody>
+                    <FacebookShareButton
+                      url={shareUrl}
+                      quote={title}
+                      className="Demo__some-network__share-button"
+                    >
+                      <FacebookIcon size={32} round />
+                    </FacebookShareButton>
+                    <WhatsappShareButton
+                      url={shareUrl}
+                      quote={title}
+                      className="Demo__some-network__share-button"
+                    >
+                      <WhatsappIcon size={32} round />
+                    </WhatsappShareButton>
+                    <TwitterShareButton
+                      url={shareUrl}
+                      title={title}
+                      className="Demo__some-network__share-button"
+                    >
+                      <TwitterIcon size={32} round />
+                    </TwitterShareButton>
+                  </PopoverBody>
+                </Popover>
+              </div>
               <div className="card-body">
-                <h5 className="card-title">Ingredientes</h5>
-                <Table borderless>
+              
+              <Table borderless>
                   <tbody>
                     <tr>
                       <td>Ensalada primavera Frutos del Maipo</td>
@@ -67,10 +128,9 @@ const Charquican = (props) => {
                     </tr>
                   </tbody>
                 </Table>
-                <div>
-                  <Row>
+                <div className="d-flex flex-row justify-content-between">
                     <div>
-                      <img src={reloj} alt="reloj" /> <span>35 min</span>
+                      <img src={reloj} alt="reloj" /> <span> 35 min</span>
                     </div>
                     <div>
                       <img src={tenedor} alt="tenedor" />{" "}
@@ -87,7 +147,7 @@ const Charquican = (props) => {
                         src={info}
                         alt="información nutricional"
                       />
-                      <span>Información Nutricional</span>
+                      <span> Información Nutricional</span>
 
                       <Popover
                         placement="bottom"
@@ -100,31 +160,31 @@ const Charquican = (props) => {
                         </PopoverHeader>
                         <PopoverBody>
                           <Table borderless>
-                            <tbody>
+                          <tbody>
                               <tr>
                                 <th scope="row">
-                                  <i class="icofont-fire-burn"></i>
+                                  <i className="icofont-fire-burn"></i>
                                 </th>
                                 <td>Calorías</td>
                                 <td>308</td>
                               </tr>
                               <tr>
                                 <th scope="row">
-                                  <i class="icofont-bread"></i>
+                                  <i className="icofont-bread"></i>
                                 </th>
                                 <td>Carbohidratos</td>
                                 <td>50.7 grs</td>
                               </tr>
                               <tr>
                                 <th scope="row">
-                                  <i class="icofont-chicken-fry"></i>
+                                  <i className="icofont-chicken-fry"></i>
                                 </th>
                                 <td>Proteínas</td>
                                 <td>14 grs</td>
                               </tr>
                               <tr>
                                 <th scope="row">
-                                  <i class="icofont-water-drop"></i>
+                                  <i className="icofont-water-drop"></i>
                                 </th>
                                 <td>Lípidos</td>
                                 <td>6 grs</td>
@@ -134,7 +194,6 @@ const Charquican = (props) => {
                         </PopoverBody>
                       </Popover>
                     </div>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -143,7 +202,7 @@ const Charquican = (props) => {
         <section>
           <h4> Preparación</h4>
           <p className="text-sm-left ">
-            <br />
+          <br />
             Pelar y posteriormente cortar 2 papas en cubitos pequeños e
             incorporarlas en un pocillo con agua y un poco de sal.
             <br />

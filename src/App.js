@@ -43,7 +43,7 @@ function App() {
         <Route path="/niños">
           <Niños />
         </Route>
-        <Route path="/polenta">
+        <Route path="/polenta" exact>
           <CeliacoBudinPolenta />
         </Route>
         <Route path="/ñoquis">

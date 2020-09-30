@@ -1,16 +1,18 @@
 {
     "chile": [{
 
-            "titulo": "Pimenton relleno de Cuscus",
+            "titulo": "lentejas",
             "imagen": "https://i.ibb.co/175Zg9X/Chilena-Lentejas.png",
             "tipo": "./"
+           
 
         },
         {
-            "titulo": "sopaipillas",
-            "imagen": "",
+            "titulo": "galletas",
+            "imagen": "https://i.ibb.co/1ngp9CB/Galletas.png",
             "tipo": "./"
-
+            
+           
         }
 
     ]

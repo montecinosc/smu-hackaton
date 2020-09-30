@@ -1,16 +1,18 @@
 import React from 'react'
 import { niños } from '../../Json/niños.json'
-import { Col, Card, CardImg, Row } from 'reactstrap'
+import { Col, Card, CardImg, Row, Breadcrumb } from 'reactstrap'
 import {
     BrowserRouter as Router,
     Link
 } from "react-router-dom";
 import Carrusel from '../Principal/Carrusel';
 import Footer from '../Principal/Footer.jsx';
+import BarraBusqueda from './BarraBusqueda';
 const Niños = () => {
     return (
         <>
             <Carrusel />
+            <BarraBusqueda />
             <Row sm='3'>
                 {niños.map((element, i) => {
                     return (
