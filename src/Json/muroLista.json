@@ -4,49 +4,49 @@
             "titulo": "Recetas aptas para celiacos",
             "imagen": "https://i.ibb.co/hyTgMB5/Cel-aco.png",
             "tipo": "./celiaco",
-            "descripcion": "Variedad de preparaciones con informacion nutricional relevante",
+            "descripcion": "Variedad de preparaciones con informacion nutricional relevante.",
             "stock": "4"
         },
         {
             "titulo": "Recetas Vegetarianas",
             "imagen": "https://i.ibb.co/Ksj4SgL/Vegetarian-1.png",
             "tipo": "./vegetariano",
-            "descripcion": "Disfruta de las esquisitas preparaciones que tenemos disponibles para ti",
+            "descripcion": "Disfruta de las mejores opciones sin carne que tenemos disponibles para ti.",
             "stock": "2"
         },
         {
             "titulo": "Recetas sin Lactosa",
             "imagen": "https://i.ibb.co/qdbSYDg/Img-Icon-Intolerante.png",
             "tipo": "./intolerante",
-            "descripcion": "Disfruta de las esquisitas preparaciones que tenemos disponibles para ti",
+            "descripcion": "Vuelve a disfruta las recetas más ricas sin consecuencias gástricas.",
             "stock": "2"
         },
         {
             "titulo": "Recetas Chilenas",
             "imagen": "https://i.ibb.co/TPp9tmd/2Chile.png",
             "tipo": "./chilena",
-            "descripcion": "Disfruta de los mejores platos nacionales al alcance de tu bolsillo",
+            "descripcion": "Elabora lo mejor de nuestros platos nacionales al alcance de tu bolsillo.",
             "stock": "2"
         },
         {
             "titulo": "Recetas Veganas",
             "imagen": "https://i.ibb.co/XYjLCGx/Vegan.png",
             "tipo": "./vegano",
-            "descripcion": "Encuentra los platos más deliciosos y faciles de realizar",
+            "descripcion": "Lo mejor de la cocina cruelty-free a un click.",
             "stock": "5"
         },
         {
             "titulo": "Recetas para niños",
             "imagen": "https://i.ibb.co/KzLcxP9/Ni-os.png",
             "tipo": "./niños",
-            "descripcion": "platos entretenidos para preparar con los más pequeños del hogas",
+            "descripcion": "Platos entretenidos para preparar junto a los más pequeños del hogar.",
             "stock": ""
         },
         {
             "titulo": "Recetas del mundo ",
             "imagen": " https://i.ibb.co/vdm9y9J/World.png",
             "tipo": "./mundo",
-            "descripcion": "Disfruta de las mejores preparaciones del mundo que traemos a tu mesa",
+            "descripcion": "Del mundo a tu mesa, las mejores opciones internacionales para sorprender a los que más quieres.",
             "stock": ""
         }
 
