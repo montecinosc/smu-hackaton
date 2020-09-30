@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import { Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Button, Row } from 'reactstrap'
 import { vegetarianos } from '../../Json/vegetarianos.json'
+import BarraBusqueda from '../Principal/BarraBusqueda';
 import Carrusel from '../Principal/Carrusel';
 import Footer from '../Principal/Footer';
 
@@ -14,6 +15,7 @@ const Vegetariano = () => {
 
         <Fragment>
             <Carrusel />
+            <BarraBusqueda />
             <Row sm='3'>
                 {vegetarianos.map((element, i) => {
                     return (

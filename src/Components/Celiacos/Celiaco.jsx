@@ -10,11 +10,13 @@ import {
 } from "react-router-dom";
 import Carrusel from '../Principal/Carrusel';
 import Footer from '../Principal/Footer.jsx';
+import BarraBusqueda from '../Principal/BarraBusqueda';
 
 const Celiaco = () => {
     return (
         <Fragment>
             <Carrusel />
+            <BarraBusqueda />
             <Row sm='3'>
                 {celiacos.map((element, i) => {
                     return (

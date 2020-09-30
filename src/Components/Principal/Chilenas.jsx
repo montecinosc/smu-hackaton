@@ -7,13 +7,13 @@ import {
 } from "react-router-dom";
 import Carrusel from '../Principal/Carrusel';
 import Footer from '../Principal/Footer.jsx';
-import Caja from '../Principal/Caja';
-
+import BarraBusqueda from './BarraBusqueda';
 
 const Chilenas = () => {
     return (
         <>
             <Carrusel />
+            <BarraBusqueda />
             <Row sm='3'>
                 {chile.map((element, i) => {
                     return (
@@ -26,7 +26,7 @@ const Chilenas = () => {
                 })
                 }
             </Row>
-            <Caja />
+        
             <Footer />
         </>
     )

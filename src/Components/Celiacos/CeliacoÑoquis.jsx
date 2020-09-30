@@ -16,27 +16,87 @@ import Menu from "../Principal/Menu";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
 import Caja from "../Principal/Caja";
+import Puntuacion from "../Puntuacion";
+import compartir from "../../Assets/img/Share.png";
+import BarraBusqueda from "../Principal/BarraBusqueda";
+import {
+  FacebookShareButton,
+  WhatsappShareButton,
+  TwitterShareButton,
+  FacebookIcon,
+  TwitterIcon,
+  WhatsappIcon,
+} from "react-share";
 
 const CeliacoÑoquis = (props) => {
   const [popoverOpen, setPopoverOpen] = useState(false);
-
+  const [popoverOpen2, setPopoverOpen2] = useState(false);
   const toggle = () => setPopoverOpen(!popoverOpen);
+  const toggle2 = () => setPopoverOpen2(!popoverOpen2);
+
+  const shareUrl = "https://4luquitas.netlify.app/%C3%B1oquis";
+  const title = "Ñoquis Coliflor ";
 
   return (
     <>
       <Menu />
       <Carrusel />
+      <BarraBusqueda />
       <Container>
-        <h3 className="text-center">Ñoquis de Coliflor</h3>
-        <div class="card mb-3">
+        <h3 className="mt-3 text-center">Ñoquis de Coliflor</h3>
+        <div class="mt-3 card mb-3">
           <div className="row no-gutters">
             <div className="col-md-4">
               <img src={ñoquis} className="card-img" alt="..." />
             </div>
             <div className="col-md-8">
+              <div className=" d-flex flex-row  justify-content-around">
+                <h5 className="card-title ">Ingredientes</h5>
+
+                <Puntuacion />
+
+                <img
+                  style={{ cursor: "pointer" }}
+                  id="Popover2"
+                  src={compartir}
+                  alt=".."
+                />
+
+                <Popover
+                  placement="bottom"
+                  isOpen={popoverOpen2}
+                  target="Popover2"
+                  toggle={toggle2}
+                >
+                  <PopoverHeader> Comparte en :</PopoverHeader>
+                  <PopoverBody>
+                    <FacebookShareButton
+                      url={shareUrl}
+                      quote={title}
+                      className="Demo__some-network__share-button"
+                    >
+                      <FacebookIcon size={32} round />
+                    </FacebookShareButton>
+                    <WhatsappShareButton
+                      url={shareUrl}
+                      quote={title}
+                      className="Demo__some-network__share-button"
+                    >
+                      <WhatsappIcon size={32} round />
+                    </WhatsappShareButton>
+                    <TwitterShareButton
+                      url={shareUrl}
+                      title={title}
+                      className="Demo__some-network__share-button"
+                    >
+                      <TwitterIcon size={32} round />
+                    </TwitterShareButton>
+                  </PopoverBody>
+                </Popover>
+              </div>
+
               <div className="card-body">
-                <h5 className="card-title">Ingredientes</h5>
-                <Table hover>
+                <Table borderless>
                   <tbody>
                     <tr>
                       <td>Harina de arroz Tucapel</td>
