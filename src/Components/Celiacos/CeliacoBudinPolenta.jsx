@@ -205,9 +205,8 @@ const CeliacoBudinPolenta = (props) => {
           </div>
         </div>
         <section>
-          <h4> Preparación</h4>
-          <p className="text-sm-left ">
-            <br />
+          <h4 className="m-3"> Preparación</h4>
+          <p className="text-sm-left m-3">
             Empezamos precalentando el horno a 160º.
             <br />
             <br />
@@ -235,9 +234,9 @@ const CeliacoBudinPolenta = (props) => {
             este rico plato especialmente para celíacos!
           </p>
           <br />
-          <p>A continuación puedes ver el video con la preparación </p>
+          <p className="m-3"> A continuación puedes ver el video con la preparación </p>
         </section>
-        <section className="videos">
+        <section className="videos m-3">
           <iframe
             src="https://www.youtube.com/embed/hQ5O8B0Znms"
             frameBorder="0"
