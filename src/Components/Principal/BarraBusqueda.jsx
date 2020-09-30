@@ -41,9 +41,15 @@ const BarraBusqueda = () => {
       value: 'polenta',
     },
     {
-      key: 'chilena',
-      value: 'chilena',
+      key: 'polenta',
+      value: 'budin',
     },
+
+    {
+      key: 'charquican',
+      value: 'papa',
+    },
+
 
   ]
   return (
@@ -54,7 +60,7 @@ const BarraBusqueda = () => {
           data={data}
 
           onSelect={record =>
-            window.location = "./" + record.value}
+            window.location = "./" + record.key}
 
 
           onFocus={() => {
