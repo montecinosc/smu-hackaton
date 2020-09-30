@@ -46,7 +46,7 @@ function App() {
         <Route path="/polenta" exact>
           <CeliacoBudinPolenta />
         </Route>
-        <Route path="/ñoquis">
+        <Route path="/coliflor">
           <CeliacoÑoquis />
         </Route>
         <Route path="/garbanzo">
