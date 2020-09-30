@@ -40,7 +40,7 @@ const Caja = (props) => {
         <Fragment >
             <br/>
             <p className="textoInicial">Si estás interesado en preparar esta receta, ahora puedes conseguir los ingredientes</p>
-            <p className="descripcion">Te presentamos la UNIBOX , con ella puedes obtener todos los ingredientes de tus recetas favoritas con solo un click, 
+            <p className="descripcion">Te presentamos la UNIBOX, con ella puedes obtener todos los ingredientes de tus recetas favoritas con solo un click, 
              o si prefieres puedes adquirir solo los productos que necesitas</p>
 
             <div className="contenedorCaja">
@@ -84,7 +84,7 @@ const Caja = (props) => {
                                 <MDBCarouselItem itemId="2">
                                     <MDBView>
                                         <img
-                                            className="d-block  img-carrusel"
+                                            className="d-block caja-carrusel img-carrusel"
                                             src="https://i.ibb.co/nk4Tjtr/limongranel.jpg"
                                             alt="Second slide"
                                         />
@@ -95,7 +95,7 @@ const Caja = (props) => {
                                 <MDBCarouselItem itemId="3">
                                     <MDBView>
                                         <img
-                                            className="d-block  img-carrusel"
+                                            className="d-block caja-carrusel img-carrusel"
                                             src="https://i.ibb.co/rQWR78B/azucar.webp"
                                             alt="Third slide"
                                         />
@@ -106,7 +106,7 @@ const Caja = (props) => {
                                 <MDBCarouselItem itemId="4">
                                     <MDBView>
                                         <img
-                                            className="d-block  img-carrusel"
+                                            className="d-block caja-carrusel img-carrusel"
                                             src="https://i.ibb.co/dcqxWcx/polentacarozzi.jpg"
                                             alt="First slide"
                                         />
