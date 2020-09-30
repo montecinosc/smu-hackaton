@@ -1,14 +1,56 @@
-import React from 'react'
-import '../../Style/buscador.css'
-import '../../Assets/icofont/icofont.min.css'
+import React from "react";
+import ReactDOM from "react-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  NavLink
+} from "react-router-dom";
+import { polenta } from "../../Json/listaCompra.json"
 
-const BarraBusqueda = () => {
-    return (
-        <form className="form-inline mr-auto d-flex justify-content-end">
-        <input className="form-control mr-sm-2" type="text" placeholder= "&#xed1b; Buscar por palabra clave" aria-label="Search" />
-        <button className="btn btn-outline-success btn-rounded btn-sm my-0" type="submit">Buscar</button>
-      </form>
-    )
+const people = [
+  "pimenton",
+
+
+  "porotos"
+
+
+];
+
+function App() {
+  const [searchTerm, setSearchTerm] = React.useState("");
+  const [searchResults, setSearchResults] = React.useState([]);
+  const handleChange = event => {
+    setSearchTerm(event.target.value);
+  };
+  React.useEffect(() => {
+    const results = people.filter(person =>
+      person.toLowerCase().includes(searchTerm)
+    );
+    setSearchResults(results);
+  }, [searchTerm]);
+
+  return (
+    <div className="App">
+      <input
+        type="text"
+        placeholder="Search"
+        value={searchTerm}
+        onChange={handleChange}
+      />
+      <Link to={"/pimentonRelleno"}>
+        < ul >
+          {
+            searchResults.map(item => (
+              <li>{item}</li>
+
+            ))
+          }
+        </ul>
+      </Link>
+    </div >
+  );
 }
 
-export default BarraBusqueda
+export default App;
