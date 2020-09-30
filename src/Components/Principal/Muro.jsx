@@ -18,12 +18,13 @@ import BarraBusqueda from "./BarraBusqueda";
 import '../../Style/muro.css'
 
 
+
 const Muro = () => {
     return (
         <Fragment>
             <MenuPrincipal />
             <Carrusel />
-            <BarraBusqueda />
+      <BarraBusqueda />
             <Row sm='4'>
                 {muro.map((element, i) => {
                     return (
