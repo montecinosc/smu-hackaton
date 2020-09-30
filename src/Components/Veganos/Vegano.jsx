@@ -7,12 +7,14 @@ import {
 } from "react-router-dom";
 import Carrusel from '../Principal/Carrusel';
 import Footer from '../Principal/Footer.jsx';
+import BarraBusqueda from '../Principal/BarraBusqueda';
 
 const Vegano = () => {
     return (
 
         <>
             <Carrusel />
+            <BarraBusqueda />
             <Row sm='3'>
                 {veganos.map((element, i) => {
                     return (

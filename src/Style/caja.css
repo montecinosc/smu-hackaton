@@ -36,6 +36,7 @@
 
 .lista {
     display: flex;
+
     flex-direction: column;
 }
 
@@ -67,4 +68,24 @@ h4{
 .texto-caja{
     margin-left: 8.3em;
     font-family: 'Apex Sans Book';
+}
+.unibox {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    background-color: red !important;
+}
+
+.comprarIngredientes {
+    background-color: grey !important;
+}
+
+.imagenBox {
+    height: 183px;
+}
+
+.textoInicial {
+    font-weight: 800;
 }

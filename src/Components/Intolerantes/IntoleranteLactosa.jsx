@@ -7,11 +7,14 @@ import {
 } from "react-router-dom";
 import Carrusel from '../Principal/Carrusel';
 import Footer from '../Principal/Footer.jsx';
+import BarraBusqueda from '../Principal/BarraBusqueda';
+
 const IntoleranteLactosa = () => {
     return (
 
         <>
             <Carrusel />
+            <BarraBusqueda />
             <Row sm='3'>
                 {lactosa.map((element, i) => {
                     return (

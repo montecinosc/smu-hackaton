@@ -7,10 +7,12 @@ import {
 } from "react-router-dom";
 import Carrusel from '../Principal/Carrusel';
 import Footer from '../Principal/Footer.jsx';
+import BarraBusqueda from './BarraBusqueda';
 const Mundo = () => {
     return (
         <>
             <Carrusel />
+            <BarraBusqueda />
             <Row sm='3'>
                 {mundo.map((element, i) => {
                     return (
