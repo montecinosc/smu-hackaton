@@ -1,7 +1,33 @@
+@font-face {
+    font-family: Clarendon-Regular;
+    src: local('Clarendon'),
+      local('Clarendon Regular'),
+      local('Clarendon-Regular'),
+      url(../fonts/clarendon-regular.ttf);
+  }
+
+@font-face {
+    font-family: 'Apex Sans Book';
+    src: local('Apex-Sans-Book'),
+      local('Apex Sans Book'),
+      local('ApexSansBook'),
+      url(../fonts/ApexSansBook.ttf);
+  }
+
 .contenedorCaja {
     display: flex;
-    margin-left: 8em;
+    margin-left: 8.3em;
 
+}
+
+.card {
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    font-family: 'Apex Sans Book';
 }
 
 .d-block {
@@ -10,7 +36,6 @@
 
 .lista {
     display: flex;
-    border: 1px solid pink;
     flex-direction: column;
 }
 
@@ -18,12 +43,28 @@
     display: flex;
 }
 
-.unibox {
-    display: flex;
-    flex-direction: column;
-}
-
 .unibox-img{
     width:30em;
-    margin-bottom:2em;
+    margin-bottom:1.8em;
+}
+h4{
+    font-family: Clarendon-Regular;
+    margin-left: 5.5em;
+}
+
+.comprar-btn{
+    margin-left: 1em;
+    background-color:rgb(30, 197, 183);
+    font-family: 'Apex Sans Book';
+}
+
+.btn-secondary{
+ background-color:rgb(30, 197, 183);
+ font-family: 'Apex Sans Book';
+
+}
+
+.texto-caja{
+    margin-left: 8.3em;
+    font-family: 'Apex Sans Book';
 }

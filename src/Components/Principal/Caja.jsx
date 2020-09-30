@@ -38,7 +38,10 @@ const Caja = (props) => {
     const listaNombre = props.lista;
     return (
         <Fragment >
-            <h4> ¿Necesitas estos materiales para cocinar?</h4>
+            <h4> ¿Te faltan ingredientes para cocinar?</h4>
+            <p className="texto-caja">Selecciona Unicaja si necesitas todos los ingredientes, si ya tienes en tu casa, agrega
+                solo los que faltan.
+            </p>
             <div className="contenedorCaja">
                 <div className="unibox">
                     <img class ="unibox-img"src="https://i.ibb.co/NFfPcwW/Uni-Box-Img.png" />
@@ -54,7 +57,7 @@ const Caja = (props) => {
                         );
                     })
                     }
-                    <Button onClick={pedido}> Comprar</Button>
+                    <Button className="comprar-btn" onClick={pedido}> Comprar</Button>
                 </div>
                 <MDBContainer>
                     <MDBCarousel
@@ -123,3 +126,4 @@ const Caja = (props) => {
 }
 
 export default Caja
+
