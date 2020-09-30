@@ -128,10 +128,9 @@ const Ratatouille = () => {
                     </tr>
                   </tbody>
                 </Table>
-                <div>
-                  <Row>
+                <div className="d-flex flex-row justify-content-between">
                     <div>
-                      <img src={reloj} alt="reloj" /> <span>60 min</span>
+                      <img src={reloj} alt="reloj" /> <span> 60 min</span>
                     </div>
                     <div>
                       <img src={tenedor} alt="tenedor" />{" "}
@@ -139,7 +138,7 @@ const Ratatouille = () => {
                     </div>
                     <div>
                       <img src={vegano} alt="vegano" />
-                      <span>Vegano </span>
+                      <span> Vegano </span>
                     </div>
                     <div>
                     <img
@@ -148,7 +147,7 @@ const Ratatouille = () => {
                         src={info}
                         alt="información nutricional"
                       />
-                      <span>Información Nutricional</span>
+                      <span> Información Nutricional</span>
 
                       <Popover
                         placement="bottom"
@@ -185,7 +184,6 @@ const Ratatouille = () => {
                         </PopoverBody>
                       </Popover>
                     </div>
-                  </Row>
                 </div>
               </div>
             </div>

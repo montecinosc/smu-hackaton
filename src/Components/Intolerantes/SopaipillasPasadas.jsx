@@ -135,10 +135,10 @@ const SopaipillasPasadas = (props) => {
                     </tr>
                   </tbody>
                 </Table>
-                <div>
-                  <Row>
+                <div className="d-flex flex-row justify-content-between">
+                  
                     <div>
-                      <img src={reloj} alt="reloj" /> <span>50 min</span>
+                      <img src={reloj} alt="reloj" /> <span> 50 min</span>
                     </div>
                     <div>
                       <img src={tenedor} alt="tenedor" />{" "}
@@ -155,7 +155,7 @@ const SopaipillasPasadas = (props) => {
                         src={info}
                         alt="información nutricional"
                       />
-                      <span>Información Nutricional</span>
+                      <span> Información Nutricional</span>
 
                       <Popover
                         placement="bottom"
@@ -202,7 +202,7 @@ const SopaipillasPasadas = (props) => {
                         </PopoverBody>
                       </Popover>
                     </div>
-                  </Row>
+               
                 </div>
               </div>
             </div>

@@ -134,10 +134,10 @@ const PimentonRelleno = (props) => {
                     </tr>
                   </tbody>
                 </Table>
-                <div>
-                  <Row>
+                <div className="d-flex flex-row justify-content-between">
+              
                     <div>
-                      <img src={reloj} alt="reloj" /> <span>40 min</span>
+                      <img src={reloj} alt="reloj" /> <span> 40 min</span>
                     </div>
                     <div>
                       <img src={tenedor} alt="tenedor" />{" "}
@@ -145,7 +145,7 @@ const PimentonRelleno = (props) => {
                     </div>
                     <div>
                       <img src={sinLactosa} alt="sin lactosa" />
-                      <span>Sin Lactosa </span>
+                      <span> Sin Lactosa </span>
                     </div>
                     <div>
                       <img
@@ -155,7 +155,7 @@ const PimentonRelleno = (props) => {
                         alt="información nutricional"
                       />
 
-                      <span>Información Nutricional</span>
+                      <span> Información Nutricional</span>
 
                       <Popover
                         placement="bottom"
@@ -202,7 +202,7 @@ const PimentonRelleno = (props) => {
                         </PopoverBody>
                       </Popover>
                     </div>
-                  </Row>
+                  
                 </div>
               </div>
             </div>

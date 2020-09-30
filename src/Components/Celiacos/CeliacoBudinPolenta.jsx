@@ -131,18 +131,17 @@ const CeliacoBudinPolenta = (props) => {
                     </tr>
                   </tbody>
                 </Table>
-                <div>
-                  <Row>
+                <div  className="d-flex flex-row justify-content-between">
                     <div>
-                      <img src={reloj} alt="reloj" /> <span>50 min</span>
+                      <img src={reloj} alt="reloj" /> <span>   50 min</span>
                     </div>
                     <div>
                       <img src={tenedor} alt="tenedor" />{" "}
-                      <span> 4 porciones </span>
+                      <span>  4 porciones </span>
                     </div>
                     <div>
                       <img src={libreGluten} alt="libreGluten" />
-                      <span> Libre de gluten </span>
+                      <span>  Libre de gluten </span>
                     </div>
                     <div>
                       <img
@@ -152,7 +151,7 @@ const CeliacoBudinPolenta = (props) => {
                         alt="información nutricional"
                       />
 
-                      <span>Información Nutricional</span>
+                      <span> Información Nutricional</span>
 
                       <Popover
                         placement="bottom"
@@ -199,7 +198,7 @@ const CeliacoBudinPolenta = (props) => {
                         </PopoverBody>
                       </Popover>
                     </div>
-                  </Row>
+                  
                 </div>
               </div>
             </div>
