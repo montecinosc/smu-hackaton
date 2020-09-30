@@ -16,8 +16,13 @@
 
 .contenedorCaja {
     display: flex;
-    margin-left: 8.3em;
+    margin-left: 6.4em;
 
+}
+
+.img-carrusel{
+    margin-top: 2em;
+    padding:0px;
 }
 
 .card {
@@ -30,43 +35,29 @@
     font-family: 'Apex Sans Book';
 }
 
-.d-block {
-    height: 264px !important;
-}
-
 .lista {
     display: flex;
-
     flex-direction: column;
+    margin-left: .5em;
 }
 
 .nombreLista {
     display: flex;
+    width: 20em;
 }
 
-.unibox-img{
-    width:30em;
-    margin-bottom:1.8em;
-}
-h4{
+box-title{
     font-family: Clarendon-Regular;
     margin-left: 5.5em;
 }
 
-.comprar-btn{
-    margin-left: 1em;
-    background-color:rgb(30, 197, 183);
-    font-family: 'Apex Sans Book';
-}
-
-.btn-secondary{
- background-color:rgb(30, 197, 183);
- font-family: 'Apex Sans Book';
-
+.textoInicial{
+    margin-left:6.5em;
+    font-family: Clarendon-Regular;
 }
 
 .texto-caja{
-    margin-left: 8.3em;
+    margin-left: 6.5em;
     font-family: 'Apex Sans Book';
 }
 .unibox {
@@ -74,18 +65,25 @@ h4{
     flex-direction: column;
 }
 
-.btn:not(:disabled):not(.disabled) {
+.btn-compra {
+    margin-top: 5.7em;
     background-color: red !important;
+    width: 15em;
+    padding: 0.5em;
 }
 
 .comprarIngredientes {
-    background-color: grey !important;
+    background-color: red !important;
+    margin-left:1em;
+    width: 15em;
+    padding: 0.6em;
 }
 
 .imagenBox {
-    height: 183px;
+    height: 11em;
 }
 
-.textoInicial {
-    font-weight: 800;
+.descripcion{
+margin-left: 6.5em;
+margin-right: 9em;
 }

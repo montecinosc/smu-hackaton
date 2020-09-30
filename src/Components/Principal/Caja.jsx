@@ -38,15 +38,17 @@ const Caja = (props) => {
     const listaNombre = props.lista;
     return (
         <Fragment >
-            <p className="textoInicial">Si estás interesado en preparar esta receta,ahora puedes conseguir los ingredientes</p>
+            <br/>
+            <p className="textoInicial">Si estás interesado en preparar esta receta, ahora puedes conseguir los ingredientes</p>
+            <p className="descripcion">Te presentamos la UNIBOX , con ella puedes obtener todos los ingredientes de tus recetas favoritas con solo un click, 
+             o si prefieres puedes adquirir solo los productos que necesitas</p>
+
             <div className="contenedorCaja">
                 <div className="unibox">
-                    <p>Te presentamos la UNIBOX , con ella puedes obtener todos los ingredientes de tus recetas favoritas con solo un click</p>
                     <img className="imagenBox" src="https://i.ibb.co/NFfPcwW/Uni-Box-Img.png" />
-                    <Button onClick={unicaja}> Comprar Unibox</Button>
+                    <Button onClick={unicaja} className="btn-compra"> Comprar Unibox</Button>
                 </div>
                 <div className="lista">
-                    <p> Si prefieres puedes adquirur los productos que necesites ,seleccionado a continuación</p>
                     {listaCompra[listaNombre].map((element, i) => {
                         return (
                             <Card>
@@ -71,7 +73,7 @@ const Caja = (props) => {
                                 <MDBCarouselItem itemId="1">
                                     <MDBView>
                                         <img
-                                            className="d-block "
+                                            className="d-block img-carrusel"
                                             src="https://i.ibb.co/Xxts32p/huevograndeblanco.webp"
                                             alt="First slide"
                                         />
@@ -82,7 +84,7 @@ const Caja = (props) => {
                                 <MDBCarouselItem itemId="2">
                                     <MDBView>
                                         <img
-                                            className="d-block "
+                                            className="d-block  img-carrusel"
                                             src="https://i.ibb.co/nk4Tjtr/limongranel.jpg"
                                             alt="Second slide"
                                         />
@@ -93,7 +95,7 @@ const Caja = (props) => {
                                 <MDBCarouselItem itemId="3">
                                     <MDBView>
                                         <img
-                                            className="d-block "
+                                            className="d-block  img-carrusel"
                                             src="https://i.ibb.co/rQWR78B/azucar.webp"
                                             alt="Third slide"
                                         />
@@ -104,7 +106,7 @@ const Caja = (props) => {
                                 <MDBCarouselItem itemId="4">
                                     <MDBView>
                                         <img
-                                            className="d-block "
+                                            className="d-block  img-carrusel"
                                             src="https://i.ibb.co/dcqxWcx/polentacarozzi.jpg"
                                             alt="First slide"
                                         />
