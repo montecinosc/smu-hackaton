@@ -18,6 +18,7 @@ import BarraBusqueda from "./BarraBusqueda";
 import '../../Style/muro.css'
 
 
+
 const Muro = () => {
     return (
         <Fragment>

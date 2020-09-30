@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
 import {
   BrowserRouter as Router,
@@ -7,50 +7,78 @@ import {
   Link,
   NavLink
 } from "react-router-dom";
-import { polenta } from "../../Json/listaCompra.json"
-
-const people = [
-  "pimenton",
-
-
-  "porotos"
+import '../../Style/buscador.css'
+import '../../Assets/icofont/icofont.min.css'
+import ReactSearchBox from 'react-search-box'
+/*import TextField from '@material-ui/core/TextField';
+import Autocomplete from '@material-ui/lab/Autocomplete';*/
 
 
-];
 
-function App() {
+const peopleDos = ['coliflor', 'polenta', 'lechuga', 'helado', 'carne']
+
+const BarraBusqueda = () => {
   const [searchTerm, setSearchTerm] = React.useState("");
   const [searchResults, setSearchResults] = React.useState([]);
   const handleChange = event => {
     setSearchTerm(event.target.value);
   };
   React.useEffect(() => {
-    const results = people.filter(person =>
+    const results = peopleDos.filter(person =>
       person.toLowerCase().includes(searchTerm)
     );
     setSearchResults(results);
   }, [searchTerm]);
 
-  return (
-    <div className="App">
-      <input
-        type="text"
-        placeholder="Search"
-        value={searchTerm}
-        onChange={handleChange}
-      />
-      <Link to={"/pimentonRelleno"}>
-        < ul >
-          {
-            searchResults.map(item => (
-              <li>{item}</li>
 
-            ))
+  const data = [
+    {
+      key: 'coliflor',
+      value: 'coliflor',
+    },
+    {
+      key: 'polenta',
+      value: 'polenta',
+    },
+    {
+      key: 'chilena',
+      value: 'chilena',
+    },
+
+  ]
+  return (
+    <Fragment>
+      <form className="form-inline mr-auto d-flex justify-content-end">
+        <ReactSearchBox
+          placeholder="Busca tu receta"
+          data={data}
+
+          onSelect={record =>
+            window.location = "./" + record.value}
+
+
+          onFocus={() => {
+            console.log('This function is called when is focussed')
+          }}
+          onChange={
+            value => console.log("buscadooooor", value)
+
           }
-        </ul>
-      </Link>
-    </div >
+          fuseConfigs={{
+            threshold: 0.05,
+
+          }}
+
+        />
+        <button className="btn btn-outline-success btn-rounded btn-sm my-0" type="submit">Buscar</button>
+      </form>
+
+
+
+    </Fragment>
   );
 }
 
-export default App;
+
+export default BarraBusqueda
+
