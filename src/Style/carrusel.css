@@ -1,21 +1,56 @@
-.d-block {
-  height: 264px !important;
+@font-face {
+  font-family: Clarendon-Regular;
+  src: local('Clarendon'),
+    local('Clarendon Regular'),
+    local('Clarendon-Regular'),
+    url(../fonts/clarendon-regular.ttf);
 }
+
+.inherit{
+  height: inherit;
+}
+
+.main-carrusel{
+  font-family: Clarendon-Regular;
+  height: 300px;
+  background-size: cover;
+  background-position:center;
+}
+
+.main-carousel h2{
+  color:whitesmoke;
+  text-shadow:1px 1px 0px rgba(0,0,0,1);
+}
+
+.carrusel-item-1{
+  background-image: url(../Assets/img/banner1.png) ;
+}
+
+.carrusel-item-2{
+  background-image: url(../Assets/img/banner2.png) ;
+}
+
+.carrusel-item-3{
+  background-image: url(../Assets/img/banner3.jpg) ;
+}
+
 @media screen and (max-width:768px) {
-  .carrusel-mov {
-    height: 150px;
+  .carrusel-item-2, .carrusel-item-3{
+    background-position: right;
+  }
+
+  .carrusel-item-1{
+    background-position: left;
+  }
+
 }
-}
+
+/* 
+
 
 @media screen and (max-width:1024px) {
   .carrusel-mov {
     height: 150px;
-}
-}
-
-@media screen and (max-width: 684px){
-  .carrusel-mov{
-    height: 250px;
 }
 }
 
@@ -38,8 +73,7 @@
     width:24em;
 }
 
-
-}
+} */
 
 
 
