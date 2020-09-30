@@ -1,58 +1,79 @@
-@media screen and (max-width:768px) {
-  .carousel-item {
-    float: left;
-    width: 100%;
-    height:50%;
-    margin-right: -100%;
-  }
+@font-face {
+  font-family: Clarendon-Regular;
+  src: local('Clarendon'),
+    local('Clarendon Regular'),
+    local('Clarendon-Regular'),
+    url(../fonts/clarendon-regular.ttf);
 }
+
+.inherit{
+  height: inherit;
+}
+
+.main-carrusel{
+  font-family: Clarendon-Regular;
+  height: 300px;
+  background-size: cover;
+  background-position:center;
+}
+
+.main-carousel h2{
+  color:whitesmoke;
+  text-shadow:1px 1px 0px rgba(0,0,0,1);
+}
+
+.carrusel-item-1{
+  background-image: url(../Assets/img/banner1.png) ;
+}
+
+.carrusel-item-2{
+  background-image: url(../Assets/img/banner2.png) ;
+}
+
+.carrusel-item-3{
+  background-image: url(../Assets/img/banner3.jpg) ;
+}
+
+@media screen and (max-width:768px) {
+  .carrusel-item-2, .carrusel-item-3{
+    background-position: right;
+  }
+
+  .carrusel-item-1{
+    background-position: left;
+  }
+
+}
+
+/* 
 
 
 @media screen and (max-width:1024px) {
-  .carousel-item {
-    float: left;
-    width: 100%;
-    height:50%;
-    margin-right: -100%;
-  }
+  .carrusel-mov {
+    height: 150px;
 }
-
-@media screen and (max-width: 684px){
-  .carousel-item {
-    float: left;
-    width: 100%;
-    height:50%;
-    margin-right: -100%;
-  }
 }
 
 
 @media screen and (max-width:734px) {
-  .carousel-item {
-    float: left;
-    width: 100%;
-    height:50%;
-    margin-right: -100%;
-  }
+  .carrusel-mov{
+    height: 150px;
+}
 }
 
 @media screen and (max-width: 425px) {
-  .carousel-item {
-    float: left;
-    width: 100%;
-    height:50%;
-    margin-right: -100%;
-  }
+  .carrusel-mov {
+    height: 150px;
+}
 }
 
 @media screen and (max-width: 412px) {
-  .carousel-item {
-    float: left;
-    width: 100%;
-    height:50%;
-    margin-right: -100%;
-  }
+  .carrusel-mov{
+    height: 130em;
+    width:24em;
 }
+
+} */
 
 
 

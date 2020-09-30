@@ -1,7 +1,4 @@
 import React from 'react';
-import banner1 from "../../Assets/img/banner1.png";
-import banner2 from "../../Assets/img/banner2.png";
-import banner3 from "../../Assets/img/banner3.png";
 import '../../Style/carrusel.css' 
 
 const Carrusel = () => {
@@ -14,14 +11,20 @@ const Carrusel = () => {
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
       <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img src={banner3} className="d-block w-100" alt="banner3" />
+        <div className="carousel-item active main-carrusel carrusel-item-1 ">
+          <div className="d-flex text-right align-items-center justify-content-center inherit">
+          <h2 className="p-5">Conoce nuestra <br/><span className="text-danger">receta del mes </span></h2>
+          </div>
         </div>
-        <div className="carousel-item">
-          <img src={banner2} className="d-block w-100" alt="banner2" />
+        <div className="carousel-item main-carrusel carrusel-item-2 ">
+          <div className="d-flex text-left align-items-center justify-content-start inherit">
+          <h2 className="p-5">Descubre nuestras recetas <br/><span className="text-danger">más recomendadas</span></h2>
+          </div>
         </div>
-        <div className="carousel-item">
-          <img src={banner1} className="d-block w-100" alt="banner1" />
+        <div className="carousel-item main-carrusel carrusel-item-3 " >
+          <div className="d-flex text-center align-items-center justify-content-center inherit">
+          <h2 className="p-5 ">¡Te invitamos a conocer las recetas <br/><span className="text-danger">ricas y fáciles </span>que Nacho Román tiene para ti!</h2>
+          </div>
         </div>
       </div>
       <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

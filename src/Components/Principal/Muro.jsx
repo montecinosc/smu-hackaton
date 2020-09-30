@@ -8,7 +8,7 @@ import {
 import React, { Fragment } from 'react'
 import Celiaco from '../Celiacos/Celiaco';
 import Vegetariano from '../Vegetarianos/Vegetariano';
-import { Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Row, Button } from 'reactstrap'
+import { CardImg, CardBody, CardSubtitle, CardText} from 'reactstrap'
 import { muro } from '../../Json/muroLista.json';
 import Puntuacion from '../Puntuacion';
 import Carrusel from './Carrusel';
@@ -21,31 +21,32 @@ import '../../Style/muro.css'
 
 const Muro = () => {
     return (
-        <Fragment>
-            <MenuPrincipal />
-            <Carrusel />
-      <BarraBusqueda />
-            <Row sm='4'>
-                {muro.map((element, i) => {
-                    return (
-                        <Card>
-                            <CardImg src={element.imagen} alt="" />
-                            <CardBody>
-                                <CardSubtitle>{element.titulo}</CardSubtitle>
-
-                                <CardText> {element.descripcion}</CardText>
-                                <Puntuacion />
-                                <Link to={element.tipo}> Ver más</Link>
-                            </CardBody>
-                        </Card>
-                    );
-                })
-                }
-            </Row>
-            <Footer />
-        </Fragment>
-
-    )
+      <Fragment>
+        <MenuPrincipal />
+        <Carrusel />
+        <BarraBusqueda />
+        <div className="container">
+                  <div className="row">
+          {muro.map((element, i) => {
+            return (
+                    <div className="col-md-6 col-lg-4">
+                      <div className="card">
+                        <CardImg src={element.imagen} alt="" />
+                        <CardBody>
+                          <CardSubtitle className="tipo-dieta">{element.titulo}</CardSubtitle>
+                          <CardText> {element.descripcion}</CardText>
+                          <Puntuacion />
+                          <Link to={element.tipo}> Ver más</Link>
+                        </CardBody>
+                      </div>
+                    </div>
+            );
+          })}
+             </div>
+            </div>
+        <Footer />
+      </Fragment>
+    );
 }
 
 export default Muro

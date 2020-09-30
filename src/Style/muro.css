@@ -1,19 +1,23 @@
+@font-face {
+  font-family: 'Apex Sans Book';
+  src: local('Apex-Sans-Book'),
+    local('Apex Sans Book'),
+    local('ApexSansBook'),
+    url(../fonts/ApexSansBook.ttf);
+}
+
 body{
   background-color: #ffffff;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  font-family: 'Apex Sans Book';
 }
 
-.card {
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0,0,0,.125);
-  border-radius: .25rem;
-  margin-bottom: 1em;
-  margin-left: 5em;
+.tipo-dieta{
+  font-weight: bold;
 }
 
-/*media*/
+/* media
 @media screen and (max-width:1024px) {
   .card {
     margin:0em 2em 1em 2em;
@@ -40,4 +44,4 @@ body{
     margin:0em 1.5em 1em 1.5em;
   }
 
-}
+} */
