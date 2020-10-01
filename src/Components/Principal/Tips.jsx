@@ -13,24 +13,25 @@ import '.././../Style/Tips.css'
 const Tips = () => {
     return (
         <div >
-        <div id="carouselExampleControls " className="carousel slide prueba" data-ride="carousel">
-        <div className="carousel-inner">
-          <div className="carousel-item active " >
-            <img className="d-block w-50" src={pan} alt="First slide"  />
-          </div>
-          <div className="carousel-item">
-       
-            <img className="d-block w-50 " src={realzar} alt="Second slide"/>
-            
-          </div>
-          <div className="carousel-item">
+   <Carousel autoPlay className='prueba  '>
+        <div className='padre'>
+            <img alt="" src={pan} />
         
-            <img className="d-block w-50" src={sarro} alt="Third slide"/>
-         
-          </div>
         </div>
-
-      </div>
+        <div>
+            <img alt="" src={realzar} />
+        
+        </div>
+        <div>
+            <img alt="" src={sarro} />
+         
+        </div>
+        <div>
+            <img alt="" src={guirnarlas} />
+            
+        </div>
+       
+    </Carousel>
       </div>
     )
 }
