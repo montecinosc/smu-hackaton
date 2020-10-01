@@ -37,6 +37,8 @@ const CeliacoÑoquis = (props) => {
   const shareUrl = "https://4luquitas.netlify.app/%C3%B1oquis";
   const title = "Ñoquis Coliflor ";
 
+
+
   return (
     <>
       <Menu />
@@ -44,12 +46,13 @@ const CeliacoÑoquis = (props) => {
       <BarraBusqueda />
       <Container>
         <h3 className="mt-3 text-center">Ñoquis de Coliflor</h3>
-        <div class="mt-3 card mb-3">
+        <div className="mt-3  card mb-3">
           <div className="row no-gutters">
             <div className="col-md-4">
               <img src={ñoquis} className="card-img" alt="..." />
             </div>
             <div className="col-md-8">
+
               <div className=" d-flex flex-row  justify-content-around">
                 <h5 className="card-title ">Ingredientes</h5>
 
@@ -94,10 +97,9 @@ const CeliacoÑoquis = (props) => {
                   </PopoverBody>
                 </Popover>
               </div>
-
               <div className="card-body">
                 <Table borderless>
-                  <tbody>
+                <tbody>
                     <tr>
                       <td>Harina de arroz Tucapel</td>
                       <td>500 gr</td>
@@ -125,16 +127,16 @@ const CeliacoÑoquis = (props) => {
                   </tbody>
                 </Table>
                 <div className="d-flex flex-row justify-content-between">
-                  <div >
-                    <img src={reloj} alt="reloj" /> <span> 50 min</span>
+                  <div>
+                    <img src={reloj} alt="reloj" /> <span>   50 min</span>
                   </div>
                   <div>
                     <img src={tenedor} alt="tenedor" />{" "}
-                    <span> 4 porciones </span>
+                    <span>  4 porciones </span>
                   </div>
                   <div>
                     <img src={libreGluten} alt="libreGluten" />
-                    <span> Libre de gluten </span>
+                    <span>  Libre de gluten </span>
                   </div>
                   <div>
                     <img
@@ -160,47 +162,47 @@ const CeliacoÑoquis = (props) => {
                           <tbody>
                             <tr>
                               <th scope="row">
-                                <i class="icofont-fire-burn"></i>
+                                <i className="icofont-fire-burn"></i>
                               </th>
                               <td>Calorías</td>
-                              <td>562</td>
+                              <td>667</td>
                             </tr>
                             <tr>
                               <th scope="row">
-                                <i class="icofont-bread"></i>
+                                <i className="icofont-bread"></i>
                               </th>
                               <td>Carbohidratos</td>
-                              <td>104 grs</td>
+                              <td>92.4 grs</td>
                             </tr>
                             <tr>
                               <th scope="row">
-                                <i class="icofont-chicken-fry"></i>
+                                <i className="icofont-chicken-fry"></i>
                               </th>
                               <td>Proteínas</td>
-                              <td>21.7 grs</td>
+                              <td>10.4 grs</td>
                             </tr>
                             <tr>
                               <th scope="row">
-                                <i class="icofont-water-drop"></i>
+                                <i className="icofont-water-drop"></i>
                               </th>
                               <td>Lípidos</td>
-                              <td>7 grs</td>
+                              <td>30.7grs</td>
                             </tr>
                           </tbody>
                         </Table>
                       </PopoverBody>
                     </Popover>
                   </div>
+
                 </div>
               </div>
             </div>
           </div>
         </div>
         <section>
-          <h4> Preparación</h4>
-          <p className="text-sm-left ">
-            <br />
-            Comenzamos rallando la coliflor cruda y luego la cocinamos por 3
+          <h4 className="m-3"> Preparación</h4>
+          <p className="text-sm-left m-3">
+          Comenzamos rallando la coliflor cruda y luego la cocinamos por 3
             minutos en agua hervida y añadimos una pizca de sal. Una vez cocida,
             la retiramos de la olla, la colamos y la dejamos enfriar.
             <br />
@@ -239,13 +241,14 @@ const CeliacoÑoquis = (props) => {
           <br />
           <p>A continuación puedes ver el video con la preparación </p>
         </section>
-        <section>
+        <section className="videos m-3">
           <iframe
             src="https://www.youtube.com/embed/8Fg1mDHN4w4"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
             title="video ñoquis"
+            text-align="center"
           ></iframe>
         </section>
       </Container>
