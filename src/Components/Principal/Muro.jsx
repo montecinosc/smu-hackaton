@@ -16,6 +16,8 @@ import MenuPrincipal from './Menu';
 import Footer from './Footer';
 import BarraBusqueda from "./BarraBusqueda";
 import '../../Style/muro.css'
+import Tips from "./Tips";
+
 
 
 
@@ -44,6 +46,11 @@ const Muro = () => {
           })}
              </div>
             </div>
+            <div>
+         <Tips />
+            </div>
+        
+            
         <Footer />
       </Fragment>
     );
