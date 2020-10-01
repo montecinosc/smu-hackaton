@@ -8,7 +8,7 @@ width:300px;
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
-    .card-img, .card-img-bottom, .card-img-top {
+    .tarjetas-inner{
       -ms-flex-negative: 0;
       flex-shrink: 0;
       width: 50%;
