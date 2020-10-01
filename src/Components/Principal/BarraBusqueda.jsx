@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import ReactDOM from "react-dom";
 import "../../Style/buscador.css";
 import "../../Assets/icofont/icofont.min.css";
 import ReactSearchBox from "react-search-box";

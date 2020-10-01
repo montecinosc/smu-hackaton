@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Receta = () => {
     return (
         <div>

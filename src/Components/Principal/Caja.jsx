@@ -1,18 +1,19 @@
 
 import React, { Fragment } from 'react'
-import { Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Row, Button } from 'reactstrap'
+import { Card, Button } from 'reactstrap'
 import Swal from 'sweetalert2'
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Image } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import '../../Style/caja.css';
 import {
-    MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardImage,
-    MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn
+    MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer,
 } from
     "mdbreact";
-
 import Checkbox from '@material-ui/core/Checkbox';
-import listaCompra from '../../Json/listaCompra.json'
+import listaCompra from '../../Json/listaCompra.json';
+import azucar from "../../Assets/img/azucar.png";
+import huevos from "../../Assets/img/huevos.png";
+import limon from "../../Assets/img/limon.png";
+import polenta from "../../Assets/img/polenta.png";
 
 const unicaja = () => {
     Swal.fire(
@@ -31,7 +32,7 @@ const pedido = () => {
 
 
     }).then((result) => {
-        /* Read more about isConfirmed, isDenied below */
+
         if (result.isConfirmed) {
             Swal.fire('Gracias por tu compra', '', 'success')
 
@@ -52,7 +53,7 @@ const Caja = (props) => {
         <div className="container">
             <div className="contenedorCaja row justify-content-center mt-5">
                 <div className="unibox  col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
-                    <img className="imagenBox" src="https://i.ibb.co/NFfPcwW/Uni-Box-Img.png" />
+                    <img className="imagenBox" src="https://i.ibb.co/NFfPcwW/Uni-Box-Img.png" alt="..." />
                     <Button onClick={unicaja} className="btn-compra m-4"> Comprar Unibox</Button>
                 </div>
                 <div className="lista col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
@@ -81,7 +82,7 @@ const Caja = (props) => {
                                     <MDBView>
                                         <img
                                             className="d-block img-carrusel"
-                                            src="https://i.ibb.co/Xxts32p/huevograndeblanco.webp"
+                                            src={azucar}
                                             alt="First slide"
                                         />
                                         <MDBMask overlay="black-light" />
@@ -92,7 +93,7 @@ const Caja = (props) => {
                                     <MDBView>
                                         <img
                                             className="d-block caja-carrusel img-carrusel"
-                                            src="https://i.ibb.co/nk4Tjtr/limongranel.jpg"
+                                            src={polenta}
                                             alt="Second slide"
                                         />
                                         <MDBMask overlay="black-strong" />
@@ -103,7 +104,7 @@ const Caja = (props) => {
                                     <MDBView>
                                         <img
                                             className="d-block caja-carrusel img-carrusel"
-                                            src="https://i.ibb.co/rQWR78B/azucar.webp"
+                                            src={huevos}
                                             alt="Third slide"
                                         />
                                         <MDBMask overlay="black-slight" />
@@ -114,7 +115,7 @@ const Caja = (props) => {
                                     <MDBView>
                                         <img
                                             className="d-block caja-carrusel img-carrusel"
-                                            src="https://i.ibb.co/dcqxWcx/polentacarozzi.jpg"
+                                            src={limon}
                                             alt="First slide"
                                         />
                                         <MDBMask overlay="black-light" />

@@ -2,7 +2,6 @@ import React from 'react'
 import pan from '../../Assets/img/Pan.png'
 import realzar from '../../Assets/img/realizar.png'
 import sarro from '../../Assets/img/sarro.png'
-import guirnarlas from '../../Assets/img/guirnarlas.png'
 import '.././../Style/Tips.css'
 
 

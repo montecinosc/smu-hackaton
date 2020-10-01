@@ -1,17 +1,12 @@
 import React, { Fragment } from 'react'
 import { celiacos } from '../../Json/celiacos.json'
-import { Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Row, Button } from 'reactstrap'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    NavLink
-} from "react-router-dom";
+import { Card, CardImg, Row } from 'reactstrap'
+import { Link } from "react-router-dom";
 import MenuPrincipal from '../Principal/MenuPrincipal';
 import Carrusel from '../Principal/Carrusel';
 import Footer from '../Principal/Footer.jsx';
 import BarraBusqueda from '../Principal/BarraBusqueda';
+import "../../Style/tarjetas.css"
 
 const Celiaco = () => {
     return (
@@ -19,11 +14,11 @@ const Celiaco = () => {
             <MenuPrincipal />
             <Carrusel />
             <BarraBusqueda />
-            <Row sm='3'>
+            <Row sm='3' className="p-4 mx-4">
                 {celiacos.map((element, i) => {
                     return (
                         <Link to={element.tipo}>
-                            <Card>
+                            <Card className="tarjetas-inner">
                                 <CardImg src={element.imagen} alt="" />
 
                             </Card>
