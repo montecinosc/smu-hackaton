@@ -236,8 +236,9 @@ const CeliacoBudinPolenta = (props) => {
           <br />
           <p className="m-3"> A continuación puedes ver el video con la preparación </p>
         </section>
-        <section className="videos m-3">
+        <section className=" m-3">
           <iframe
+          className='videos'
             src="https://www.youtube.com/embed/hQ5O8B0Znms"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
