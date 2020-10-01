@@ -1,32 +1,47 @@
+
 .padre{
-   display:flex;
-   flex-direction: row;
-   justify-content: center;
+margin-right: 30rem;
+  
 }
-.prueba{
+.carousel-inner.prueba{
+    display:flex;
+    justify-content: center; 
+    align-items: center;
 
- margin-left:21.5rem;
-    
     
 }
 
+
+ 
+ @media only screen 
+ and (min-device-width : 768px)  and (max-device-width :1023px)
+  {
+ 
+.padre{
+    margin-right: 15rem;
+      
+    }
+   
+ 
+}
+ 
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {
+and (min-device-width : 1024px) and (max-device-width :1339px)
+
+ {
+
+.padre{
+   margin-right: 19.5rem;
+     
+   }
+  
+
+}
+
+@media (min-width: 1440px) {
 
     .padre{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-left: 1rem;
-    }
-    .prueba{
-
-        width: 100%;
-            margin-left: 6.5rem;
-        
-        
-        
-    }
+        margin-right: 35rem;
+          
+  }
 }
-

@@ -1,8 +1,4 @@
 import React from 'react'
-
-import { Container } from 'reactstrap'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
 import pan from '../../Assets/img/Pan.png'
 import realzar from '../../Assets/img/realizar.png'
 import sarro from '../../Assets/img/sarro.png'
@@ -12,9 +8,9 @@ import '.././../Style/Tips.css'
 
 const Tips = () => {
     return (
-        <div >
+        <div className="padre">
         <div id="carouselExampleControls " className="carousel slide prueba" data-ride="carousel">
-        <div className="carousel-inner">
+        <div className="carousel-inner prueba">
           <div className="carousel-item active " >
             <img className="d-block w-50" src={pan} alt="First slide"  />
           </div>

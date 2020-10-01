@@ -12,7 +12,6 @@ import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import libreGluten from "../../Assets/img/GlutenFree.png";
 import info from "../../Assets/img/Info.png";
-import Menu from "../Principal/MenuPrincipal";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
 import Caja from "../Principal/Caja";
@@ -27,6 +26,7 @@ import {
   TwitterIcon,
   WhatsappIcon,
 } from "react-share";
+import MenuPrincipal from "../Principal/MenuPrincipal";
 
 const CeliacoÑoquis = (props) => {
   const [popoverOpen, setPopoverOpen] = useState(false);
@@ -39,7 +39,7 @@ const CeliacoÑoquis = (props) => {
 
   return (
     <>
-      <Menu />
+      <MenuPrincipal />
       <Carrusel />
       <BarraBusqueda />
       <Container>

@@ -12,7 +12,6 @@ import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import vegano from "../../Assets/img/vegano.png";
 import info from "../../Assets/img/Info.png";
-import Menu from "../Principal/MenuPrincipal";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
 import Puntuacion from "../Puntuacion";
@@ -26,6 +25,7 @@ import {
   TwitterIcon,
   WhatsappIcon,
 } from "react-share";
+import MenuPrincipal from "../Principal/MenuPrincipal";
 
 const Garbanzos = () => {
   const [popoverOpen, setPopoverOpen] = useState(false);
@@ -38,7 +38,7 @@ const Garbanzos = () => {
 
   return (
     <>
-      <Menu />
+      <MenuPrincipal />
       <Carrusel />
       <BarraBusqueda />
       <Container>

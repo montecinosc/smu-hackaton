@@ -12,7 +12,6 @@ import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import sinLactosa from "../../Assets/img/Intolerante.png";
 import info from "../../Assets/img/Info.png";
-import Menu from "../Principal/MenuPrincipal";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
 import Puntuacion from "../Puntuacion";
@@ -26,6 +25,7 @@ import {
   TwitterIcon,
   WhatsappIcon,
 } from "react-share";
+import MenuPrincipal from "../Principal/MenuPrincipal";
 
 
 const PimentonRelleno = (props) => {
@@ -41,7 +41,7 @@ const PimentonRelleno = (props) => {
 
   return (
     <>
-      <Menu />
+      <MenuPrincipal />
       <Carrusel />
       <BarraBusqueda />
       <Container>

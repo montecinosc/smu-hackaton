@@ -12,7 +12,7 @@ import { CardImg, CardBody, CardSubtitle, CardText } from 'reactstrap'
 import { muro } from '../../Json/muroLista.json';
 import Puntuacion from '../Puntuacion';
 import Carrusel from './Carrusel';
-import MenuPrincipal from './MenuPrincipal';
+import MenuPrincipal from '../Principal/MenuPrincipal';
 import Footer from './Footer';
 import BarraBusqueda from "./BarraBusqueda";
 import '../../Style/muro.css'
