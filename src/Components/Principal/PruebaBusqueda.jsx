@@ -27,7 +27,7 @@ const pruebaBusqueda = () => {
 
     ]
     const buscador = () => {
-        console.log("buscnadoo")
+        console.log("buscando")
     }
 
     return (
