@@ -43,7 +43,7 @@ const BarraBusqueda = () => {
   ]
   return (
     <Fragment>
-      <form className="form-inline mr-auto d-flex justify-content-end">
+      <form className="form-inline mr-auto d-flex justify-content-start">
         <ReactSearchBox
           placeholder="Busca tu receta"
           data={data}
@@ -65,7 +65,7 @@ const BarraBusqueda = () => {
           }}
 
         />
-        <button className="btn btn-outline-success btn-rounded btn-sm my-0" type="submit">Buscar</button>
+        <button className="btn btn-outline-success btn-rounded btn-sm my-0 d-flex" type="submit">Buscar</button>
       </form>
     </Fragment>
   );

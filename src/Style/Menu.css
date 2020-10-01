@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
   font-family: Clarendon-Regular;
   src: local('Clarendon'),
     local('Clarendon Regular'),
@@ -44,7 +44,6 @@ margin-left: 28em;
   color:#e05041;
 }
 
-/*media*/
 @media screen and (max-width:768px ) {
   body{
     overflow-x: hidden;
@@ -94,4 +93,3 @@ margin-left: 28em;
   }
 }
 
-  
