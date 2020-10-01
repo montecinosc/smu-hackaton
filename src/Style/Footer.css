@@ -18,8 +18,11 @@ body {
   overflow-x: hidden;
 }
 
-.row {
-  padding: 15px;
+footer{
+  background-image: url(../Assets/img/Fruits.png);
+  background-repeat: no-repeat;
+  background-position:bottom;
+  background-size: contain;
 }
 
 li {
@@ -33,19 +36,12 @@ li {
 
 img.logo {
   height: 3em;
-  margin-left: 6em;
 }
 
 .footer-img {
   vertical-align: middle;
   border-style: none;
   height: 10em;
-}
-
-.container {
-  position: relative;
-  bottom: 0;
-  width: 100vw;
 }
 
 .redes {
@@ -60,240 +56,4 @@ img.logo {
   text-decoration: none;
   cursor: pointer;
   font-family: Apex Sans Book;
-}
-
-/*media*/
-@media screen and (max-width:768px) {
-  body{
-    overflow-x: hidden;
-  }
-
-  img.logo {
-    height: 2em;
-    margin-left: 3.2em;
-  }
-
-  .footer-img {
-    vertical-align: middle;
-    border-style: none;
-    height: 10vh;
-    width: 104vw;
-
-    }  
-
-  .col{
-    margin-left: 0;
-    } 
-}
-
-
-@media screen and (max-width:1024px) {
-  body{
-    overflow-x: hidden;
-  }
-
-  img.logo {
-    height: 2em;
-    margin-left: 3.5em;
-  }
-
-  .footer-img {
-    vertical-align: middle;
-    border-style: none;
-    height: 10vh;
-    width: 100vw;
-    overflow-x: hidden;
-
-    }  
-
-  .col{
-    margin-left: 0;
-    } 
-}
-
-@media(max-width:1024px) and (orientation: landscape){
-  body{
-    overflow-x: hidden;
-  }
-
-  img.logo {
-    height: 2em;
-    margin-left: 3.5em;
-  }
-
-  .footer-img {
-    vertical-align: middle;
-    border-style: none;
-    height: 18vh;
-    width: 102vw;
-
-    }  
-
-  .col{
-    margin-left: 0;
-    } 
-}
-
-@media screen and (max-width:734px) {
-  body{
-    overflow-x: hidden;
-  }
-
-  .logo {
-    height: 2em;
-  }
-
-  .footer-img {
-    vertical-align: middle;
-    border-style: none;
-    height: 12vh;
-    width: 104vw;
-
-    }  
-
-  .col{
-    margin-left: 0;
-    } 
-}
-
-@media (max-width:736px) and (orientation: landscape){
-  body{
-    overflow-x: hidden;
-  }
-
-  .logo {
-    height: 2em;
-  }
-
-  .footer-img {
-    vertical-align: middle;
-    border-style: none;
-    height: 20vh;
-    width: 104vw;
-
-    }  
-
-  .col{
-    margin-left: 0;
-    } 
-}
-
-@media screen and (max-width: 425px) {
-  body{
-    overflow-x: hidden;
-  }
-
-  img.logo{
-    height: 2em;
-    margin-left: 2em;
-  }
-
- .footer-img{
-    vertical-align: middle;
-    border-style: none;
-    height: 5vh;
-    width: 104vw;
-
-  } 
-
-  .col{
-    margin-top: 3em;
-    left:0;
-     } 
-}
-
-@media screen and (max-width: 412px) {
-  body{
-    overflow-x: hidden;
-  }
-
-  img.logo{
-    height: 2em;
-    margin-left: 2em;
-  }
-
- .footer-img{
-    vertical-align: middle;
-    border-style: none;
-    height: 5vh;
-    width: 104vw;
-  } 
-
-  .col{
-    margin-top: 3em;
-    left:0;
-     } 
-}
-
-@media screen and (max-width: 684px){
-
-  body{
-    overflow-x: hidden;
-  }
-
-  img.logo{
-    height: 2em;
-    margin-left: 1.7em;
-  }
-
- .footer-img{
-    vertical-align: middle;
-    border-style: none;
-    height: 7vh;
-    width: 104vw;
-  } 
-
-  .col{
-    margin-top: 3em;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-     } 
-}
-
-@media (max-width: 684px) and (orientation: landscape){
-
-  body{
-    overflow-x: hidden;
-  }
-
-  .logo{
-    height: 2em;
-    margin-left: 1em;
-  }
-
- .footer-img{
-    vertical-align: middle;
-    border-style: none;
-    height: 20vh;
-    width: 100vw;
-  } 
-
-  .col{
-    margin-top: 3em;
-    left:0;
-     } 
-}
-
-@media (max-width: 812px) and (orientation: landscape){
-
-  body{
-    overflow-x: hidden;
-  }
-
-  img.logo{
-    height: 2em;
-    margin-left: 1%;
-  }
-
- .footer-img{
-    vertical-align: middle;
-    border-style: none;
-    height: 21vh;
-    width: 100vw;
-  } 
-
-  .col{
-    margin-top: 3em;
-    left:0;
-     } 
 }

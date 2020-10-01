@@ -8,6 +8,7 @@ import {
     Link,
     NavLink
 } from "react-router-dom";
+import MenuPrincipal from '../Principal/Menu';
 import Carrusel from '../Principal/Carrusel';
 import Footer from '../Principal/Footer.jsx';
 import BarraBusqueda from '../Principal/BarraBusqueda';
@@ -15,6 +16,7 @@ import BarraBusqueda from '../Principal/BarraBusqueda';
 const Celiaco = () => {
     return (
         <Fragment>
+            <MenuPrincipal />
             <Carrusel />
             <BarraBusqueda />
             <Row sm='3'>
