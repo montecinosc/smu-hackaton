@@ -1,13 +1,8 @@
 import React from 'react'
-<<<<<<< HEAD
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-=======
->>>>>>> b358baf7deadbb2f716b386c447c87e1d65b1e3e
 import pan from '../../Assets/img/Pan.png'
 import realzar from '../../Assets/img/realizar.png'
 import sarro from '../../Assets/img/sarro.png'
 import '.././../Style/Tips.css'
-
 
 const Tips = () => {
     return (
