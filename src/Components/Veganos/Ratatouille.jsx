@@ -25,6 +25,7 @@ import {
   WhatsappIcon,
 } from "react-share";
 import MenuPrincipal from "../Principal/MenuPrincipal";
+import '../../Style/Recetas.css'
 
 const Ratatouille = () => {
   const [popoverOpen, setPopoverOpen] = useState(false);
@@ -215,6 +216,7 @@ const Ratatouille = () => {
         </section>
         <section>
           <iframe
+           className='videos'
             src="https://www.youtube.com/embed/6SNYzrbjICs"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -4,10 +4,26 @@
 
     }
 }
+@media screen and (max-width: 768px) {
+    .videos {
+        width: 675px;
+        height: 400px;
+
+    }
+}
+
 
 @media (min-width: 1024px) {
-    .videos{
+    .videos {
         width: 1075px;
         height: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .videos {
+        width: 675px;
+        height: 400px;
+
     }
 }
