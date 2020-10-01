@@ -11,7 +11,6 @@ import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import libreGluten from "../../Assets/img/GlutenFree.png";
 import info from "../../Assets/img/Info.png";
-import Menu from "../Principal/MenuPrincipal";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
 import "../../Style/Celiaco.css";
@@ -27,6 +26,8 @@ import {
   TwitterIcon,
   WhatsappIcon,
 } from "react-share";
+import MenuPrincipal from "../Principal/MenuPrincipal";
+import '../../Style/Recetas.css'
 
 const CeliacoBudinPolenta = (props) => {
 
@@ -41,13 +42,13 @@ const CeliacoBudinPolenta = (props) => {
 
   return (
     <>
-      <Menu />
+      <MenuPrincipal />
       <Carrusel />
       <BarraBusqueda />
       <Container>
         <h3 className="mt-3 text-center">Budín de Polenta</h3>
-        <div className="mt-3  card mb-3">
-          <div className="row no-gutters">
+        <div className="mt-3  card mb-3 ">
+          <div className="row no-gutters ">
             <div className="col-md-4">
               <img src={polenta} className="card-img" alt="..." />
             </div>
