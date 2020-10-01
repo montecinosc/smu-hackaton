@@ -1,3 +1,13 @@
+@media screen and (max-width: 325px) {
+    .videos {
+        
+            width: 250px;
+            height: 150px;
+    
+        
+
+    }
+}
 @media screen and (max-width: 425px) {
     .videos {
         text-align: center;
