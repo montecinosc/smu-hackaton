@@ -25,12 +25,21 @@ const unicaja = () => {
 }
 
 const pedido = () => {
-    Swal.fire(
-        'Estamos preparando tu pedido',
-        'Gracias por  hacer nuestras recetas',
-        'success'
+    Swal.fire({
+        title: 'Estamos preparando tu pedido',
+        confirmButtonText: `Aceptar`,
 
-    );
+
+    }).then((result) => {
+        /* Read more about isConfirmed, isDenied below */
+        if (result.isConfirmed) {
+            Swal.fire('Gracias por tu compra', '', 'success')
+
+            if (result.isConfirmed) { window.location.reload(true) }
+        } else if (result.isDenied) {
+            Swal.fire('Revisa tu lista', '', 'info')
+        }
+    })
 }
 
 const Caja = (props) => {
@@ -38,9 +47,9 @@ const Caja = (props) => {
     const listaNombre = props.lista;
     return (
         <Fragment >
-            <br/>
+            <br />
             <p className="textoInicial">Si estás interesado en preparar esta receta, ahora puedes conseguir los ingredientes</p>
-            <p className="descripcion">Te presentamos la UNIBOX, con ella puedes obtener todos los ingredientes de tus recetas favoritas con solo un click, 
+            <p className="descripcion">Te presentamos la UNIBOX, con ella puedes obtener todos los ingredientes de tus recetas favoritas con solo un click,
              o si prefieres puedes adquirir solo los productos que necesitas</p>
 
             <div className="contenedorCaja">
@@ -119,9 +128,9 @@ const Caja = (props) => {
                     </MDBContainer>
                 </div>
             </div>
-           <br/>
-           <br/>
-           <br/>
+            <br />
+            <br />
+            <br />
 
 
         </Fragment >
