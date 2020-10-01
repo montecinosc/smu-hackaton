@@ -8,9 +8,9 @@ import '.././../Style/Tips.css'
 
 const Tips = () => {
     return (
-        <div >
+        <div className="padre">
         <div id="carouselExampleControls " className="carousel slide prueba" data-ride="carousel">
-        <div className="carousel-inner">
+        <div className="carousel-inner prueba">
           <div className="carousel-item active " >
             <img className="d-block w-50" src={pan} alt="First slide"  />
           </div>

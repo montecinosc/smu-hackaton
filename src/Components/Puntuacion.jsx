@@ -3,15 +3,16 @@ import Rating from 'react-rating';
 import ePloma from '../Assets/img/star-grey.png'
 import eRoja from '../Assets/img/star-red.png'
 import eAmarilla from '../Assets/img/star-yellow.png'
-
+import '../Style/Recetas.css'
 
 const Puntuacion = () => {
     return (
-        <div>
-            <Rating placeholderRating={4}
+        <div >
+            <Rating 
+             placeholderRating={4}
                 emptySymbol={
                     <img src={ePloma}
-                        className="icon"
+                        className="icon "
                         alt='estrella ploma'/>}
                 placeholderSymbol={
                     <img src={eRoja}
