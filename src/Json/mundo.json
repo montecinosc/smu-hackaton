@@ -2,14 +2,14 @@
     "mundo": [{
 
             "titulo": "Zapallo italiano",
-            "imagen": "https://i.ibb.co/RPDWvdd/Mundo-Zap-Italiano.png"
-
+            "imagen": "https://i.ibb.co/RPDWvdd/Mundo-Zap-Italiano.png",
+            "tipo": "./"
         },
 
         {
             "titulo": "Helado chocolate",
-            "imagen": "https://i.ibb.co/qdZtTKW/Mundo-Helado.png"
-
+            "imagen": "https://i.ibb.co/qdZtTKW/Mundo-Helado.png",
+            "tipo": "./"
         }
 
     ]

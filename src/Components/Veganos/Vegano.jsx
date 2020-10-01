@@ -14,7 +14,7 @@ const Vegano = () => {
     return (
 
         <>
-            <MenuPrincipal/>
+            <MenuPrincipal />
             <Carrusel />
             <BarraBusqueda />
             <Row sm='3'>

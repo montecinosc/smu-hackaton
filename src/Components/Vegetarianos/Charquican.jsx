@@ -49,9 +49,9 @@ const Charquican = (props) => {
               <img src={charquican} className="card-img" alt="..." />
             </div>
             <div className="col-md-8">
-            <div className=" d-flex flex-row  justify-content-around">
+              <div className=" d-flex flex-row  justify-content-around">
                 <h5 className="card-title ">Ingredientes</h5>
-                
+
                 <Puntuacion />
 
                 <img
@@ -94,8 +94,8 @@ const Charquican = (props) => {
                 </Popover>
               </div>
               <div className="card-body">
-              
-              <Table borderless>
+
+                <Table borderless>
                   <tbody>
                     <tr>
                       <td>Ensalada primavera Frutos del Maipo</td>
@@ -128,71 +128,71 @@ const Charquican = (props) => {
                   </tbody>
                 </Table>
                 <div className="d-flex flex-row justify-content-between">
-                    <div>
-                      <img src={reloj} alt="reloj" /> <span> 35 min</span>
-                    </div>
-                    <div>
-                      <img src={tenedor} alt="tenedor" />{" "}
-                      <span> 4 porciones </span>
-                    </div>
-                    <div>
-                      <img src={vegetariano} alt="vegetariano" />
-                      <span> Vegetariano </span>
-                    </div>
-                    <div>
-                      <img
-                        style={{ cursor: "pointer" }}
-                        id="Popover1"
-                        src={info}
-                        alt="información nutricional"
-                      />
-                      <span> Información Nutricional</span>
+                  <div>
+                    <img src={reloj} alt="reloj" /> <span> 35 min</span>
+                  </div>
+                  <div>
+                    <img src={tenedor} alt="tenedor" />{" "}
+                    <span> 4 porciones </span>
+                  </div>
+                  <div>
+                    <img src={vegetariano} alt="vegetariano" />
+                    <span> Vegetariano </span>
+                  </div>
+                  <div>
+                    <img
+                      style={{ cursor: "pointer" }}
+                      id="Popover1"
+                      src={info}
+                      alt="información nutricional"
+                    />
+                    <span> Información Nutricional</span>
 
-                      <Popover
-                        placement="bottom"
-                        isOpen={popoverOpen}
-                        target="Popover1"
-                        toggle={toggle}
-                      >
-                        <PopoverHeader>
-                          Calorías y Macronutrientes
+                    <Popover
+                      placement="bottom"
+                      isOpen={popoverOpen}
+                      target="Popover1"
+                      toggle={toggle}
+                    >
+                      <PopoverHeader>
+                        Calorías y Macronutrientes
                         </PopoverHeader>
-                        <PopoverBody>
-                          <Table borderless>
+                      <PopoverBody>
+                        <Table borderless>
                           <tbody>
-                              <tr>
-                                <th scope="row">
-                                  <i className="icofont-fire-burn"></i>
-                                </th>
-                                <td>Calorías</td>
-                                <td>308</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">
-                                  <i className="icofont-bread"></i>
-                                </th>
-                                <td>Carbohidratos</td>
-                                <td>50.7 grs</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">
-                                  <i className="icofont-chicken-fry"></i>
-                                </th>
-                                <td>Proteínas</td>
-                                <td>14 grs</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">
-                                  <i className="icofont-water-drop"></i>
-                                </th>
-                                <td>Lípidos</td>
-                                <td>6 grs</td>
-                              </tr>
-                            </tbody>
-                          </Table>
-                        </PopoverBody>
-                      </Popover>
-                    </div>
+                            <tr>
+                              <th scope="row">
+                                <i className="icofont-fire-burn"></i>
+                              </th>
+                              <td>Calorías</td>
+                              <td>308</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <i className="icofont-bread"></i>
+                              </th>
+                              <td>Carbohidratos</td>
+                              <td>50.7 grs</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <i className="icofont-chicken-fry"></i>
+                              </th>
+                              <td>Proteínas</td>
+                              <td>14 grs</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <i className="icofont-water-drop"></i>
+                              </th>
+                              <td>Lípidos</td>
+                              <td>6 grs</td>
+                            </tr>
+                          </tbody>
+                        </Table>
+                      </PopoverBody>
+                    </Popover>
+                  </div>
                 </div>
               </div>
             </div>
@@ -201,7 +201,7 @@ const Charquican = (props) => {
         <section>
           <h4> Preparación</h4>
           <p className="text-sm-left ">
-          <br />
+            <br />
             Pelar y posteriormente cortar 2 papas en cubitos pequeños e
             incorporarlas en un pocillo con agua y un poco de sal.
             <br />

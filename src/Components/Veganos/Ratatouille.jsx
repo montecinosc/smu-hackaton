@@ -50,9 +50,9 @@ const Ratatouille = () => {
               <img src={ratatouille} className="card-img" alt="..." />
             </div>
             <div className="col-md-8">
-            <div className=" d-flex flex-row  justify-content-around">
+              <div className=" d-flex flex-row  justify-content-around">
                 <h5 className="card-title ">Ingredientes</h5>
-                
+
                 <Puntuacion />
 
                 <img
@@ -95,7 +95,7 @@ const Ratatouille = () => {
                 </Popover>
               </div>
               <div className="card-body">
-               
+
                 <Table borderless>
                   <tbody>
                     <tr>
@@ -129,61 +129,61 @@ const Ratatouille = () => {
                   </tbody>
                 </Table>
                 <div className="d-flex flex-row justify-content-between">
-                    <div>
-                      <img src={reloj} alt="reloj" /> <span> 60 min</span>
-                    </div>
-                    <div>
-                      <img src={tenedor} alt="tenedor" />{" "}
-                      <span> 4 porciones </span>
-                    </div>
-                    <div>
-                      <img src={vegano} alt="vegano" />
-                      <span> Vegano </span>
-                    </div>
-                    <div>
+                  <div>
+                    <img src={reloj} alt="reloj" /> <span> 60 min</span>
+                  </div>
+                  <div>
+                    <img src={tenedor} alt="tenedor" />{" "}
+                    <span> 4 porciones </span>
+                  </div>
+                  <div>
+                    <img src={vegano} alt="vegano" />
+                    <span> Vegano </span>
+                  </div>
+                  <div>
                     <img
-                        style={{ cursor: "pointer" }}
-                        id="Popover1"
-                        src={info}
-                        alt="información nutricional"
-                      />
-                      <span> Información Nutricional</span>
+                      style={{ cursor: "pointer" }}
+                      id="Popover1"
+                      src={info}
+                      alt="información nutricional"
+                    />
+                    <span> Información Nutricional</span>
 
-                      <Popover
-                        placement="bottom"
-                        isOpen={popoverOpen}
-                        target="Popover1"
-                        toggle={toggle}
-                      >
-                        <PopoverHeader>Popover Title</PopoverHeader>
-                        <PopoverBody>
-                          <Table borderless>
-                            <tbody>
-                              <tr>
-                                <th scope="row">1</th>
-                                <td>Calorias</td>
-                                <td>106</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">2</th>
-                                <td>CarboHidratos</td>
-                                <td>18 grs</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">3</th>
-                                <td>Proteinas</td>
-                                <td>4 grs</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">3</th>
-                                <td>Lipidos</td>
-                                <td>3.6 grs</td>
-                              </tr>
-                            </tbody>
-                          </Table>
-                        </PopoverBody>
-                      </Popover>
-                    </div>
+                    <Popover
+                      placement="bottom"
+                      isOpen={popoverOpen}
+                      target="Popover1"
+                      toggle={toggle}
+                    >
+                      <PopoverHeader>Popover Title</PopoverHeader>
+                      <PopoverBody>
+                        <Table borderless>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Calorias</td>
+                              <td>106</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>CarboHidratos</td>
+                              <td>18 grs</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>Proteinas</td>
+                              <td>4 grs</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>Lipidos</td>
+                              <td>3.6 grs</td>
+                            </tr>
+                          </tbody>
+                        </Table>
+                      </PopoverBody>
+                    </Popover>
+                  </div>
                 </div>
               </div>
             </div>

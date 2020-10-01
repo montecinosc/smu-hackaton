@@ -37,6 +37,22 @@ const BarraBusqueda = () => {
       key: "charquican",
       value: "papa",
     },
+    {
+      key: "pimentonRelleno",
+      value: "pimenton",
+    },
+    {
+      key: "sopaipilla",
+      value: "zapallo",
+    },
+    {
+      key: "ratatouille",
+      value: "berenjena",
+    },
+    {
+      key: "garbanzo",
+      value: "espinaca",
+    },
   ];
   return (
     <Fragment>
