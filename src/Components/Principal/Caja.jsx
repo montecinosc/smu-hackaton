@@ -52,11 +52,11 @@ const Caja = (props) => {
         <p className="descripcion">Te presentamos la UNIBOX, con ella puedes obtener todos los ingredientes de tus recetas favoritas con solo un click, o si prefieres puedes adquirir solo los productos que necesitas</p>
         <div className="container">
             <div className="contenedorCaja row justify-content-center mt-5">
-                <div className="unibox  col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
+                <div className="unibox box  col-md-6 col-lg-4 d-flex justify-content-between align-items-center">
                     <img className="imagenBox" src="https://i.ibb.co/NFfPcwW/Uni-Box-Img.png" alt="..." />
                     <Button onClick={unicaja} className="btn-compra m-4"> Comprar Unibox</Button>
                 </div>
-                <div className="lista col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
+                <div className="lista box col-md-6 col-lg-4 d-flex justify-content-between align-items-center">
                     {listaCompra[listaNombre].map((element, i) => {
                         return (
                             <Card>
