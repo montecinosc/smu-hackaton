@@ -17,32 +17,3 @@ body{
   font-weight: bold;
 }
 
-
-/* media
-@media screen and (max-width:1024px) {
-  .card {
-    margin:0em 2em 1em 2em;
-  }
-}
-
-@media(max-width:1024px) and (orientation: landscape){
-  .card {
-    margin:0em 2em 1em 2em;
-  }
-}
-
-@media screen and (max-width: 684px){
-  body{
-    overflow-x: hidden;
-  }
-  .card {
-    margin:0em 0.5em 1em 0.5em;
-  }
-}
-
-@media (max-width: 812px) and (orientation: landscape){
-  .card {
-    margin:0em 1.5em 1em 1.5em;
-  }
-
-} */

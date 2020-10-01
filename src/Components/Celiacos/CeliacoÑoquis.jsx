@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import {
   Container,
   Table,
-  Row,
   Popover,
   PopoverHeader,
   PopoverBody,
@@ -36,8 +35,6 @@ const CeliacoÑoquis = (props) => {
 
   const shareUrl = "https://4luquitas.netlify.app/%C3%B1oquis";
   const title = "Ñoquis Coliflor ";
-
-
 
   return (
     <>

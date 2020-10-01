@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Muro from "./Components/Principal/Muro";
 import "./App.css";
 import Celiaco from "./Components/Celiacos/Celiaco";

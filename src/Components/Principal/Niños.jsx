@@ -1,10 +1,7 @@
 import React from 'react'
 import { niños } from '../../Json/niños.json'
-import { Col, Card, CardImg, Row, Breadcrumb } from 'reactstrap'
-import {
-    BrowserRouter as Router,
-    Link
-} from "react-router-dom";
+import { Card, CardImg, Row } from 'reactstrap'
+import { Link } from "react-router-dom";
 import MenuPrincipal from '../Principal/MenuPrincipal';
 import Carrusel from '../Principal/Carrusel';
 import Footer from '../Principal/Footer.jsx';

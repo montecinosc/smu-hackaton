@@ -1,12 +1,8 @@
 import React from 'react'
-
-import { Container } from 'reactstrap'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
 import pan from '../../Assets/img/Pan.png'
 import realzar from '../../Assets/img/realizar.png'
 import sarro from '../../Assets/img/sarro.png'
-import guirnarlas from '../../Assets/img/guirnarlas.png'
 import '.././../Style/Tips.css'
 
 

@@ -1,6 +1,5 @@
 import React from 'react'
 import booklogo from "../../Assets/img/booklogo.jpg"
-import Fruits from "../../Assets/img/Fruits.png"
 import '../../Style/Footer.css'
 import '../../Assets/icofont/icofont.css'
 
@@ -8,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="pb-5">
       <div className="container mb-5 pb-4">
-      <img className="logo mt-4 mx-0" src={booklogo} />
+      <img className="logo mt-4 mx-0" src={booklogo} alt="..." />
         <div className="row align-items-start">
           <div className="col-sm-4 p-2">
             Menú Principal

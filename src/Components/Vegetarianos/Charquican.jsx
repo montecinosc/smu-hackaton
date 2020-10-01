@@ -2,13 +2,11 @@ import React, { useState } from "react";
 import {
   Container,
   Table,
-  Row,
   Popover,
   PopoverHeader,
   PopoverBody,
 } from "reactstrap";
 import charquican from "../../Assets/img/charquican.png";
-import polenta from "../../Assets/img/ratatouille.png"
 import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import vegetariano from "../../Assets/img/vegetariano.png";

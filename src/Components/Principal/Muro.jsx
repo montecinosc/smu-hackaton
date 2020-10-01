@@ -1,13 +1,5 @@
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  NavLink
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 import React, { Fragment } from 'react'
-import Celiaco from '../Celiacos/Celiaco';
-import Vegetariano from '../Vegetarianos/Vegetariano';
 import { CardImg, CardBody, CardSubtitle, CardText } from 'reactstrap'
 import { muro } from '../../Json/muroLista.json';
 import Puntuacion from '../Puntuacion';

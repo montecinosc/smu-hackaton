@@ -1,10 +1,7 @@
 import React from 'react'
 import { lactosa } from '../../Json/lactosa.json'
-import { Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Row, Button } from 'reactstrap'
-import {
-    BrowserRouter as Router,
-    Link
-} from "react-router-dom";
+import { Card, CardImg, Row } from 'reactstrap'
+import { Link } from "react-router-dom";
 import MenuPrincipal from '../Principal/MenuPrincipal';
 import Carrusel from '../Principal/Carrusel';
 import Footer from '../Principal/Footer.jsx';
