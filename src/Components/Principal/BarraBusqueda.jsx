@@ -1,19 +1,8 @@
 import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  NavLink
-} from "react-router-dom";
 import '../../Style/buscador.css'
 import '../../Assets/icofont/icofont.min.css'
 import ReactSearchBox from 'react-search-box'
-/*import TextField from '@material-ui/core/TextField';
-import Autocomplete from '@material-ui/lab/Autocomplete';*/
-
-
 
 const peopleDos = ['coliflor', 'polenta', 'lechuga', 'helado', 'carne']
 
@@ -78,9 +67,6 @@ const BarraBusqueda = () => {
         />
         <button className="btn btn-outline-success btn-rounded btn-sm my-0" type="submit">Buscar</button>
       </form>
-
-
-
     </Fragment>
   );
 }
