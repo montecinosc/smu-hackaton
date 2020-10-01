@@ -12,3 +12,8 @@ form{
 input{
   font-family: icofont, Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.btn-outline-success {
+  color: #500303;
+  border-color: #ff0000;
+}
