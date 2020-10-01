@@ -22,6 +22,7 @@ import Tips from "./Tips";
 
 
 
+
 const Muro = () => {
   return (
     <Fragment>
@@ -47,6 +48,7 @@ const Muro = () => {
           })}
         </div>
       </div>
+      <Tips />
       <Footer />
     </Fragment>
   );

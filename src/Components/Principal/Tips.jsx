@@ -1,37 +1,37 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
+import { Container } from 'reactstrap'
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 import pan from '../../Assets/img/Pan.png'
 import realzar from '../../Assets/img/realizar.png'
 import sarro from '../../Assets/img/sarro.png'
-import fondo from '../../Assets/img/fondo.png'
+import guirnarlas from '../../Assets/img/guirnarlas.png'
+import '.././../Style/Tips.css'
 
 
 const Tips = () => {
     return (
-        <div id="carouselExampleControls " className="carousel slide" data-ride="carousel">
-        <div className="carousel-inner">
-          <div className="carousel-item active " >
-            <img className="d-block w-50" src={pan} alt="First slide"  />
-          </div>
-          <div className="carousel-item">
-       
-            <img className="d-block w-50 " src={realzar} alt="Second slide"/>
-            
-          </div>
-          <div className="carousel-item">
+      <div className='padre'>
+  <Carousel autoPlay className='prueba  '>
+        <div className='padre'>
+            <img alt="" src={pan} />
         
-            <img className="d-block w-50" src={sarro} alt="Third slide"/>
-         
-          </div>
         </div>
-        <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="sr-only">Next</span>
-        </a>
+        <div>
+            <img alt="" src={realzar} />
+        
+        </div>
+        <div>
+            <img alt="" src={sarro} />
+         
+        </div>
+        <div>
+            <img alt="" src={guirnarlas} />
+            
+        </div>
+       
+    </Carousel>
       </div>
     )
 }
