@@ -47,17 +47,15 @@ const Caja = (props) => {
     const listaNombre = props.lista;
     return (
         <Fragment >
-            <br />
-            <p className="textoInicial">Si estás interesado en preparar esta receta, ahora puedes conseguir los ingredientes</p>
-            <p className="descripcion">Te presentamos la UNIBOX, con ella puedes obtener todos los ingredientes de tus recetas favoritas con solo un click,
-             o si prefieres puedes adquirir solo los productos que necesitas</p>
-
-            <div className="contenedorCaja">
-                <div className="unibox">
+        <p className="textoInicial">Si estás interesado en preparar esta receta, ahora puedes conseguir los ingredientes</p>
+        <p className="descripcion">Te presentamos la UNIBOX, con ella puedes obtener todos los ingredientes de tus recetas favoritas con solo un click, o si prefieres puedes adquirir solo los productos que necesitas</p>
+        <div className="container">
+            <div className="contenedorCaja row justify-content-center mt-5">
+                <div className="unibox  col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
                     <img className="imagenBox" src="https://i.ibb.co/NFfPcwW/Uni-Box-Img.png" />
-                    <Button onClick={unicaja} className="btn-compra"> Comprar Unibox</Button>
+                    <Button onClick={unicaja} className="btn-compra m-4"> Comprar Unibox</Button>
                 </div>
-                <div className="lista">
+                <div className="lista col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
                     {listaCompra[listaNombre].map((element, i) => {
                         return (
                             <Card>
@@ -67,9 +65,9 @@ const Caja = (props) => {
                         );
                     })
                     }
-                    <Button onClick={pedido} className="comprarIngredientes"> Comprar Ingredientes</Button>
+                    <Button onClick={pedido} className="comprarIngredientes m-4"> Comprar Ingredientes</Button>
                 </div>
-                <div className="contenedorCarusel">
+                <div className="contenedorCarusel col-md-6 col-lg-4">
                     <MDBContainer>
                         <MDBCarousel
                             activeItem={1}
@@ -127,13 +125,11 @@ const Caja = (props) => {
                         </MDBCarousel>
                     </MDBContainer>
                 </div>
+            
             </div>
-            <br />
-            <br />
-            <br />
 
-
-        </Fragment >
+        </div>
+    </Fragment >
     )
 }
 
