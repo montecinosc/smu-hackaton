@@ -5,6 +5,7 @@ import {
     BrowserRouter as Router,
     Link
 } from "react-router-dom";
+import MenuPrincipal from '../Principal/Menu';
 import Carrusel from '../Principal/Carrusel';
 import Footer from '../Principal/Footer.jsx';
 import BarraBusqueda from '../Principal/BarraBusqueda';
@@ -13,6 +14,8 @@ const IntoleranteLactosa = () => {
     return (
 
         <>
+            <MenuPrincipal />
+
             <Carrusel />
             <BarraBusqueda />
             <Row sm='3'>
