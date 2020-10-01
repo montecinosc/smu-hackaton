@@ -25,6 +25,7 @@ import {
   WhatsappIcon,
 } from "react-share";
 import MenuPrincipal from "../Principal/MenuPrincipal";
+import '../../Style/Recetas.css'
 
 
 const PimentonRelleno = (props) => {
@@ -246,6 +247,7 @@ const PimentonRelleno = (props) => {
         </section>
         <section>
           <iframe
+           className='videos'
             src="https://www.youtube.com/embed/AfXHhbwuNsM"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
