@@ -29,7 +29,7 @@ const Muro = () => {
                   <div className="row">
           {muro.map((element, i) => {
             return (
-                    <div className="col-md-6 col-lg-4">
+                    <div style="z-index:-1;" className="col-md-6 col-lg-4">
                       <div className="card">
                         <CardImg src={element.imagen} alt="" />
                         <CardBody>
@@ -50,3 +50,6 @@ const Muro = () => {
 }
 
 export default Muro
+
+
+
