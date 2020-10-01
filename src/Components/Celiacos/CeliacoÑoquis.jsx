@@ -12,7 +12,7 @@ import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import libreGluten from "../../Assets/img/GlutenFree.png";
 import info from "../../Assets/img/Info.png";
-import Menu from "../Principal/Menu";
+import Menu from "../Principal/MenuPrincipal";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
 import Caja from "../Principal/Caja";

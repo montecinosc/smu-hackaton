@@ -12,7 +12,7 @@ import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import vegano from "../../Assets/img/vegano.png";
 import info from "../../Assets/img/Info.png";
-import Menu from "../Principal/Menu";
+import Menu from "../Principal/MenuPrincipal";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
 import Puntuacion from "../Puntuacion";
@@ -49,9 +49,9 @@ const Garbanzos = () => {
               <img src={garbanzos} className="card-img" alt="..." />
             </div>
             <div className="col-md-8">
-            <div className=" d-flex flex-row  justify-content-around">
+              <div className=" d-flex flex-row  justify-content-around">
                 <h5 className="card-title ">Ingredientes</h5>
-                
+
                 <Puntuacion />
 
                 <img
@@ -94,7 +94,7 @@ const Garbanzos = () => {
                 </Popover>
               </div>
               <div className="card-body">
-                
+
                 <Table borderless>
                   <tbody>
                     <tr>
@@ -132,61 +132,61 @@ const Garbanzos = () => {
                   </tbody>
                 </Table>
                 <div className="d-flex flex-row justify-content-between">
-                    <div>
-                      <img src={reloj} alt="reloj" /> <span> 50 min</span>
-                    </div>
-                    <div>
-                      <img src={tenedor} alt="tenedor" />{" "}
-                      <span> 4 porciones </span>
-                    </div>
-                    <div>
-                      <img src={vegano} alt="vegano" />
-                      <span> Vegano </span>
-                    </div>
-                    <div>
-                      <img
-                        style={{ cursor: "pointer" }}
-                        id="Popover1"
-                        src={info}
-                        alt="información nutricional"
-                      />
-                      <span> Información Nutricional</span>
+                  <div>
+                    <img src={reloj} alt="reloj" /> <span> 50 min</span>
+                  </div>
+                  <div>
+                    <img src={tenedor} alt="tenedor" />{" "}
+                    <span> 4 porciones </span>
+                  </div>
+                  <div>
+                    <img src={vegano} alt="vegano" />
+                    <span> Vegano </span>
+                  </div>
+                  <div>
+                    <img
+                      style={{ cursor: "pointer" }}
+                      id="Popover1"
+                      src={info}
+                      alt="información nutricional"
+                    />
+                    <span> Información Nutricional</span>
 
-                      <Popover
-                        placement="bottom"
-                        isOpen={popoverOpen}
-                        target="Popover1"
-                        toggle={toggle}
-                      >
-                        <PopoverHeader>Popover Title</PopoverHeader>
-                        <PopoverBody>
-                          <Table borderless>
-                            <tbody>
-                              <tr>
-                                <th scope="row">1</th>
-                                <td>Calorias</td>
-                                <td>142</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">2</th>
-                                <td>CarboHidratos</td>
-                                <td>21 grs</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">3</th>
-                                <td>Proteinas</td>
-                                <td>9.8 grs</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">3</th>
-                                <td>Lipidos</td>
-                                <td>2.7grs</td>
-                              </tr>
-                            </tbody>
-                          </Table>
-                        </PopoverBody>
-                      </Popover>
-                    </div>
+                    <Popover
+                      placement="bottom"
+                      isOpen={popoverOpen}
+                      target="Popover1"
+                      toggle={toggle}
+                    >
+                      <PopoverHeader>Popover Title</PopoverHeader>
+                      <PopoverBody>
+                        <Table borderless>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Calorias</td>
+                              <td>142</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>CarboHidratos</td>
+                              <td>21 grs</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>Proteinas</td>
+                              <td>9.8 grs</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>Lipidos</td>
+                              <td>2.7grs</td>
+                            </tr>
+                          </tbody>
+                        </Table>
+                      </PopoverBody>
+                    </Popover>
+                  </div>
                 </div>
               </div>
             </div>

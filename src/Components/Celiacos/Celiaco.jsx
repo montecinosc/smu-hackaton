@@ -8,7 +8,7 @@ import {
     Link,
     NavLink
 } from "react-router-dom";
-import MenuPrincipal from '../Principal/Menu';
+import MenuPrincipal from '../Principal/MenuPrincipal';
 import Carrusel from '../Principal/Carrusel';
 import Footer from '../Principal/Footer.jsx';
 import BarraBusqueda from '../Principal/BarraBusqueda';

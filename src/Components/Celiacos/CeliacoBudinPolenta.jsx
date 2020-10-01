@@ -12,7 +12,7 @@ import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import libreGluten from "../../Assets/img/GlutenFree.png";
 import info from "../../Assets/img/Info.png";
-import Menu from "../Principal/Menu";
+import Menu from "../Principal/MenuPrincipal";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
 import "../../Style/Celiaco.css";
@@ -53,10 +53,10 @@ const CeliacoBudinPolenta = (props) => {
               <img src={polenta} className="card-img" alt="..." />
             </div>
             <div className="col-md-8">
-           
+
               <div className=" d-flex flex-row  justify-content-around">
                 <h5 className="card-title ">Ingredientes</h5>
-                
+
                 <Puntuacion />
 
                 <img
@@ -131,74 +131,74 @@ const CeliacoBudinPolenta = (props) => {
                     </tr>
                   </tbody>
                 </Table>
-                <div  className="d-flex flex-row justify-content-between">
-                    <div>
-                      <img src={reloj} alt="reloj" /> <span>   50 min</span>
-                    </div>
-                    <div>
-                      <img src={tenedor} alt="tenedor" />{" "}
-                      <span>  4 porciones </span>
-                    </div>
-                    <div>
-                      <img src={libreGluten} alt="libreGluten" />
-                      <span>  Libre de gluten </span>
-                    </div>
-                    <div>
-                      <img
-                        style={{ cursor: "pointer" }}
-                        id="Popover1"
-                        src={info}
-                        alt="información nutricional"
-                      />
+                <div className="d-flex flex-row justify-content-between">
+                  <div>
+                    <img src={reloj} alt="reloj" /> <span>   50 min</span>
+                  </div>
+                  <div>
+                    <img src={tenedor} alt="tenedor" />{" "}
+                    <span>  4 porciones </span>
+                  </div>
+                  <div>
+                    <img src={libreGluten} alt="libreGluten" />
+                    <span>  Libre de gluten </span>
+                  </div>
+                  <div>
+                    <img
+                      style={{ cursor: "pointer" }}
+                      id="Popover1"
+                      src={info}
+                      alt="información nutricional"
+                    />
 
-                      <span> Información Nutricional</span>
+                    <span> Información Nutricional</span>
 
-                      <Popover
-                        placement="bottom"
-                        isOpen={popoverOpen}
-                        target="Popover1"
-                        toggle={toggle}
-                      >
-                        <PopoverHeader>
-                          Calorías y Macronutrientes
+                    <Popover
+                      placement="bottom"
+                      isOpen={popoverOpen}
+                      target="Popover1"
+                      toggle={toggle}
+                    >
+                      <PopoverHeader>
+                        Calorías y Macronutrientes
                         </PopoverHeader>
-                        <PopoverBody>
-                          <Table borderless>
-                            <tbody>
-                              <tr>
-                                <th scope="row">
-                                  <i className="icofont-fire-burn"></i>
-                                </th>
-                                <td>Calorías</td>
-                                <td>667</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">
-                                  <i className="icofont-bread"></i>
-                                </th>
-                                <td>Carbohidratos</td>
-                                <td>92.4 grs</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">
-                                  <i className="icofont-chicken-fry"></i>
-                                </th>
-                                <td>Proteínas</td>
-                                <td>10.4 grs</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">
-                                  <i className="icofont-water-drop"></i>
-                                </th>
-                                <td>Lípidos</td>
-                                <td>30.7grs</td>
-                              </tr>
-                            </tbody>
-                          </Table>
-                        </PopoverBody>
-                      </Popover>
-                    </div>
-                  
+                      <PopoverBody>
+                        <Table borderless>
+                          <tbody>
+                            <tr>
+                              <th scope="row">
+                                <i className="icofont-fire-burn"></i>
+                              </th>
+                              <td>Calorías</td>
+                              <td>667</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <i className="icofont-bread"></i>
+                              </th>
+                              <td>Carbohidratos</td>
+                              <td>92.4 grs</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <i className="icofont-chicken-fry"></i>
+                              </th>
+                              <td>Proteínas</td>
+                              <td>10.4 grs</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <i className="icofont-water-drop"></i>
+                              </th>
+                              <td>Lípidos</td>
+                              <td>30.7grs</td>
+                            </tr>
+                          </tbody>
+                        </Table>
+                      </PopoverBody>
+                    </Popover>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -238,8 +238,6 @@ const CeliacoBudinPolenta = (props) => {
         </section>
         <section className="videos m-3">
           <iframe
-          width="1093"
-          height="600"
             src="https://www.youtube.com/embed/hQ5O8B0Znms"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

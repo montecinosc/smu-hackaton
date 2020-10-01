@@ -5,7 +5,7 @@ import {
     BrowserRouter as Router,
     Link
 } from "react-router-dom";
-import MenuPrincipal from '../Principal/Menu';
+import MenuPrincipal from '../Principal/MenuPrincipal';
 import Carrusel from '../Principal/Carrusel';
 import Footer from '../Principal/Footer.jsx';
 import BarraBusqueda from '../Principal/BarraBusqueda';
@@ -14,7 +14,7 @@ const Vegano = () => {
     return (
 
         <>
-            <MenuPrincipal/>
+            <MenuPrincipal />
             <Carrusel />
             <BarraBusqueda />
             <Row sm='3'>

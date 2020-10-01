@@ -12,7 +12,7 @@ import reloj from "../../Assets/img/Clock.png";
 import tenedor from "../../Assets/img/Fork.png";
 import sinLactosa from "../../Assets/img/Intolerante.png";
 import info from "../../Assets/img/Info.png";
-import Menu from "../Principal/Menu";
+import Menu from "../Principal/MenuPrincipal";
 import Carrusel from "../Principal/Carrusel";
 import Footer from "../Principal/Footer";
 import Puntuacion from "../Puntuacion";
@@ -52,9 +52,9 @@ const PimentonRelleno = (props) => {
               <img src={pimentonRelleno} className="card-img" alt="..." />
             </div>
             <div className="col-md-8">
-            <div className=" d-flex flex-row  justify-content-around">
+              <div className=" d-flex flex-row  justify-content-around">
                 <h5 className="card-title ">Ingredientes</h5>
-                
+
                 <Puntuacion />
 
                 <img
@@ -97,7 +97,7 @@ const PimentonRelleno = (props) => {
                 </Popover>
               </div>
               <div className="card-body">
-      
+
                 <Table borderless>
                   <tbody>
                     <tr>
@@ -135,74 +135,74 @@ const PimentonRelleno = (props) => {
                   </tbody>
                 </Table>
                 <div className="d-flex flex-row justify-content-between">
-              
-                    <div>
-                      <img src={reloj} alt="reloj" /> <span> 40 min</span>
-                    </div>
-                    <div>
-                      <img src={tenedor} alt="tenedor" />{" "}
-                      <span> 4 porciones </span>
-                    </div>
-                    <div>
-                      <img src={sinLactosa} alt="sin lactosa" />
-                      <span> Sin Lactosa </span>
-                    </div>
-                    <div>
-                      <img
-                        style={{ cursor: "pointer" }}
-                        id="Popover1"
-                        src={info}
-                        alt="información nutricional"
-                      />
 
-                      <span> Información Nutricional</span>
+                  <div>
+                    <img src={reloj} alt="reloj" /> <span> 40 min</span>
+                  </div>
+                  <div>
+                    <img src={tenedor} alt="tenedor" />{" "}
+                    <span> 4 porciones </span>
+                  </div>
+                  <div>
+                    <img src={sinLactosa} alt="sin lactosa" />
+                    <span> Sin Lactosa </span>
+                  </div>
+                  <div>
+                    <img
+                      style={{ cursor: "pointer" }}
+                      id="Popover1"
+                      src={info}
+                      alt="información nutricional"
+                    />
 
-                      <Popover
-                        placement="bottom"
-                        isOpen={popoverOpen}
-                        target="Popover1"
-                        toggle={toggle}
-                      >
-                        <PopoverHeader>
-                          Calorías y Macronutrientes
+                    <span> Información Nutricional</span>
+
+                    <Popover
+                      placement="bottom"
+                      isOpen={popoverOpen}
+                      target="Popover1"
+                      toggle={toggle}
+                    >
+                      <PopoverHeader>
+                        Calorías y Macronutrientes
                         </PopoverHeader>
-                        <PopoverBody>
-                          <Table borderless>
-                            <tbody>
-                              <tr>
-                                <th scope="row">
-                                  <i class="icofont-fire-burn"></i>
-                                </th>
-                                <td>Calorías</td>
-                                <td>353</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">
-                                  <i class="icofont-bread"></i>
-                                </th>
-                                <td>Carbohidratos</td>
-                                <td>55.6 grs</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">
-                                  <i class="icofont-chicken-fry"></i>
-                                </th>
-                                <td>Proteínas</td>
-                                <td>15.7 grs</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">
-                                  <i class="icofont-water-drop"></i>
-                                </th>
-                                <td>Lípidos</td>
-                                <td>7 grs</td>
-                              </tr>
-                            </tbody>
-                          </Table>
-                        </PopoverBody>
-                      </Popover>
-                    </div>
-                  
+                      <PopoverBody>
+                        <Table borderless>
+                          <tbody>
+                            <tr>
+                              <th scope="row">
+                                <i class="icofont-fire-burn"></i>
+                              </th>
+                              <td>Calorías</td>
+                              <td>353</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <i class="icofont-bread"></i>
+                              </th>
+                              <td>Carbohidratos</td>
+                              <td>55.6 grs</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <i class="icofont-chicken-fry"></i>
+                              </th>
+                              <td>Proteínas</td>
+                              <td>15.7 grs</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <i class="icofont-water-drop"></i>
+                              </th>
+                              <td>Lípidos</td>
+                              <td>7 grs</td>
+                            </tr>
+                          </tbody>
+                        </Table>
+                      </PopoverBody>
+                    </Popover>
+                  </div>
+
                 </div>
               </div>
             </div>
