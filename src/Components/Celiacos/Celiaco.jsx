@@ -19,7 +19,7 @@ const Celiaco = () => {
                     return (
                         <Link to={element.tipo}>
                             <Card className="tarjetas-inner">
-                                <CardImg src={element.imagen} alt="" />
+                                <CardImg className="img-portada"src={element.imagen} alt="" />
 
                             </Card>
                         </Link>
