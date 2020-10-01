@@ -25,6 +25,7 @@ import {
   WhatsappIcon,
 } from "react-share";
 import MenuPrincipal from "../Principal/MenuPrincipal";
+import '../../Style/Recetas.css'
 
 const Garbanzos = () => {
   const [popoverOpen, setPopoverOpen] = useState(false);
@@ -227,6 +228,7 @@ const Garbanzos = () => {
         </section>
         <section>
           <iframe
+           className='videos'
             src="https://www.youtube.com/embed/S1R1giZyyxU"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

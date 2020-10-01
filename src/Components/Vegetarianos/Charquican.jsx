@@ -25,6 +25,7 @@ import {
   WhatsappIcon,
 } from "react-share";
 import MenuPrincipal from "../Principal/MenuPrincipal";
+import '../../Style/Recetas.css'
 
 const Charquican = (props) => {
   const [popoverOpen, setPopoverOpen] = useState(false);
@@ -239,6 +240,7 @@ const Charquican = (props) => {
         </section>
         <section>
           <iframe
+           className='videos'
             src="https://www.youtube.com/embed/dlIhyC3nt6o"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
