@@ -1,0 +1,11 @@
+.padre{
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.prueba{
+
+    width: 50%;
+    justify-content: center;
+    
+}
