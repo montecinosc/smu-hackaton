@@ -16,7 +16,6 @@
 
 .contenedorCaja {
     display: flex;
-    margin-left: 6.4em;
 
 }
 
@@ -42,7 +41,6 @@
 .lista {
     display: flex;
     flex-direction: column;
-    margin-left: .5em;
 }
 
 .nombreLista {
@@ -70,7 +68,6 @@ box-title{
 }
 
 .btn-compra {
-    margin-top: 5.7em;
     background-color: red !important;
     width: 15em;
     padding: 0.5em;
