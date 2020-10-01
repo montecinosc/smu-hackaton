@@ -26,6 +26,7 @@ import {
   WhatsappIcon,
 } from "react-share";
 import MenuPrincipal from "../Principal/MenuPrincipal";
+import '../../Style/Recetas.css'
 
 const CeliacoÑoquis = (props) => {
   const [popoverOpen, setPopoverOpen] = useState(false);
@@ -240,6 +241,7 @@ const CeliacoÑoquis = (props) => {
         </section>
         <section className="videos m-3">
           <iframe
+           className='videos'
             src="https://www.youtube.com/embed/8Fg1mDHN4w4"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

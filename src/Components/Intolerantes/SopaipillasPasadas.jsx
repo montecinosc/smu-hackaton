@@ -25,6 +25,7 @@ import {
   WhatsappIcon,
 } from "react-share";
 import MenuPrincipal from "../Principal/MenuPrincipal";
+import '../../Style/Recetas.css'
 
 const SopaipillasPasadas = (props) => {
 
@@ -256,6 +257,7 @@ const SopaipillasPasadas = (props) => {
         </section>
         <section>
           <iframe
+           className='videos'
             src="https://www.youtube.com/embed/MXBVni4nAqc"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
