@@ -1,6 +1,16 @@
-form{
+.search-container{
   background: rgb(218,41,29);
   background: linear-gradient(270deg, rgba(218,41,29,1) 36%, rgba(226,128,75,1) 100%);
+
+}
+
+form{
+  background: #fff;
+  border-radius: 10px;
+}
+
+input{
+  font-family: icofont, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* 

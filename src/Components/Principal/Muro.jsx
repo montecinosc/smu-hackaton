@@ -30,7 +30,7 @@ const Muro = () => {
           {muro.map((element, i) => {
             return (
               <div className="col-md-6 col-lg-4">
-                <div className="card">
+                <div className="card mx-0 my-3">
                   <CardImg src={element.imagen} alt="" />
                   <CardBody>
                     <CardSubtitle className="tipo-dieta">{element.titulo}</CardSubtitle>

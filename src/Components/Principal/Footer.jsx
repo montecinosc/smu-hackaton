@@ -6,9 +6,9 @@ import '../../Assets/icofont/icofont.css'
 
 const Footer = () => {
   return (
-    <footer>
-      <img className="logo" src={booklogo} />
-      <div className="container">
+    <footer className="pb-5">
+      <div className="container mb-5 pb-4">
+      <img className="logo mt-4 mx-0" src={booklogo} />
         <div className="row align-items-start">
           <div className="col-sm-4 p-2">
             Menú Principal
@@ -30,8 +30,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <img className="footer-img" src={Fruits} />
-
     </footer>
   )
 }
