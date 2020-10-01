@@ -5,12 +5,14 @@ import {
     BrowserRouter as Router,
     Link
 } from "react-router-dom";
+import MenuPrincipal from '../Principal/Menu';
 import Carrusel from '../Principal/Carrusel';
 import Footer from '../Principal/Footer.jsx';
 import BarraBusqueda from './BarraBusqueda';
 const Niños = () => {
     return (
         <>
+            <MenuPrincipal/>
             <Carrusel />
             <BarraBusqueda />
             <Row sm='3'>

@@ -12,7 +12,14 @@ import {
     "mdbreact";
 
 import Checkbox from '@material-ui/core/Checkbox';
-import listaCompra from '../../Json/listaCompra.json'
+import listaCompra from '../../Json/listaCompra.json';
+import azucar from "../../Assets/img/azucar.png";
+import huevos from "../../Assets/img/huevos.png";
+import limon from "../../Assets/img/limon.png";
+import polenta from "../../Assets/img/polenta.png";
+
+
+
 
 const unicaja = () => {
     Swal.fire(
@@ -81,7 +88,7 @@ const Caja = (props) => {
                                     <MDBView>
                                         <img
                                             className="d-block img-carrusel"
-                                            src="https://i.ibb.co/Xxts32p/huevograndeblanco.webp"
+                                            src={azucar}
                                             alt="First slide"
                                         />
                                         <MDBMask overlay="black-light" />
@@ -92,7 +99,7 @@ const Caja = (props) => {
                                     <MDBView>
                                         <img
                                             className="d-block caja-carrusel img-carrusel"
-                                            src="https://i.ibb.co/nk4Tjtr/limongranel.jpg"
+                                            src={polenta}
                                             alt="Second slide"
                                         />
                                         <MDBMask overlay="black-strong" />
@@ -103,7 +110,7 @@ const Caja = (props) => {
                                     <MDBView>
                                         <img
                                             className="d-block caja-carrusel img-carrusel"
-                                            src="https://i.ibb.co/rQWR78B/azucar.webp"
+                                            src={huevos}
                                             alt="Third slide"
                                         />
                                         <MDBMask overlay="black-slight" />
@@ -114,7 +121,7 @@ const Caja = (props) => {
                                     <MDBView>
                                         <img
                                             className="d-block caja-carrusel img-carrusel"
-                                            src="https://i.ibb.co/dcqxWcx/polentacarozzi.jpg"
+                                            src={limon}
                                             alt="First slide"
                                         />
                                         <MDBMask overlay="black-light" />

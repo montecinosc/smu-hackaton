@@ -18,11 +18,6 @@ import BarraBusqueda from "./BarraBusqueda";
 import '../../Style/muro.css'
 import Tips from "./Tips";
 
-
-
-
-
-
 const Muro = () => {
   return (
     <Fragment>
