@@ -4,7 +4,6 @@ import realzar from '../../Assets/img/realizar.png'
 import sarro from '../../Assets/img/sarro.png'
 import '.././../Style/Tips.css'
 
-
 const Tips = () => {
     return (
         <div className="padre">

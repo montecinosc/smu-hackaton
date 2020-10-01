@@ -48,7 +48,7 @@
     width: 20em;
 }
 
-box-title{
+.box-title{
     font-family: Clarendon-Regular;
     margin-left: 5.5em;
 }
@@ -71,6 +71,7 @@ box-title{
     background-color: red !important;
     width: 15em;
     padding: 0.5em;
+    margin-top: 350px;
 }
 
 .comprarIngredientes {
@@ -87,4 +88,29 @@ box-title{
 .descripcion{
 margin-left: 6.5em;
 margin-right: 9em;
+}
+
+.box{
+    min-height: 330px;
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .textoInicial{
+        margin-left:3.5em;
+        font-family: Clarendon-Regular;
+    }
+
+    .descripcion{
+        margin-left: 3.5em;
+        margin-right: 9em;
+        }
+
+    .imagenBox {
+    height: 11em;
+        } 
 }

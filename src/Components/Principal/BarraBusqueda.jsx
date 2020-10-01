@@ -73,7 +73,7 @@ const BarraBusqueda = () => {
           </div>
           <div className="col-1 border-left">
             <button
-              className="btn btn-outline-success btn-rounded btn-sm my-0 d-flex"
+              className="btn btn-color btn-outline-success btn-rounded btn-sm my-0 d-flex"
               type="submit"
             >
               Buscar
