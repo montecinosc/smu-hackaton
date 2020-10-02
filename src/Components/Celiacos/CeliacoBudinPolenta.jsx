@@ -58,7 +58,6 @@ const CeliacoBudinPolenta = (props) => {
                 <h5 className="card-title ">Ingredientes</h5>
 
                 <Puntuacion />
-
                 <img
                   style={{ cursor: "pointer" }}
                   id="Popover2"
@@ -131,7 +130,7 @@ const CeliacoBudinPolenta = (props) => {
                     </tr>
                   </tbody>
                 </Table>
-                <div className="d-flex flex-row justify-content-between">
+                <div className="d-flex flex-row justify-content-between pilas">
                   <div>
                     <img src={reloj} alt="reloj" /> <span>   50 min</span>
                   </div>

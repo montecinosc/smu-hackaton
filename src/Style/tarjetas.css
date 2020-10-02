@@ -11,7 +11,14 @@ width:300px;
     .tarjetas-inner{
       -ms-flex-negative: 0;
       flex-shrink: 0;
-      width: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .img-inner{
+  display: flex;
+  justify-content: space-around;
   }
 
 }

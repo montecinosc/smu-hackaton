@@ -83,6 +83,7 @@
 
 .imagenBox {
     height: 11em;
+    margin-left: 37px;
 }
 
 .descripcion{
@@ -111,6 +112,7 @@ margin-right: 9em;
         }
 
     .imagenBox {
-    height: 11em;
+    height: 10em;
+    margin-left: 30px;
         } 
 }
