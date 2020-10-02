@@ -58,6 +58,7 @@
 
 .textoInicial{
     font-family: Clarendon-Regular;
+    margin-left: 1em;
 }
 
 .texto-caja{
@@ -67,6 +68,7 @@
 .unibox {
     display: flex;
     flex-direction: column;
+
 }
 
 .btn-compra {
@@ -88,16 +90,17 @@
     overflow: hidden;
 }
 
+.descripcion{
+    margin-left: 1em;
+    margin-right: 9em;
+    }
+
 /* Portrait */
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
-    .textoInicial{
-        font-family: Clarendon-Regular;
-    }
-
     .descripcion{
         margin-left: 3.5em;
         margin-right: 9em;
