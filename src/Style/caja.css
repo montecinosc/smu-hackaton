@@ -38,6 +38,10 @@
     font-family: 'Apex Sans Book';
 }
 
+.w-inherit{
+    width: inherit;
+}
+
 .lista {
     display: flex;
     flex-direction: column;
@@ -45,16 +49,14 @@
 
 .nombreLista {
     display: flex;
-    width: 20em;
+    width: fit-content
 }
 
 .box-title{
     font-family: Clarendon-Regular;
-    margin-left: 5.5em;
 }
 
 .textoInicial{
-    margin-left:6.5em;
     font-family: Clarendon-Regular;
 }
 
@@ -81,18 +83,9 @@
     padding: 0.6em;
 }
 
-.imagenBox {
-    height: 11em;
-    margin-left: 37px;
-}
-
-.descripcion{
-margin-left: 6.5em;
-margin-right: 9em;
-}
-
 .box{
     min-height: 330px;
+    overflow: hidden;
 }
 
 /* Portrait */
@@ -102,7 +95,6 @@ margin-right: 9em;
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
     .textoInicial{
-        margin-left:3.5em;
         font-family: Clarendon-Regular;
     }
 
@@ -110,9 +102,4 @@ margin-right: 9em;
         margin-left: 3.5em;
         margin-right: 9em;
         }
-
-    .imagenBox {
-    height: 10em;
-    margin-left: 30px;
-        } 
 }
