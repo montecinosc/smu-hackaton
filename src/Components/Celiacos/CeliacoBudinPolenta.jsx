@@ -52,7 +52,7 @@ const CeliacoBudinPolenta = (props) => {
           <div className="row no-gutters ">
             <div className="col-md-4">
               <img src={polenta} className="card-img" alt="..." />
-              <Button> <a href={receta} download="BudinPolenta"> Descarga</a></Button>
+              <Button className="botonDescargar"> <a href={receta} download="BudinPolenta" className="botonDescargaA"> Descarga</a></Button>
             </div>
             <div className="col-md-8">
 
@@ -137,16 +137,16 @@ const CeliacoBudinPolenta = (props) => {
                     <img className="d-block" src={reloj} alt="reloj" /> <span className="small">   50 min</span>
                   </div>
                   <div>
-                    <img className="d-block"  src={tenedor} alt="tenedor" />{" "}
+                    <img className="d-block" src={tenedor} alt="tenedor" />{" "}
                     <span className="small">  4 porciones </span>
                   </div>
                   <div>
-                    <img className="d-block"  src={libreGluten} alt="libreGluten" />
+                    <img className="d-block" src={libreGluten} alt="libreGluten" />
                     <span className="small">  Libre de gluten </span>
                   </div>
                   <div>
                     <img
-                      className="d-block" 
+                      className="d-block"
                       style={{ cursor: "pointer" }}
                       id="Popover1"
                       src={info}
