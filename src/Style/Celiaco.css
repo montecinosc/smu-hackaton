@@ -52,6 +52,3 @@ and (max-device-width: 667px){
         align-items: inherit;
     }
 }
-
-@media screen and (max-width: 768px) {
-}
