@@ -14,12 +14,13 @@ const Celiaco = () => {
             <MenuPrincipal />
             <Carrusel />
             <BarraBusqueda />
-            <Row sm='3' className="p-4 mx-4">
+            <Row sm='3' className="p-4 mx-4 img-inner">
                 {celiacos.map((element, i) => {
                     return (
                         <Link to={element.tipo}>
-                            <Card className="tarjetas-inner">
-                                <CardImg src={element.imagen} alt="" />
+                            <Card className="tarjetas-inner ">
+                                <CardImg
+                                src={element.imagen} alt="" />
 
                             </Card>
                         </Link>
