@@ -4,7 +4,7 @@ import {
   Table,
   Popover,
   PopoverHeader,
-  PopoverBody,
+  PopoverBody, Button
 } from "reactstrap";
 import polenta from "../../Assets/img//menupolenta.png";
 import reloj from "../../Assets/img/Clock.png";
@@ -28,6 +28,7 @@ import {
 } from "react-share";
 import MenuPrincipal from "../Principal/MenuPrincipal";
 import '../../Style/Recetas.css'
+import receta from '../../Assets/img/budinpolenta.pdf'
 
 const CeliacoBudinPolenta = (props) => {
 
@@ -51,6 +52,7 @@ const CeliacoBudinPolenta = (props) => {
           <div className="row no-gutters ">
             <div className="col-md-4">
               <img src={polenta} className="card-img" alt="..." />
+              <Button> <a href={receta} download="BudinPolenta"> Descarga</a></Button>
             </div>
             <div className="col-md-8">
 
@@ -237,7 +239,7 @@ const CeliacoBudinPolenta = (props) => {
         </section>
         <section className=" m-3">
           <iframe
-          className='videos'
+            className='videos'
             src="https://www.youtube.com/embed/hQ5O8B0Znms"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
